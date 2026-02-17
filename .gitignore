@@ -17,7 +17,6 @@
 # Mapbox / tokens (if any)
 **/*token*
 
-# Raw conflict dataset (too large for GitHub)
-asm1-contours-of-conflict/UCDP_GED_Global_V25.1/
+# ASM1 raw data (do not track)
 asm1-contours-of-conflict/data_raw/
 *.rds
