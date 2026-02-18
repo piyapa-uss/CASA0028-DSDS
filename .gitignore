@@ -20,3 +20,4 @@
 # ASM1 raw data (do not track)
 asm1-contours-of-conflict/data_raw/
 *.rds
+.Rproj.user
