@@ -1,0 +1,3835 @@
+country,country_id,year,type_of_violence,events_count
+United States of America,2,2001,1,2
+United States of America,2,2001,3,1
+United States of America,2,2010,2,1
+United States of America,2,2015,3,1
+United States of America,2,2017,3,1
+United States of America,2,2018,3,1
+United States of America,2,2019,2,1
+United States of America,2,2022,2,1
+Canada,20,1994,2,3
+Canada,20,1995,2,9
+Canada,20,1996,2,1
+Canada,20,1997,2,1
+Canada,20,1998,2,9
+Canada,20,1999,2,3
+Canada,20,2000,2,8
+Canada,20,2001,2,1
+Haiti,41,1989,1,4
+Haiti,41,1990,3,2
+Haiti,41,1991,1,1
+Haiti,41,1991,2,1
+Haiti,41,1991,3,6
+Haiti,41,1993,3,3
+Haiti,41,1994,3,4
+Haiti,41,1995,3,1
+Haiti,41,1999,3,2
+Haiti,41,2004,1,19
+Haiti,41,2004,3,3
+Haiti,41,2005,3,7
+Haiti,41,2017,3,1
+Haiti,41,2018,3,1
+Haiti,41,2019,3,1
+Haiti,41,2020,3,48
+Haiti,41,2021,2,8
+Haiti,41,2021,3,17
+Haiti,41,2022,2,9
+Haiti,41,2022,3,56
+Haiti,41,2023,2,3
+Haiti,41,2023,3,46
+Haiti,41,2024,1,47
+Haiti,41,2024,2,4
+Haiti,41,2024,3,65
+Jamaica,51,1989,2,1
+Jamaica,51,1994,2,1
+Jamaica,51,2001,2,20
+Jamaica,51,2002,2,7
+Trinidad and Tobago,52,1990,1,3
+Mexico,70,1989,3,2
+Mexico,70,1990,3,3
+Mexico,70,1992,2,2
+Mexico,70,1992,3,1
+Mexico,70,1993,2,3
+Mexico,70,1994,1,10
+Mexico,70,1994,2,1
+Mexico,70,1994,3,1
+Mexico,70,1995,1,2
+Mexico,70,1995,2,1
+Mexico,70,1995,3,2
+Mexico,70,1996,1,15
+Mexico,70,1997,1,4
+Mexico,70,1997,3,2
+Mexico,70,1998,1,4
+Mexico,70,1998,3,1
+Mexico,70,2002,2,2
+Mexico,70,2002,3,1
+Mexico,70,2004,2,30
+Mexico,70,2004,3,1
+Mexico,70,2005,2,12
+Mexico,70,2006,2,39
+Mexico,70,2006,3,1
+Mexico,70,2007,2,1406
+Mexico,70,2007,3,3
+Mexico,70,2008,2,383
+Mexico,70,2008,3,1
+Mexico,70,2009,2,596
+Mexico,70,2009,3,9
+Mexico,70,2010,2,2074
+Mexico,70,2010,3,11
+Mexico,70,2011,2,358
+Mexico,70,2011,3,11
+Mexico,70,2012,2,246
+Mexico,70,2012,3,20
+Mexico,70,2013,2,184
+Mexico,70,2013,3,7
+Mexico,70,2014,2,171
+Mexico,70,2014,3,12
+Mexico,70,2015,2,251
+Mexico,70,2015,3,7
+Mexico,70,2016,2,185
+Mexico,70,2016,3,2
+Mexico,70,2017,2,341
+Mexico,70,2017,3,7
+Mexico,70,2018,2,701
+Mexico,70,2018,3,13
+Mexico,70,2019,2,1016
+Mexico,70,2019,3,8
+Mexico,70,2020,2,2023
+Mexico,70,2020,3,10
+Mexico,70,2021,2,3721
+Mexico,70,2021,3,23
+Mexico,70,2022,2,2127
+Mexico,70,2022,3,52
+Mexico,70,2023,2,2726
+Mexico,70,2023,3,22
+Mexico,70,2024,2,2617
+Mexico,70,2024,3,66
+Guatemala,90,1989,1,49
+Guatemala,90,1989,3,29
+Guatemala,90,1990,1,57
+Guatemala,90,1990,3,53
+Guatemala,90,1991,1,46
+Guatemala,90,1991,3,28
+Guatemala,90,1992,1,43
+Guatemala,90,1992,3,21
+Guatemala,90,1993,1,36
+Guatemala,90,1993,3,15
+Guatemala,90,1994,1,18
+Guatemala,90,1994,3,20
+Guatemala,90,1995,1,17
+Guatemala,90,1995,3,10
+Guatemala,90,1996,1,5
+Guatemala,90,1996,3,6
+Guatemala,90,1997,3,1
+Guatemala,90,1998,3,1
+Guatemala,90,2000,3,1
+Guatemala,90,2001,2,1
+Guatemala,90,2002,3,2
+Guatemala,90,2004,3,2
+Guatemala,90,2005,2,4
+Guatemala,90,2005,3,1
+Guatemala,90,2007,3,2
+Guatemala,90,2008,2,5
+Guatemala,90,2009,2,1
+Guatemala,90,2011,3,4
+Guatemala,90,2015,2,4
+Guatemala,90,2016,3,1
+Guatemala,90,2021,3,1
+Guatemala,90,2022,2,2
+Guatemala,90,2022,3,1
+Guatemala,90,2023,2,1
+Guatemala,90,2023,3,1
+Guatemala,90,2024,2,2
+Guatemala,90,2024,3,15
+Honduras,91,1999,2,1
+Honduras,91,2000,2,1
+Honduras,91,2002,2,1
+Honduras,91,2003,2,4
+Honduras,91,2003,3,3
+Honduras,91,2004,2,2
+Honduras,91,2004,3,2
+Honduras,91,2010,2,5
+Honduras,91,2012,2,4
+Honduras,91,2013,2,2
+Honduras,91,2014,2,3
+Honduras,91,2015,2,12
+Honduras,91,2015,3,1
+Honduras,91,2016,2,2
+Honduras,91,2018,2,1
+Honduras,91,2018,3,1
+Honduras,91,2019,2,2
+Honduras,91,2019,3,1
+Honduras,91,2020,2,1
+Honduras,91,2021,2,1
+Honduras,91,2021,3,3
+Honduras,91,2022,2,1
+Honduras,91,2022,3,2
+Honduras,91,2023,2,26
+Honduras,91,2023,3,1
+Honduras,91,2024,2,11
+Honduras,91,2024,3,2
+El Salvador,92,1989,1,58
+El Salvador,92,1990,1,46
+El Salvador,92,1991,1,10
+El Salvador,92,1992,1,1
+El Salvador,92,2004,2,1
+El Salvador,92,2009,3,2
+El Salvador,92,2010,3,2
+El Salvador,92,2015,3,1
+El Salvador,92,2017,3,1
+El Salvador,92,2019,3,1
+El Salvador,92,2021,3,2
+El Salvador,92,2022,3,68
+Nicaragua,93,1989,1,21
+Nicaragua,93,1990,1,6
+Panama,95,1989,1,3
+Panama,95,2009,3,1
+Colombia,100,1989,1,37
+Colombia,100,1989,3,16
+Colombia,100,1990,1,70
+Colombia,100,1990,2,5
+Colombia,100,1990,3,25
+Colombia,100,1991,1,96
+Colombia,100,1991,3,32
+Colombia,100,1992,1,90
+Colombia,100,1992,3,13
+Colombia,100,1993,1,32
+Colombia,100,1993,2,4
+Colombia,100,1993,3,11
+Colombia,100,1994,1,59
+Colombia,100,1994,3,11
+Colombia,100,1995,1,58
+Colombia,100,1995,3,19
+Colombia,100,1996,1,109
+Colombia,100,1996,3,41
+Colombia,100,1997,1,124
+Colombia,100,1997,2,7
+Colombia,100,1997,3,50
+Colombia,100,1998,1,83
+Colombia,100,1998,2,13
+Colombia,100,1998,3,49
+Colombia,100,1999,1,161
+Colombia,100,1999,2,15
+Colombia,100,1999,3,218
+Colombia,100,2000,1,531
+Colombia,100,2000,2,53
+Colombia,100,2000,3,750
+Colombia,100,2001,1,547
+Colombia,100,2001,2,66
+Colombia,100,2001,3,752
+Colombia,100,2002,1,920
+Colombia,100,2002,2,84
+Colombia,100,2002,3,904
+Colombia,100,2003,1,813
+Colombia,100,2003,2,37
+Colombia,100,2003,3,1414
+Colombia,100,2004,1,646
+Colombia,100,2004,2,29
+Colombia,100,2004,3,1070
+Colombia,100,2005,1,551
+Colombia,100,2005,2,18
+Colombia,100,2005,3,722
+Colombia,100,2006,1,105
+Colombia,100,2006,2,1
+Colombia,100,2006,3,258
+Colombia,100,2007,1,87
+Colombia,100,2007,3,232
+Colombia,100,2008,1,70
+Colombia,100,2008,3,266
+Colombia,100,2009,1,75
+Colombia,100,2009,3,62
+Colombia,100,2010,1,81
+Colombia,100,2010,3,7
+Colombia,100,2011,1,50
+Colombia,100,2011,3,10
+Colombia,100,2012,1,31
+Colombia,100,2012,3,6
+Colombia,100,2013,1,22
+Colombia,100,2014,1,40
+Colombia,100,2014,3,8
+Colombia,100,2015,1,28
+Colombia,100,2015,3,5
+Colombia,100,2016,1,15
+Colombia,100,2016,3,86
+Colombia,100,2017,1,14
+Colombia,100,2017,2,1
+Colombia,100,2017,3,140
+Colombia,100,2018,1,49
+Colombia,100,2018,2,1
+Colombia,100,2018,3,120
+Colombia,100,2019,1,52
+Colombia,100,2019,2,5
+Colombia,100,2019,3,52
+Colombia,100,2020,1,23
+Colombia,100,2020,2,3
+Colombia,100,2020,3,118
+Colombia,100,2021,1,42
+Colombia,100,2021,2,7
+Colombia,100,2021,3,111
+Colombia,100,2022,1,38
+Colombia,100,2022,2,29
+Colombia,100,2022,3,105
+Colombia,100,2023,1,36
+Colombia,100,2023,2,88
+Colombia,100,2023,3,289
+Colombia,100,2024,1,99
+Colombia,100,2024,2,103
+Colombia,100,2024,3,195
+Venezuela,101,1989,3,54
+Venezuela,101,1990,3,66
+Venezuela,101,1991,3,38
+Venezuela,101,1992,1,4
+Venezuela,101,1992,3,71
+Venezuela,101,1993,3,75
+Venezuela,101,1994,2,1
+Venezuela,101,1994,3,46
+Venezuela,101,1995,3,45
+Venezuela,101,1996,3,53
+Venezuela,101,1997,2,2
+Venezuela,101,1997,3,3
+Venezuela,101,1998,3,14
+Venezuela,101,1999,3,41
+Venezuela,101,2000,3,40
+Venezuela,101,2001,3,50
+Venezuela,101,2002,2,2
+Venezuela,101,2002,3,28
+Venezuela,101,2003,3,40
+Venezuela,101,2004,3,50
+Venezuela,101,2005,3,32
+Venezuela,101,2006,3,21
+Venezuela,101,2007,1,1
+Venezuela,101,2007,3,24
+Venezuela,101,2008,3,44
+Venezuela,101,2009,3,49
+Venezuela,101,2010,3,44
+Venezuela,101,2011,3,22
+Venezuela,101,2012,2,1
+Venezuela,101,2012,3,28
+Venezuela,101,2013,3,41
+Venezuela,101,2014,3,42
+Venezuela,101,2015,3,30
+Venezuela,101,2016,3,60
+Venezuela,101,2017,3,94
+Venezuela,101,2018,3,91
+Venezuela,101,2019,3,76
+Venezuela,101,2020,3,4
+Venezuela,101,2021,1,1
+Venezuela,101,2021,2,2
+Venezuela,101,2021,3,7
+Venezuela,101,2022,1,1
+Venezuela,101,2022,2,5
+Venezuela,101,2022,3,17
+Venezuela,101,2023,3,15
+Venezuela,101,2024,3,10
+Guyana,110,2008,3,3
+Ecuador,130,1995,1,4
+Ecuador,130,2001,2,1
+Ecuador,130,2003,2,1
+Ecuador,130,2005,3,1
+Ecuador,130,2006,3,1
+Ecuador,130,2007,3,1
+Ecuador,130,2008,1,2
+Ecuador,130,2008,3,1
+Ecuador,130,2019,1,1
+Ecuador,130,2020,2,1
+Ecuador,130,2021,2,8
+Ecuador,130,2022,2,10
+Ecuador,130,2022,3,1
+Ecuador,130,2023,2,454
+Ecuador,130,2024,2,238
+Peru,135,1989,1,132
+Peru,135,1989,2,2
+Peru,135,1989,3,38
+Peru,135,1990,1,95
+Peru,135,1990,2,2
+Peru,135,1990,3,43
+Peru,135,1991,1,83
+Peru,135,1991,2,1
+Peru,135,1991,3,38
+Peru,135,1992,1,94
+Peru,135,1992,3,34
+Peru,135,1993,1,52
+Peru,135,1993,3,20
+Peru,135,1994,1,24
+Peru,135,1994,3,11
+Peru,135,1995,1,38
+Peru,135,1995,3,3
+Peru,135,1996,1,18
+Peru,135,1996,3,7
+Peru,135,1997,1,16
+Peru,135,1997,3,3
+Peru,135,1998,1,5
+Peru,135,1998,3,4
+Peru,135,1999,1,13
+Peru,135,1999,3,3
+Peru,135,2000,1,4
+Peru,135,2001,1,3
+Peru,135,2002,1,3
+Peru,135,2002,3,3
+Peru,135,2003,1,4
+Peru,135,2004,1,2
+Peru,135,2005,3,1
+Peru,135,2006,1,2
+Peru,135,2006,3,1
+Peru,135,2007,1,9
+Peru,135,2008,1,13
+Peru,135,2009,1,10
+Peru,135,2009,3,3
+Peru,135,2010,1,12
+Peru,135,2010,3,1
+Peru,135,2011,1,9
+Peru,135,2011,3,2
+Peru,135,2013,1,1
+Peru,135,2014,1,4
+Peru,135,2014,3,4
+Peru,135,2015,1,4
+Peru,135,2016,1,1
+Peru,135,2016,3,1
+Peru,135,2017,1,2
+Peru,135,2019,3,1
+Peru,135,2020,1,1
+Peru,135,2020,3,2
+Peru,135,2021,1,3
+Peru,135,2022,1,2
+Peru,135,2022,3,1
+Peru,135,2023,1,2
+Brazil,140,1993,2,2
+Brazil,140,1993,3,3
+Brazil,140,1994,2,4
+Brazil,140,1994,3,3
+Brazil,140,1995,2,4
+Brazil,140,1995,3,4
+Brazil,140,1996,2,2
+Brazil,140,1996,3,1
+Brazil,140,1997,2,11
+Brazil,140,1997,3,3
+Brazil,140,1998,2,4
+Brazil,140,1998,3,2
+Brazil,140,1999,2,13
+Brazil,140,1999,3,18
+Brazil,140,2000,2,16
+Brazil,140,2000,3,11
+Brazil,140,2001,2,10
+Brazil,140,2001,3,4
+Brazil,140,2002,2,16
+Brazil,140,2002,3,5
+Brazil,140,2003,2,7
+Brazil,140,2003,3,5
+Brazil,140,2004,2,12
+Brazil,140,2005,2,10
+Brazil,140,2005,3,8
+Brazil,140,2006,2,4
+Brazil,140,2007,2,7
+Brazil,140,2007,3,2
+Brazil,140,2008,2,4
+Brazil,140,2008,3,1
+Brazil,140,2009,2,3
+Brazil,140,2010,2,2
+Brazil,140,2011,2,4
+Brazil,140,2012,2,7
+Brazil,140,2013,2,9
+Brazil,140,2013,3,1
+Brazil,140,2014,2,3
+Brazil,140,2014,3,1
+Brazil,140,2015,2,16
+Brazil,140,2015,3,1
+Brazil,140,2016,2,54
+Brazil,140,2016,3,4
+Brazil,140,2017,2,299
+Brazil,140,2017,3,17
+Brazil,140,2018,2,346
+Brazil,140,2018,3,11
+Brazil,140,2019,2,594
+Brazil,140,2019,3,42
+Brazil,140,2020,2,720
+Brazil,140,2020,3,24
+Brazil,140,2021,2,765
+Brazil,140,2021,3,78
+Brazil,140,2022,2,1384
+Brazil,140,2022,3,130
+Brazil,140,2023,2,1983
+Brazil,140,2023,3,176
+Brazil,140,2024,2,1363
+Brazil,140,2024,3,98
+Bolivia,145,1998,2,1
+Bolivia,145,2000,2,9
+Bolivia,145,2021,2,1
+Bolivia,145,2023,2,1
+Paraguay,150,1989,1,1
+Paraguay,150,2016,2,1
+Paraguay,150,2018,3,1
+Paraguay,150,2020,3,1
+Paraguay,150,2021,3,1
+Argentina,160,1992,1,1
+Argentina,160,1994,3,1
+United Kingdom,200,1989,1,21
+United Kingdom,200,1989,3,6
+United Kingdom,200,1990,1,26
+United Kingdom,200,1990,3,6
+United Kingdom,200,1991,1,20
+United Kingdom,200,1991,3,12
+United Kingdom,200,1992,1,14
+United Kingdom,200,1992,3,16
+United Kingdom,200,1993,1,14
+United Kingdom,200,1993,3,20
+United Kingdom,200,1994,1,6
+United Kingdom,200,1994,3,10
+United Kingdom,200,1996,1,2
+United Kingdom,200,1997,1,2
+United Kingdom,200,1997,3,2
+United Kingdom,200,1998,1,1
+United Kingdom,200,1998,3,2
+United Kingdom,200,2000,3,1
+United Kingdom,200,2001,3,1
+United Kingdom,200,2002,3,4
+United Kingdom,200,2003,3,2
+United Kingdom,200,2004,3,1
+United Kingdom,200,2005,3,2
+United Kingdom,200,2006,3,1
+United Kingdom,200,2009,1,1
+United Kingdom,200,2009,3,1
+United Kingdom,200,2011,1,1
+United Kingdom,200,2019,1,2
+United Kingdom,200,2019,3,1
+Netherlands,210,1990,1,1
+Netherlands,210,2015,1,1
+Belgium,211,2016,1,2
+Belgium,211,2016,3,1
+Belgium,211,2018,1,1
+Belgium,211,2018,3,1
+Belgium,211,2023,3,1
+France,220,1992,1,1
+France,220,1995,3,1
+France,220,1996,1,1
+France,220,2007,1,1
+France,220,2012,3,1
+France,220,2015,1,1
+France,220,2015,3,1
+France,220,2016,3,2
+France,220,2017,1,1
+France,220,2018,1,4
+France,220,2018,3,4
+France,220,2023,2,41
+France,220,2023,3,1
+France,220,2024,2,3
+Spain,230,1989,1,12
+Spain,230,1990,1,10
+Spain,230,1991,1,23
+Spain,230,1992,1,15
+Spain,230,1993,1,6
+Spain,230,1994,1,9
+Spain,230,1995,1,10
+Spain,230,1996,1,4
+Spain,230,1997,1,11
+Spain,230,1998,1,6
+Spain,230,2000,1,15
+Spain,230,2001,1,12
+Spain,230,2002,1,4
+Spain,230,2003,1,2
+Spain,230,2004,3,1
+Spain,230,2008,1,2
+Spain,230,2009,1,2
+Spain,230,2017,3,3
+Spain,230,2023,2,1
+Germany,260,1989,1,2
+Germany,260,1990,1,1
+Germany,260,1992,1,1
+Germany,260,2016,3,1
+Germany,260,2024,3,1
+Poland,290,2022,1,1
+Austria,305,2020,3,1
+Italy,325,1993,1,1
+Malta,338,1995,1,1
+Albania,339,1999,1,10
+North Macedonia,343,1999,3,1
+North Macedonia,343,2000,1,1
+North Macedonia,343,2001,1,53
+Croatia,344,1992,1,33
+Croatia,344,1993,1,51
+Croatia,344,1993,3,4
+Croatia,344,1995,1,60
+Croatia,344,1995,3,9
+Serbia (Yugoslavia),345,1991,1,191
+Serbia (Yugoslavia),345,1991,2,58
+Serbia (Yugoslavia),345,1991,3,1
+Serbia (Yugoslavia),345,1992,1,67
+Serbia (Yugoslavia),345,1992,2,305
+Serbia (Yugoslavia),345,1992,3,15
+Serbia (Yugoslavia),345,1995,3,2
+Serbia (Yugoslavia),345,1996,1,3
+Serbia (Yugoslavia),345,1997,1,3
+Serbia (Yugoslavia),345,1997,3,2
+Serbia (Yugoslavia),345,1998,1,154
+Serbia (Yugoslavia),345,1998,3,67
+Serbia (Yugoslavia),345,1999,1,301
+Serbia (Yugoslavia),345,1999,3,34
+Serbia (Yugoslavia),345,2001,1,1
+Bosnia-Herzegovina,346,1992,1,3710
+Bosnia-Herzegovina,346,1992,3,59
+Bosnia-Herzegovina,346,1993,1,2745
+Bosnia-Herzegovina,346,1993,2,1
+Bosnia-Herzegovina,346,1993,3,82
+Bosnia-Herzegovina,346,1994,1,1807
+Bosnia-Herzegovina,346,1994,3,55
+Bosnia-Herzegovina,346,1995,1,782
+Bosnia-Herzegovina,346,1995,3,99
+Moldova,359,1992,1,77
+Romania,360,1989,1,10
+Romania,360,1989,3,6
+Russia (Soviet Union),365,1989,2,2
+Russia (Soviet Union),365,1989,3,4
+Russia (Soviet Union),365,1990,1,16
+Russia (Soviet Union),365,1990,2,12
+Russia (Soviet Union),365,1991,1,31
+Russia (Soviet Union),365,1991,2,18
+Russia (Soviet Union),365,1991,3,7
+Russia (Soviet Union),365,1992,3,1
+Russia (Soviet Union),365,1993,1,12
+Russia (Soviet Union),365,1994,1,22
+Russia (Soviet Union),365,1994,2,7
+Russia (Soviet Union),365,1994,3,2
+Russia (Soviet Union),365,1995,1,191
+Russia (Soviet Union),365,1995,3,14
+Russia (Soviet Union),365,1996,1,141
+Russia (Soviet Union),365,1996,3,6
+Russia (Soviet Union),365,1997,1,4
+Russia (Soviet Union),365,1997,3,1
+Russia (Soviet Union),365,1998,1,2
+Russia (Soviet Union),365,1998,3,1
+Russia (Soviet Union),365,1999,1,50
+Russia (Soviet Union),365,1999,3,18
+Russia (Soviet Union),365,2000,1,130
+Russia (Soviet Union),365,2000,3,46
+Russia (Soviet Union),365,2001,1,116
+Russia (Soviet Union),365,2001,3,43
+Russia (Soviet Union),365,2002,1,346
+Russia (Soviet Union),365,2002,3,42
+Russia (Soviet Union),365,2003,1,69
+Russia (Soviet Union),365,2003,3,4
+Russia (Soviet Union),365,2004,1,239
+Russia (Soviet Union),365,2004,3,14
+Russia (Soviet Union),365,2005,1,243
+Russia (Soviet Union),365,2005,3,4
+Russia (Soviet Union),365,2006,1,151
+Russia (Soviet Union),365,2006,3,1
+Russia (Soviet Union),365,2007,1,135
+Russia (Soviet Union),365,2007,3,10
+Russia (Soviet Union),365,2008,1,188
+Russia (Soviet Union),365,2008,3,4
+Russia (Soviet Union),365,2009,1,314
+Russia (Soviet Union),365,2009,3,1
+Russia (Soviet Union),365,2010,1,236
+Russia (Soviet Union),365,2010,3,9
+Russia (Soviet Union),365,2011,1,231
+Russia (Soviet Union),365,2011,3,10
+Russia (Soviet Union),365,2012,1,215
+Russia (Soviet Union),365,2012,3,8
+Russia (Soviet Union),365,2013,1,172
+Russia (Soviet Union),365,2013,3,7
+Russia (Soviet Union),365,2014,1,72
+Russia (Soviet Union),365,2014,3,4
+Russia (Soviet Union),365,2015,1,30
+Russia (Soviet Union),365,2015,3,1
+Russia (Soviet Union),365,2016,1,28
+Russia (Soviet Union),365,2016,3,1
+Russia (Soviet Union),365,2017,1,28
+Russia (Soviet Union),365,2018,1,19
+Russia (Soviet Union),365,2018,3,2
+Russia (Soviet Union),365,2019,1,12
+Russia (Soviet Union),365,2020,1,17
+Russia (Soviet Union),365,2020,3,1
+Russia (Soviet Union),365,2021,1,2
+Russia (Soviet Union),365,2022,1,32
+Russia (Soviet Union),365,2023,1,87
+Russia (Soviet Union),365,2024,1,728
+Russia (Soviet Union),365,2024,3,2
+Ukraine,369,2014,1,1302
+Ukraine,369,2014,2,1
+Ukraine,369,2015,1,871
+Ukraine,369,2016,1,514
+Ukraine,369,2017,1,216
+Ukraine,369,2018,1,153
+Ukraine,369,2019,1,199
+Ukraine,369,2020,1,145
+Ukraine,369,2021,1,167
+Ukraine,369,2022,1,7221
+Ukraine,369,2022,3,208
+Ukraine,369,2023,1,10174
+Ukraine,369,2023,3,7
+Ukraine,369,2024,1,10358
+Ukraine,369,2024,3,11
+Armenia,371,1992,1,9
+Armenia,371,1993,1,7
+Armenia,371,1994,1,1
+Armenia,371,1995,1,5
+Armenia,371,2005,1,1
+Armenia,371,2006,1,2
+Armenia,371,2012,1,5
+Armenia,371,2013,1,1
+Armenia,371,2015,1,7
+Armenia,371,2015,3,1
+Armenia,371,2016,1,1
+Armenia,371,2018,1,1
+Armenia,371,2019,1,2
+Armenia,371,2020,1,8
+Armenia,371,2021,1,8
+Armenia,371,2022,1,8
+Armenia,371,2023,1,10
+Georgia,372,1991,1,6
+Georgia,372,1992,1,96
+Georgia,372,1993,1,108
+Georgia,372,1993,3,5
+Georgia,372,1995,3,3
+Georgia,372,1997,2,5
+Georgia,372,1998,2,3
+Georgia,372,2002,1,2
+Georgia,372,2004,1,13
+Georgia,372,2008,1,12
+Georgia,372,2010,1,4
+Georgia,372,2011,1,1
+Georgia,372,2023,3,1
+Azerbaijan,373,1991,1,3
+Azerbaijan,373,1992,1,180
+Azerbaijan,373,1992,3,2
+Azerbaijan,373,1993,1,72
+Azerbaijan,373,1994,1,58
+Azerbaijan,373,1995,1,10
+Azerbaijan,373,1996,1,3
+Azerbaijan,373,1997,1,3
+Azerbaijan,373,1998,1,4
+Azerbaijan,373,1999,1,6
+Azerbaijan,373,2000,1,7
+Azerbaijan,373,2001,1,5
+Azerbaijan,373,2004,1,3
+Azerbaijan,373,2005,1,22
+Azerbaijan,373,2006,1,8
+Azerbaijan,373,2007,1,11
+Azerbaijan,373,2008,1,7
+Azerbaijan,373,2009,1,6
+Azerbaijan,373,2010,1,14
+Azerbaijan,373,2011,1,20
+Azerbaijan,373,2012,1,12
+Azerbaijan,373,2013,1,10
+Azerbaijan,373,2014,1,33
+Azerbaijan,373,2015,1,43
+Azerbaijan,373,2016,1,31
+Azerbaijan,373,2017,1,21
+Azerbaijan,373,2018,1,17
+Azerbaijan,373,2019,1,10
+Azerbaijan,373,2020,1,141
+Azerbaijan,373,2021,1,18
+Azerbaijan,373,2022,1,9
+Azerbaijan,373,2023,1,11
+Sweden,380,2017,3,1
+Guinea-Bissau,404,1992,1,1
+Guinea-Bissau,404,1998,1,16
+Guinea-Bissau,404,1999,1,3
+Guinea-Bissau,404,2000,1,2
+Gambia,420,1996,3,1
+Gambia,420,2004,3,1
+Gambia,420,2005,3,2
+Gambia,420,2012,3,1
+Gambia,420,2024,3,1
+Mali,432,1990,1,7
+Mali,432,1990,3,8
+Mali,432,1991,1,7
+Mali,432,1991,3,4
+Mali,432,1992,1,3
+Mali,432,1992,3,5
+Mali,432,1993,3,1
+Mali,432,1994,1,10
+Mali,432,1994,2,1
+Mali,432,1994,3,30
+Mali,432,1995,1,3
+Mali,432,1995,3,1
+Mali,432,1997,2,1
+Mali,432,1999,2,4
+Mali,432,2002,2,1
+Mali,432,2004,2,2
+Mali,432,2005,1,1
+Mali,432,2007,1,8
+Mali,432,2008,1,9
+Mali,432,2008,3,1
+Mali,432,2009,1,8
+Mali,432,2009,3,1
+Mali,432,2010,1,2
+Mali,432,2011,1,3
+Mali,432,2011,3,1
+Mali,432,2012,1,22
+Mali,432,2012,2,13
+Mali,432,2012,3,8
+Mali,432,2013,1,73
+Mali,432,2013,2,2
+Mali,432,2013,3,8
+Mali,432,2014,1,21
+Mali,432,2014,2,7
+Mali,432,2014,3,2
+Mali,432,2015,1,47
+Mali,432,2015,2,6
+Mali,432,2015,3,2
+Mali,432,2016,1,38
+Mali,432,2016,2,11
+Mali,432,2016,3,4
+Mali,432,2017,1,95
+Mali,432,2017,2,17
+Mali,432,2017,3,15
+Mali,432,2018,1,103
+Mali,432,2018,2,45
+Mali,432,2018,3,88
+Mali,432,2019,1,116
+Mali,432,2019,2,27
+Mali,432,2019,3,56
+Mali,432,2020,1,128
+Mali,432,2020,2,36
+Mali,432,2020,3,70
+Mali,432,2021,1,131
+Mali,432,2021,2,48
+Mali,432,2021,3,36
+Mali,432,2022,1,232
+Mali,432,2022,2,72
+Mali,432,2022,3,105
+Mali,432,2023,1,184
+Mali,432,2023,2,35
+Mali,432,2023,3,101
+Mali,432,2024,1,224
+Mali,432,2024,2,39
+Mali,432,2024,3,184
+Senegal,433,1989,2,10
+Senegal,433,1989,3,1
+Senegal,433,1990,1,5
+Senegal,433,1990,3,9
+Senegal,433,1991,3,7
+Senegal,433,1992,1,2
+Senegal,433,1992,3,14
+Senegal,433,1993,1,10
+Senegal,433,1993,3,20
+Senegal,433,1995,1,22
+Senegal,433,1995,3,17
+Senegal,433,1996,1,1
+Senegal,433,1996,3,1
+Senegal,433,1997,1,21
+Senegal,433,1997,3,11
+Senegal,433,1998,1,14
+Senegal,433,1998,2,2
+Senegal,433,1998,3,15
+Senegal,433,1999,1,4
+Senegal,433,1999,3,5
+Senegal,433,2000,1,16
+Senegal,433,2000,3,7
+Senegal,433,2001,1,11
+Senegal,433,2001,3,1
+Senegal,433,2002,1,8
+Senegal,433,2002,3,7
+Senegal,433,2003,1,5
+Senegal,433,2004,1,1
+Senegal,433,2005,1,1
+Senegal,433,2005,3,1
+Senegal,433,2006,1,2
+Senegal,433,2006,2,2
+Senegal,433,2008,1,3
+Senegal,433,2009,1,5
+Senegal,433,2009,3,6
+Senegal,433,2010,1,6
+Senegal,433,2010,3,3
+Senegal,433,2011,1,11
+Senegal,433,2011,3,3
+Senegal,433,2012,1,8
+Senegal,433,2012,3,2
+Senegal,433,2013,1,4
+Senegal,433,2018,3,1
+Senegal,433,2020,1,1
+Senegal,433,2021,1,2
+Benin,434,2019,3,1
+Benin,434,2020,1,1
+Benin,434,2021,1,6
+Benin,434,2022,1,8
+Benin,434,2023,1,15
+Benin,434,2023,3,5
+Benin,434,2024,1,23
+Benin,434,2024,3,6
+Mauritania,435,1989,2,5
+Mauritania,435,1989,3,10
+Mauritania,435,1990,3,6
+Mauritania,435,1992,3,1
+Mauritania,435,2007,3,1
+Mauritania,435,2008,1,1
+Mauritania,435,2009,3,1
+Mauritania,435,2010,1,1
+Mauritania,435,2011,1,5
+Mauritania,435,2011,3,1
+Mauritania,435,2012,3,1
+Mauritania,435,2019,3,1
+Mauritania,435,2020,3,1
+Mauritania,435,2023,1,2
+Mauritania,435,2024,1,1
+Niger,436,1989,3,1
+Niger,436,1990,3,2
+Niger,436,1991,1,8
+Niger,436,1991,3,1
+Niger,436,1992,1,11
+Niger,436,1993,1,1
+Niger,436,1994,1,9
+Niger,436,1994,3,2
+Niger,436,1995,1,5
+Niger,436,1995,3,2
+Niger,436,1996,1,3
+Niger,436,1997,1,7
+Niger,436,1997,2,1
+Niger,436,1998,3,2
+Niger,436,2004,1,1
+Niger,436,2007,1,15
+Niger,436,2007,3,7
+Niger,436,2008,1,10
+Niger,436,2008,2,1
+Niger,436,2008,3,2
+Niger,436,2012,1,1
+Niger,436,2013,1,6
+Niger,436,2014,2,2
+Niger,436,2015,1,26
+Niger,436,2015,2,1
+Niger,436,2015,3,16
+Niger,436,2016,1,13
+Niger,436,2016,3,5
+Niger,436,2017,1,12
+Niger,436,2017,3,4
+Niger,436,2018,1,13
+Niger,436,2018,2,4
+Niger,436,2018,3,8
+Niger,436,2019,1,33
+Niger,436,2019,3,39
+Niger,436,2020,1,32
+Niger,436,2020,3,36
+Niger,436,2021,1,39
+Niger,436,2021,2,4
+Niger,436,2021,3,35
+Niger,436,2022,1,53
+Niger,436,2022,2,4
+Niger,436,2022,3,16
+Niger,436,2023,1,60
+Niger,436,2023,2,4
+Niger,436,2023,3,33
+Niger,436,2024,1,58
+Niger,436,2024,2,1
+Niger,436,2024,3,26
+Ivory Coast,437,1990,1,1
+Ivory Coast,437,1990,3,1
+Ivory Coast,437,1991,3,1
+Ivory Coast,437,1993,3,1
+Ivory Coast,437,1994,3,1
+Ivory Coast,437,1995,2,1
+Ivory Coast,437,1995,3,1
+Ivory Coast,437,1996,2,1
+Ivory Coast,437,1996,3,3
+Ivory Coast,437,1998,3,1
+Ivory Coast,437,1999,3,2
+Ivory Coast,437,2000,2,2
+Ivory Coast,437,2000,3,4
+Ivory Coast,437,2001,2,2
+Ivory Coast,437,2002,1,27
+Ivory Coast,437,2002,2,5
+Ivory Coast,437,2002,3,16
+Ivory Coast,437,2003,1,19
+Ivory Coast,437,2003,2,6
+Ivory Coast,437,2003,3,15
+Ivory Coast,437,2004,1,5
+Ivory Coast,437,2004,2,8
+Ivory Coast,437,2004,3,15
+Ivory Coast,437,2005,2,14
+Ivory Coast,437,2005,3,7
+Ivory Coast,437,2006,2,3
+Ivory Coast,437,2006,3,4
+Ivory Coast,437,2007,3,3
+Ivory Coast,437,2008,3,4
+Ivory Coast,437,2009,3,1
+Ivory Coast,437,2010,1,2
+Ivory Coast,437,2010,2,2
+Ivory Coast,437,2010,3,17
+Ivory Coast,437,2011,1,13
+Ivory Coast,437,2011,2,4
+Ivory Coast,437,2011,3,141
+Ivory Coast,437,2012,2,1
+Ivory Coast,437,2012,3,4
+Ivory Coast,437,2013,3,2
+Ivory Coast,437,2016,2,1
+Ivory Coast,437,2016,3,1
+Ivory Coast,437,2020,3,1
+Guinea,438,1994,3,1
+Guinea,438,1996,3,1
+Guinea,438,1998,3,3
+Guinea,438,1999,3,2
+Guinea,438,2000,1,20
+Guinea,438,2000,2,1
+Guinea,438,2000,3,5
+Guinea,438,2001,1,4
+Guinea,438,2005,3,1
+Guinea,438,2006,3,6
+Guinea,438,2007,3,21
+Guinea,438,2009,3,3
+Guinea,438,2010,3,1
+Guinea,438,2011,2,1
+Guinea,438,2012,3,4
+Guinea,438,2013,2,3
+Guinea,438,2015,3,1
+Guinea,438,2019,3,1
+Guinea,438,2020,2,3
+Guinea,438,2021,2,1
+Burkina Faso,439,2016,3,2
+Burkina Faso,439,2017,1,4
+Burkina Faso,439,2017,2,1
+Burkina Faso,439,2017,3,22
+Burkina Faso,439,2018,1,30
+Burkina Faso,439,2018,2,3
+Burkina Faso,439,2018,3,32
+Burkina Faso,439,2019,1,80
+Burkina Faso,439,2019,2,10
+Burkina Faso,439,2019,3,132
+Burkina Faso,439,2020,1,88
+Burkina Faso,439,2020,2,12
+Burkina Faso,439,2020,3,66
+Burkina Faso,439,2021,1,130
+Burkina Faso,439,2021,2,7
+Burkina Faso,439,2021,3,54
+Burkina Faso,439,2022,1,180
+Burkina Faso,439,2022,2,9
+Burkina Faso,439,2022,3,48
+Burkina Faso,439,2023,1,426
+Burkina Faso,439,2023,2,6
+Burkina Faso,439,2023,3,167
+Burkina Faso,439,2024,1,223
+Burkina Faso,439,2024,2,6
+Burkina Faso,439,2024,3,78
+Liberia,450,1989,1,4
+Liberia,450,1989,3,2
+Liberia,450,1990,1,41
+Liberia,450,1990,2,5
+Liberia,450,1990,3,92
+Liberia,450,1991,2,3
+Liberia,450,1991,3,16
+Liberia,450,1992,2,12
+Liberia,450,1992,3,14
+Liberia,450,1993,1,1
+Liberia,450,1993,2,7
+Liberia,450,1993,3,39
+Liberia,450,1994,2,13
+Liberia,450,1994,3,79
+Liberia,450,1995,2,4
+Liberia,450,1995,3,48
+Liberia,450,1996,2,16
+Liberia,450,1996,3,15
+Liberia,450,1997,3,3
+Liberia,450,1998,3,1
+Liberia,450,1999,3,3
+Liberia,450,2000,1,3
+Liberia,450,2000,3,2
+Liberia,450,2001,1,13
+Liberia,450,2001,3,15
+Liberia,450,2002,1,24
+Liberia,450,2002,3,19
+Liberia,450,2003,1,34
+Liberia,450,2003,3,19
+Liberia,450,2019,3,1
+Liberia,450,2020,3,2
+Liberia,450,2024,3,1
+Sierra Leone,451,1991,1,48
+Sierra Leone,451,1991,2,2
+Sierra Leone,451,1991,3,78
+Sierra Leone,451,1992,1,24
+Sierra Leone,451,1992,2,1
+Sierra Leone,451,1992,3,39
+Sierra Leone,451,1993,1,46
+Sierra Leone,451,1993,2,2
+Sierra Leone,451,1993,3,20
+Sierra Leone,451,1994,1,48
+Sierra Leone,451,1994,2,3
+Sierra Leone,451,1994,3,113
+Sierra Leone,451,1995,1,77
+Sierra Leone,451,1995,2,2
+Sierra Leone,451,1995,3,118
+Sierra Leone,451,1996,1,29
+Sierra Leone,451,1996,2,2
+Sierra Leone,451,1996,3,69
+Sierra Leone,451,1997,1,68
+Sierra Leone,451,1997,3,69
+Sierra Leone,451,1998,1,160
+Sierra Leone,451,1998,3,200
+Sierra Leone,451,1999,1,86
+Sierra Leone,451,1999,3,113
+Sierra Leone,451,2000,1,31
+Sierra Leone,451,2000,3,28
+Sierra Leone,451,2001,1,16
+Sierra Leone,451,2001,3,3
+Sierra Leone,451,2002,3,1
+Sierra Leone,451,2021,3,1
+Ghana,452,1991,2,2
+Ghana,452,1992,2,2
+Ghana,452,1993,2,1
+Ghana,452,1994,2,9
+Ghana,452,1995,2,8
+Ghana,452,2000,2,1
+Ghana,452,2001,2,1
+Ghana,452,2002,2,1
+Ghana,452,2008,2,10
+Ghana,452,2009,2,2
+Ghana,452,2010,2,1
+Ghana,452,2022,2,5
+Ghana,452,2023,2,9
+Ghana,452,2024,2,3
+Togo,461,1991,2,1
+Togo,461,1991,3,3
+Togo,461,1992,3,2
+Togo,461,1993,3,3
+Togo,461,1998,3,4
+Togo,461,2005,3,93
+Togo,461,2019,3,1
+Togo,461,2022,1,4
+Togo,461,2022,3,4
+Togo,461,2023,1,12
+Togo,461,2023,3,8
+Togo,461,2024,1,10
+Togo,461,2024,3,5
+Cameroon,471,1990,3,1
+Cameroon,471,1991,2,1
+Cameroon,471,1992,2,2
+Cameroon,471,1992,3,1
+Cameroon,471,1993,2,3
+Cameroon,471,1993,3,2
+Cameroon,471,1994,1,3
+Cameroon,471,1994,2,3
+Cameroon,471,1994,3,1
+Cameroon,471,1996,1,3
+Cameroon,471,1998,1,2
+Cameroon,471,1998,2,2
+Cameroon,471,2000,3,4
+Cameroon,471,2001,3,2
+Cameroon,471,2004,3,1
+Cameroon,471,2005,1,1
+Cameroon,471,2005,3,2
+Cameroon,471,2008,3,1
+Cameroon,471,2009,3,1
+Cameroon,471,2013,3,1
+Cameroon,471,2014,1,39
+Cameroon,471,2014,3,12
+Cameroon,471,2015,1,27
+Cameroon,471,2015,3,35
+Cameroon,471,2016,1,34
+Cameroon,471,2016,2,1
+Cameroon,471,2016,3,62
+Cameroon,471,2017,1,51
+Cameroon,471,2017,2,18
+Cameroon,471,2017,3,69
+Cameroon,471,2018,1,160
+Cameroon,471,2018,2,1
+Cameroon,471,2018,3,92
+Cameroon,471,2019,1,171
+Cameroon,471,2019,2,4
+Cameroon,471,2019,3,73
+Cameroon,471,2020,1,131
+Cameroon,471,2020,2,2
+Cameroon,471,2020,3,128
+Cameroon,471,2021,1,185
+Cameroon,471,2021,2,5
+Cameroon,471,2021,3,88
+Cameroon,471,2022,1,132
+Cameroon,471,2022,2,1
+Cameroon,471,2022,3,92
+Cameroon,471,2023,1,141
+Cameroon,471,2023,2,12
+Cameroon,471,2023,3,141
+Cameroon,471,2024,1,108
+Cameroon,471,2024,2,8
+Cameroon,471,2024,3,77
+Nigeria,475,1990,2,1
+Nigeria,475,1990,3,1
+Nigeria,475,1991,2,4
+Nigeria,475,1992,2,11
+Nigeria,475,1992,3,1
+Nigeria,475,1993,2,6
+Nigeria,475,1993,3,2
+Nigeria,475,1994,2,2
+Nigeria,475,1994,3,14
+Nigeria,475,1995,3,1
+Nigeria,475,1996,2,2
+Nigeria,475,1996,3,3
+Nigeria,475,1997,2,18
+Nigeria,475,1997,3,2
+Nigeria,475,1998,2,18
+Nigeria,475,1998,3,13
+Nigeria,475,1999,2,23
+Nigeria,475,1999,3,16
+Nigeria,475,2000,2,21
+Nigeria,475,2000,3,9
+Nigeria,475,2001,2,16
+Nigeria,475,2001,3,25
+Nigeria,475,2002,2,21
+Nigeria,475,2002,3,24
+Nigeria,475,2003,1,1
+Nigeria,475,2003,2,46
+Nigeria,475,2003,3,16
+Nigeria,475,2004,1,13
+Nigeria,475,2004,2,68
+Nigeria,475,2004,3,6
+Nigeria,475,2005,2,14
+Nigeria,475,2005,3,8
+Nigeria,475,2006,2,22
+Nigeria,475,2006,3,1
+Nigeria,475,2007,2,18
+Nigeria,475,2007,3,4
+Nigeria,475,2008,2,18
+Nigeria,475,2008,3,13
+Nigeria,475,2009,1,16
+Nigeria,475,2009,2,17
+Nigeria,475,2009,3,8
+Nigeria,475,2010,1,16
+Nigeria,475,2010,2,63
+Nigeria,475,2010,3,13
+Nigeria,475,2011,1,73
+Nigeria,475,2011,2,106
+Nigeria,475,2011,3,75
+Nigeria,475,2012,1,183
+Nigeria,475,2012,2,95
+Nigeria,475,2012,3,131
+Nigeria,475,2013,1,121
+Nigeria,475,2013,2,114
+Nigeria,475,2013,3,99
+Nigeria,475,2014,1,149
+Nigeria,475,2014,2,140
+Nigeria,475,2014,3,265
+Nigeria,475,2015,1,173
+Nigeria,475,2015,2,97
+Nigeria,475,2015,3,235
+Nigeria,475,2016,1,237
+Nigeria,475,2016,2,128
+Nigeria,475,2016,3,69
+Nigeria,475,2017,1,261
+Nigeria,475,2017,2,126
+Nigeria,475,2017,3,120
+Nigeria,475,2018,1,198
+Nigeria,475,2018,2,251
+Nigeria,475,2018,3,86
+Nigeria,475,2019,1,250
+Nigeria,475,2019,2,187
+Nigeria,475,2019,3,87
+Nigeria,475,2020,1,391
+Nigeria,475,2020,2,155
+Nigeria,475,2020,3,79
+Nigeria,475,2021,1,307
+Nigeria,475,2021,2,148
+Nigeria,475,2021,3,60
+Nigeria,475,2022,1,240
+Nigeria,475,2022,2,164
+Nigeria,475,2022,3,67
+Nigeria,475,2023,1,351
+Nigeria,475,2023,2,171
+Nigeria,475,2023,3,104
+Nigeria,475,2024,1,285
+Nigeria,475,2024,2,145
+Nigeria,475,2024,3,60
+Central African Republic,482,1991,3,1
+Central African Republic,482,1992,3,1
+Central African Republic,482,1993,3,3
+Central African Republic,482,1999,3,1
+Central African Republic,482,2000,3,1
+Central African Republic,482,2001,1,7
+Central African Republic,482,2001,3,14
+Central African Republic,482,2002,1,9
+Central African Republic,482,2002,3,5
+Central African Republic,482,2003,1,1
+Central African Republic,482,2003,3,4
+Central African Republic,482,2004,3,3
+Central African Republic,482,2005,3,6
+Central African Republic,482,2006,1,7
+Central African Republic,482,2006,3,35
+Central African Republic,482,2007,1,4
+Central African Republic,482,2007,2,1
+Central African Republic,482,2007,3,18
+Central African Republic,482,2008,3,5
+Central African Republic,482,2009,1,19
+Central African Republic,482,2009,3,42
+Central African Republic,482,2010,1,13
+Central African Republic,482,2010,3,30
+Central African Republic,482,2011,1,8
+Central African Republic,482,2011,2,5
+Central African Republic,482,2011,3,10
+Central African Republic,482,2012,1,12
+Central African Republic,482,2012,3,19
+Central African Republic,482,2013,1,29
+Central African Republic,482,2013,2,17
+Central African Republic,482,2013,3,140
+Central African Republic,482,2014,1,35
+Central African Republic,482,2014,2,134
+Central African Republic,482,2014,3,292
+Central African Republic,482,2015,1,7
+Central African Republic,482,2015,2,36
+Central African Republic,482,2015,3,107
+Central African Republic,482,2016,2,13
+Central African Republic,482,2016,3,57
+Central African Republic,482,2017,1,15
+Central African Republic,482,2017,2,109
+Central African Republic,482,2017,3,98
+Central African Republic,482,2018,1,18
+Central African Republic,482,2018,2,21
+Central African Republic,482,2018,3,49
+Central African Republic,482,2019,1,10
+Central African Republic,482,2019,2,17
+Central African Republic,482,2019,3,37
+Central African Republic,482,2020,1,16
+Central African Republic,482,2020,2,18
+Central African Republic,482,2020,3,22
+Central African Republic,482,2021,1,119
+Central African Republic,482,2021,3,48
+Central African Republic,482,2022,1,77
+Central African Republic,482,2022,3,28
+Central African Republic,482,2023,1,59
+Central African Republic,482,2023,2,9
+Central African Republic,482,2023,3,18
+Central African Republic,482,2024,1,48
+Central African Republic,482,2024,2,9
+Central African Republic,482,2024,3,35
+Chad,483,1989,1,3
+Chad,483,1990,1,15
+Chad,483,1990,3,4
+Chad,483,1991,1,4
+Chad,483,1991,3,2
+Chad,483,1992,1,20
+Chad,483,1992,3,11
+Chad,483,1993,1,5
+Chad,483,1993,3,10
+Chad,483,1994,1,6
+Chad,483,1994,3,11
+Chad,483,1995,1,1
+Chad,483,1995,3,16
+Chad,483,1996,3,3
+Chad,483,1997,1,2
+Chad,483,1997,3,6
+Chad,483,1998,1,1
+Chad,483,1998,3,8
+Chad,483,1999,1,10
+Chad,483,1999,2,1
+Chad,483,1999,3,1
+Chad,483,2000,1,10
+Chad,483,2000,2,2
+Chad,483,2000,3,2
+Chad,483,2001,1,4
+Chad,483,2001,3,2
+Chad,483,2002,1,8
+Chad,483,2002,3,1
+Chad,483,2003,1,4
+Chad,483,2004,1,3
+Chad,483,2004,3,7
+Chad,483,2005,1,1
+Chad,483,2005,3,7
+Chad,483,2006,1,20
+Chad,483,2006,2,6
+Chad,483,2006,3,36
+Chad,483,2007,1,11
+Chad,483,2007,2,4
+Chad,483,2007,3,4
+Chad,483,2008,1,12
+Chad,483,2008,3,3
+Chad,483,2009,1,12
+Chad,483,2010,1,1
+Chad,483,2014,2,2
+Chad,483,2014,3,1
+Chad,483,2015,1,14
+Chad,483,2015,2,1
+Chad,483,2015,3,14
+Chad,483,2016,1,3
+Chad,483,2016,2,1
+Chad,483,2016,3,3
+Chad,483,2017,1,3
+Chad,483,2017,2,2
+Chad,483,2017,3,1
+Chad,483,2018,1,11
+Chad,483,2018,3,1
+Chad,483,2019,1,12
+Chad,483,2019,2,2
+Chad,483,2019,3,9
+Chad,483,2020,1,21
+Chad,483,2020,2,1
+Chad,483,2020,3,4
+Chad,483,2021,1,9
+Chad,483,2021,2,1
+Chad,483,2021,3,3
+Chad,483,2022,1,5
+Chad,483,2022,2,5
+Chad,483,2022,3,2
+Chad,483,2023,1,5
+Chad,483,2023,2,4
+Chad,483,2023,3,2
+Chad,483,2024,1,6
+Chad,483,2024,2,13
+Chad,483,2024,3,5
+Congo,484,1992,3,1
+Congo,484,1993,1,4
+Congo,484,1993,3,6
+Congo,484,1994,1,6
+Congo,484,1994,3,2
+Congo,484,1995,1,1
+Congo,484,1996,3,2
+Congo,484,1997,1,27
+Congo,484,1997,3,30
+Congo,484,1998,1,20
+Congo,484,1998,3,34
+Congo,484,1999,1,35
+Congo,484,1999,3,13
+Congo,484,2001,1,1
+Congo,484,2002,1,15
+Congo,484,2002,3,9
+Congo,484,2003,1,4
+Congo,484,2003,3,2
+Congo,484,2005,1,3
+Congo,484,2005,3,2
+Congo,484,2007,1,1
+Congo,484,2008,1,1
+Congo,484,2011,1,1
+Congo,484,2012,1,2
+Congo,484,2015,1,1
+Congo,484,2016,1,8
+Congo,484,2017,1,3
+Congo,484,2019,1,1
+Congo,484,2019,3,1
+Congo,484,2020,1,1
+Congo,484,2022,1,2
+DR Congo (Zaire),490,1989,3,3
+DR Congo (Zaire),490,1990,3,4
+DR Congo (Zaire),490,1991,3,7
+DR Congo (Zaire),490,1992,3,11
+DR Congo (Zaire),490,1993,2,6
+DR Congo (Zaire),490,1993,3,14
+DR Congo (Zaire),490,1994,1,2
+DR Congo (Zaire),490,1994,2,1
+DR Congo (Zaire),490,1994,3,13
+DR Congo (Zaire),490,1995,2,7
+DR Congo (Zaire),490,1995,3,9
+DR Congo (Zaire),490,1996,1,18
+DR Congo (Zaire),490,1996,2,12
+DR Congo (Zaire),490,1996,3,179
+DR Congo (Zaire),490,1997,1,33
+DR Congo (Zaire),490,1997,2,7
+DR Congo (Zaire),490,1997,3,97
+DR Congo (Zaire),490,1998,1,60
+DR Congo (Zaire),490,1998,2,7
+DR Congo (Zaire),490,1998,3,51
+DR Congo (Zaire),490,1999,1,50
+DR Congo (Zaire),490,1999,2,23
+DR Congo (Zaire),490,1999,3,95
+DR Congo (Zaire),490,2000,1,45
+DR Congo (Zaire),490,2000,2,23
+DR Congo (Zaire),490,2000,3,47
+DR Congo (Zaire),490,2001,1,16
+DR Congo (Zaire),490,2001,2,20
+DR Congo (Zaire),490,2001,3,30
+DR Congo (Zaire),490,2002,1,9
+DR Congo (Zaire),490,2002,2,57
+DR Congo (Zaire),490,2002,3,70
+DR Congo (Zaire),490,2003,2,28
+DR Congo (Zaire),490,2003,3,54
+DR Congo (Zaire),490,2004,2,2
+DR Congo (Zaire),490,2004,3,29
+DR Congo (Zaire),490,2005,1,1
+DR Congo (Zaire),490,2005,3,24
+DR Congo (Zaire),490,2006,1,9
+DR Congo (Zaire),490,2006,2,2
+DR Congo (Zaire),490,2006,3,69
+DR Congo (Zaire),490,2007,1,22
+DR Congo (Zaire),490,2007,2,3
+DR Congo (Zaire),490,2007,3,87
+DR Congo (Zaire),490,2008,1,30
+DR Congo (Zaire),490,2008,2,7
+DR Congo (Zaire),490,2008,3,68
+DR Congo (Zaire),490,2009,1,103
+DR Congo (Zaire),490,2009,2,2
+DR Congo (Zaire),490,2009,3,446
+DR Congo (Zaire),490,2010,1,35
+DR Congo (Zaire),490,2010,3,52
+DR Congo (Zaire),490,2011,1,65
+DR Congo (Zaire),490,2011,2,11
+DR Congo (Zaire),490,2011,3,89
+DR Congo (Zaire),490,2012,1,59
+DR Congo (Zaire),490,2012,2,15
+DR Congo (Zaire),490,2012,3,82
+DR Congo (Zaire),490,2013,1,73
+DR Congo (Zaire),490,2013,2,15
+DR Congo (Zaire),490,2013,3,73
+DR Congo (Zaire),490,2014,1,50
+DR Congo (Zaire),490,2014,2,7
+DR Congo (Zaire),490,2014,3,71
+DR Congo (Zaire),490,2015,1,43
+DR Congo (Zaire),490,2015,2,2
+DR Congo (Zaire),490,2015,3,79
+DR Congo (Zaire),490,2016,1,77
+DR Congo (Zaire),490,2016,2,26
+DR Congo (Zaire),490,2016,3,108
+DR Congo (Zaire),490,2017,1,224
+DR Congo (Zaire),490,2017,2,67
+DR Congo (Zaire),490,2017,3,212
+DR Congo (Zaire),490,2018,1,138
+DR Congo (Zaire),490,2018,2,151
+DR Congo (Zaire),490,2018,3,173
+DR Congo (Zaire),490,2019,1,129
+DR Congo (Zaire),490,2019,2,77
+DR Congo (Zaire),490,2019,3,235
+DR Congo (Zaire),490,2020,1,238
+DR Congo (Zaire),490,2020,2,118
+DR Congo (Zaire),490,2020,3,476
+DR Congo (Zaire),490,2021,1,263
+DR Congo (Zaire),490,2021,2,57
+DR Congo (Zaire),490,2021,3,489
+DR Congo (Zaire),490,2022,1,253
+DR Congo (Zaire),490,2022,2,144
+DR Congo (Zaire),490,2022,3,802
+DR Congo (Zaire),490,2023,1,149
+DR Congo (Zaire),490,2023,2,79
+DR Congo (Zaire),490,2023,3,600
+DR Congo (Zaire),490,2024,1,217
+DR Congo (Zaire),490,2024,2,69
+DR Congo (Zaire),490,2024,3,497
+Uganda,500,1989,1,18
+Uganda,500,1989,3,6
+Uganda,500,1990,1,15
+Uganda,500,1990,3,19
+Uganda,500,1991,1,9
+Uganda,500,1991,3,12
+Uganda,500,1992,1,2
+Uganda,500,1992,2,2
+Uganda,500,1994,1,13
+Uganda,500,1994,3,5
+Uganda,500,1995,1,16
+Uganda,500,1995,3,4
+Uganda,500,1996,1,58
+Uganda,500,1996,3,62
+Uganda,500,1997,1,53
+Uganda,500,1997,3,24
+Uganda,500,1998,1,70
+Uganda,500,1998,2,4
+Uganda,500,1998,3,47
+Uganda,500,1999,1,32
+Uganda,500,1999,2,5
+Uganda,500,1999,3,52
+Uganda,500,2000,1,60
+Uganda,500,2000,2,17
+Uganda,500,2000,3,39
+Uganda,500,2001,1,31
+Uganda,500,2001,2,5
+Uganda,500,2001,3,19
+Uganda,500,2002,1,93
+Uganda,500,2002,2,2
+Uganda,500,2002,3,69
+Uganda,500,2003,1,93
+Uganda,500,2003,2,26
+Uganda,500,2003,3,75
+Uganda,500,2004,1,199
+Uganda,500,2004,2,6
+Uganda,500,2004,3,46
+Uganda,500,2005,1,163
+Uganda,500,2005,2,8
+Uganda,500,2005,3,50
+Uganda,500,2006,1,78
+Uganda,500,2006,2,7
+Uganda,500,2006,3,13
+Uganda,500,2007,1,11
+Uganda,500,2007,2,4
+Uganda,500,2007,3,6
+Uganda,500,2008,2,7
+Uganda,500,2008,3,1
+Uganda,500,2009,2,4
+Uganda,500,2009,3,2
+Uganda,500,2010,3,1
+Uganda,500,2014,3,1
+Uganda,500,2016,2,2
+Uganda,500,2017,1,1
+Uganda,500,2018,3,2
+Uganda,500,2019,3,2
+Uganda,500,2021,1,10
+Uganda,500,2021,3,2
+Uganda,500,2022,1,6
+Uganda,500,2023,1,6
+Uganda,500,2023,3,6
+Uganda,500,2024,3,1
+Kenya,501,1989,2,2
+Kenya,501,1989,3,1
+Kenya,501,1990,3,1
+Kenya,501,1991,2,2
+Kenya,501,1992,2,22
+Kenya,501,1992,3,4
+Kenya,501,1993,2,17
+Kenya,501,1993,3,1
+Kenya,501,1994,2,11
+Kenya,501,1994,3,2
+Kenya,501,1995,2,3
+Kenya,501,1995,3,1
+Kenya,501,1996,2,7
+Kenya,501,1996,3,2
+Kenya,501,1997,2,9
+Kenya,501,1997,3,2
+Kenya,501,1998,2,15
+Kenya,501,1999,1,2
+Kenya,501,1999,2,6
+Kenya,501,2000,2,15
+Kenya,501,2000,3,3
+Kenya,501,2001,1,1
+Kenya,501,2001,2,15
+Kenya,501,2001,3,2
+Kenya,501,2002,2,4
+Kenya,501,2002,3,1
+Kenya,501,2003,2,2
+Kenya,501,2004,2,4
+Kenya,501,2005,2,23
+Kenya,501,2005,3,6
+Kenya,501,2006,2,18
+Kenya,501,2006,3,4
+Kenya,501,2007,1,1
+Kenya,501,2007,2,7
+Kenya,501,2007,3,44
+Kenya,501,2008,2,63
+Kenya,501,2008,3,54
+Kenya,501,2009,2,16
+Kenya,501,2009,3,9
+Kenya,501,2010,2,28
+Kenya,501,2011,1,2
+Kenya,501,2011,2,20
+Kenya,501,2011,3,4
+Kenya,501,2012,1,19
+Kenya,501,2012,2,30
+Kenya,501,2012,3,22
+Kenya,501,2013,1,5
+Kenya,501,2013,2,40
+Kenya,501,2013,3,4
+Kenya,501,2014,1,11
+Kenya,501,2014,2,57
+Kenya,501,2014,3,17
+Kenya,501,2015,1,21
+Kenya,501,2015,2,17
+Kenya,501,2015,3,4
+Kenya,501,2016,1,22
+Kenya,501,2016,2,15
+Kenya,501,2016,3,11
+Kenya,501,2017,1,33
+Kenya,501,2017,2,24
+Kenya,501,2017,3,50
+Kenya,501,2018,1,24
+Kenya,501,2018,2,27
+Kenya,501,2018,3,18
+Kenya,501,2019,1,21
+Kenya,501,2019,2,22
+Kenya,501,2019,3,8
+Kenya,501,2020,1,37
+Kenya,501,2020,2,8
+Kenya,501,2020,3,20
+Kenya,501,2021,1,38
+Kenya,501,2021,2,11
+Kenya,501,2021,3,5
+Kenya,501,2022,1,24
+Kenya,501,2022,2,1
+Kenya,501,2022,3,6
+Kenya,501,2023,1,44
+Kenya,501,2023,3,13
+Kenya,501,2024,1,17
+Kenya,501,2024,2,7
+Kenya,501,2024,3,6
+Tanzania,510,1992,3,1
+Tanzania,510,1996,2,1
+Tanzania,510,1997,3,1
+Tanzania,510,1999,3,1
+Tanzania,510,2001,3,7
+Tanzania,510,2007,3,1
+Tanzania,510,2012,3,1
+Tanzania,510,2014,3,1
+Tanzania,510,2017,3,1
+Tanzania,510,2018,3,1
+Tanzania,510,2019,3,3
+Tanzania,510,2020,1,2
+Tanzania,510,2020,3,15
+Tanzania,510,2021,1,4
+Tanzania,510,2021,3,4
+Tanzania,510,2022,1,1
+Tanzania,510,2022,3,2
+Tanzania,510,2024,3,5
+Burundi,516,1990,1,1
+Burundi,516,1991,1,11
+Burundi,516,1991,3,10
+Burundi,516,1992,1,3
+Burundi,516,1993,1,2
+Burundi,516,1993,2,232
+Burundi,516,1993,3,220
+Burundi,516,1994,1,13
+Burundi,516,1994,2,13
+Burundi,516,1994,3,20
+Burundi,516,1995,1,53
+Burundi,516,1995,2,7
+Burundi,516,1995,3,66
+Burundi,516,1996,1,64
+Burundi,516,1996,2,4
+Burundi,516,1996,3,120
+Burundi,516,1997,1,89
+Burundi,516,1997,2,5
+Burundi,516,1997,3,106
+Burundi,516,1998,1,57
+Burundi,516,1998,3,65
+Burundi,516,1999,1,81
+Burundi,516,1999,2,2
+Burundi,516,1999,3,117
+Burundi,516,2000,1,155
+Burundi,516,2000,2,1
+Burundi,516,2000,3,94
+Burundi,516,2001,1,118
+Burundi,516,2001,3,70
+Burundi,516,2002,1,169
+Burundi,516,2002,3,70
+Burundi,516,2003,1,101
+Burundi,516,2003,2,14
+Burundi,516,2003,3,93
+Burundi,516,2004,1,54
+Burundi,516,2004,2,11
+Burundi,516,2004,3,24
+Burundi,516,2005,1,54
+Burundi,516,2005,2,1
+Burundi,516,2005,3,65
+Burundi,516,2006,1,27
+Burundi,516,2006,3,28
+Burundi,516,2007,1,3
+Burundi,516,2007,2,6
+Burundi,516,2007,3,16
+Burundi,516,2008,1,29
+Burundi,516,2008,3,19
+Burundi,516,2009,3,3
+Burundi,516,2011,1,3
+Burundi,516,2011,3,3
+Burundi,516,2012,1,1
+Burundi,516,2012,3,6
+Burundi,516,2013,3,7
+Burundi,516,2014,1,9
+Burundi,516,2015,1,15
+Burundi,516,2015,3,27
+Burundi,516,2016,1,4
+Burundi,516,2016,3,71
+Burundi,516,2017,1,2
+Burundi,516,2017,3,41
+Burundi,516,2018,1,3
+Burundi,516,2018,3,57
+Burundi,516,2019,1,2
+Burundi,516,2019,3,49
+Burundi,516,2020,1,14
+Burundi,516,2020,3,64
+Burundi,516,2021,1,3
+Burundi,516,2021,3,47
+Burundi,516,2022,1,1
+Burundi,516,2022,3,41
+Burundi,516,2023,1,4
+Burundi,516,2023,3,35
+Burundi,516,2024,1,1
+Burundi,516,2024,3,48
+Rwanda,517,1990,1,28
+Rwanda,517,1990,3,9
+Rwanda,517,1991,1,31
+Rwanda,517,1991,3,7
+Rwanda,517,1992,1,17
+Rwanda,517,1992,3,15
+Rwanda,517,1993,1,8
+Rwanda,517,1993,3,34
+Rwanda,517,1994,1,57
+Rwanda,517,1994,3,2062
+Rwanda,517,1995,3,17
+Rwanda,517,1996,1,23
+Rwanda,517,1996,2,1
+Rwanda,517,1996,3,17
+Rwanda,517,1997,1,36
+Rwanda,517,1997,2,4
+Rwanda,517,1997,3,91
+Rwanda,517,1998,1,33
+Rwanda,517,1998,3,34
+Rwanda,517,1999,3,1
+Rwanda,517,2001,1,22
+Rwanda,517,2004,1,1
+Rwanda,517,2009,3,1
+Rwanda,517,2011,3,1
+Rwanda,517,2012,1,4
+Rwanda,517,2013,1,2
+Rwanda,517,2013,3,1
+Rwanda,517,2016,3,26
+Rwanda,517,2017,3,9
+Rwanda,517,2018,1,2
+Rwanda,517,2018,3,2
+Rwanda,517,2019,1,1
+Rwanda,517,2021,1,2
+Rwanda,517,2022,1,2
+Rwanda,517,2022,3,1
+Rwanda,517,2024,1,1
+Rwanda,517,2024,3,1
+Somalia,520,1989,1,29
+Somalia,520,1989,3,4
+Somalia,520,1990,1,48
+Somalia,520,1990,2,2
+Somalia,520,1990,3,2
+Somalia,520,1991,1,15
+Somalia,520,1991,3,5
+Somalia,520,1992,1,10
+Somalia,520,1992,2,7
+Somalia,520,1992,3,1
+Somalia,520,1993,1,3
+Somalia,520,1993,2,17
+Somalia,520,1994,1,21
+Somalia,520,1994,2,16
+Somalia,520,1995,1,24
+Somalia,520,1995,2,44
+Somalia,520,1995,3,1
+Somalia,520,1996,1,35
+Somalia,520,1996,2,57
+Somalia,520,1997,2,27
+Somalia,520,1998,2,18
+Somalia,520,1999,1,2
+Somalia,520,1999,2,36
+Somalia,520,1999,3,4
+Somalia,520,2000,2,26
+Somalia,520,2000,3,1
+Somalia,520,2001,1,12
+Somalia,520,2001,2,17
+Somalia,520,2001,3,2
+Somalia,520,2002,1,10
+Somalia,520,2002,2,51
+Somalia,520,2003,2,48
+Somalia,520,2003,3,1
+Somalia,520,2004,1,1
+Somalia,520,2004,2,51
+Somalia,520,2005,2,26
+Somalia,520,2006,1,32
+Somalia,520,2006,2,46
+Somalia,520,2006,3,1
+Somalia,520,2007,1,281
+Somalia,520,2007,2,6
+Somalia,520,2007,3,7
+Somalia,520,2008,1,228
+Somalia,520,2008,2,23
+Somalia,520,2008,3,37
+Somalia,520,2009,1,178
+Somalia,520,2009,2,54
+Somalia,520,2009,3,23
+Somalia,520,2010,1,238
+Somalia,520,2010,2,64
+Somalia,520,2010,3,11
+Somalia,520,2011,1,225
+Somalia,520,2011,2,11
+Somalia,520,2011,3,35
+Somalia,520,2012,1,365
+Somalia,520,2012,2,17
+Somalia,520,2012,3,64
+Somalia,520,2013,1,304
+Somalia,520,2013,3,79
+Somalia,520,2014,1,343
+Somalia,520,2014,2,1
+Somalia,520,2014,3,62
+Somalia,520,2015,1,286
+Somalia,520,2015,2,1
+Somalia,520,2015,3,32
+Somalia,520,2016,1,335
+Somalia,520,2016,2,4
+Somalia,520,2016,3,38
+Somalia,520,2017,1,230
+Somalia,520,2017,2,3
+Somalia,520,2017,3,52
+Somalia,520,2018,1,424
+Somalia,520,2018,2,13
+Somalia,520,2018,3,72
+Somalia,520,2019,1,352
+Somalia,520,2019,2,27
+Somalia,520,2019,3,47
+Somalia,520,2020,1,343
+Somalia,520,2020,2,14
+Somalia,520,2020,3,37
+Somalia,520,2021,1,358
+Somalia,520,2021,2,1
+Somalia,520,2021,3,31
+Somalia,520,2022,1,317
+Somalia,520,2022,2,3
+Somalia,520,2022,3,18
+Somalia,520,2023,1,216
+Somalia,520,2023,2,17
+Somalia,520,2023,3,14
+Somalia,520,2024,1,143
+Somalia,520,2024,2,8
+Somalia,520,2024,3,23
+Djibouti,522,1989,1,1
+Djibouti,522,1990,1,1
+Djibouti,522,1991,1,7
+Djibouti,522,1991,2,1
+Djibouti,522,1991,3,1
+Djibouti,522,1992,1,10
+Djibouti,522,1992,3,1
+Djibouti,522,1993,1,8
+Djibouti,522,1993,3,4
+Djibouti,522,1994,1,3
+Djibouti,522,1994,3,2
+Djibouti,522,1995,1,1
+Djibouti,522,1995,2,2
+Djibouti,522,1995,3,1
+Djibouti,522,1996,3,2
+Djibouti,522,1997,1,1
+Djibouti,522,1998,1,2
+Djibouti,522,1999,1,8
+Djibouti,522,2008,1,2
+Djibouti,522,2014,3,1
+Djibouti,522,2018,2,1
+Djibouti,522,2021,2,1
+Ethiopia,530,1989,1,59
+Ethiopia,530,1989,2,1
+Ethiopia,530,1989,3,12
+Ethiopia,530,1990,1,101
+Ethiopia,530,1990,3,9
+Ethiopia,530,1991,1,28
+Ethiopia,530,1991,2,8
+Ethiopia,530,1991,3,8
+Ethiopia,530,1992,1,7
+Ethiopia,530,1992,2,9
+Ethiopia,530,1993,1,5
+Ethiopia,530,1993,2,7
+Ethiopia,530,1993,3,1
+Ethiopia,530,1994,1,5
+Ethiopia,530,1995,1,8
+Ethiopia,530,1995,2,1
+Ethiopia,530,1996,1,4
+Ethiopia,530,1996,2,1
+Ethiopia,530,1997,1,2
+Ethiopia,530,1997,2,2
+Ethiopia,530,1998,1,16
+Ethiopia,530,1998,2,3
+Ethiopia,530,1998,3,2
+Ethiopia,530,1999,1,38
+Ethiopia,530,1999,2,3
+Ethiopia,530,1999,3,1
+Ethiopia,530,2000,1,46
+Ethiopia,530,2000,2,24
+Ethiopia,530,2000,3,7
+Ethiopia,530,2001,1,32
+Ethiopia,530,2001,2,19
+Ethiopia,530,2001,3,1
+Ethiopia,530,2002,1,89
+Ethiopia,530,2002,2,26
+Ethiopia,530,2002,3,9
+Ethiopia,530,2003,1,40
+Ethiopia,530,2003,2,17
+Ethiopia,530,2003,3,12
+Ethiopia,530,2004,1,84
+Ethiopia,530,2004,2,15
+Ethiopia,530,2004,3,27
+Ethiopia,530,2005,1,55
+Ethiopia,530,2005,2,17
+Ethiopia,530,2005,3,18
+Ethiopia,530,2006,1,76
+Ethiopia,530,2006,2,15
+Ethiopia,530,2006,3,11
+Ethiopia,530,2007,1,90
+Ethiopia,530,2007,2,14
+Ethiopia,530,2007,3,41
+Ethiopia,530,2008,1,55
+Ethiopia,530,2008,2,27
+Ethiopia,530,2008,3,1
+Ethiopia,530,2009,1,69
+Ethiopia,530,2009,2,18
+Ethiopia,530,2010,1,96
+Ethiopia,530,2010,2,1
+Ethiopia,530,2010,3,1
+Ethiopia,530,2011,1,90
+Ethiopia,530,2011,2,2
+Ethiopia,530,2012,1,76
+Ethiopia,530,2012,2,4
+Ethiopia,530,2012,3,10
+Ethiopia,530,2013,1,53
+Ethiopia,530,2013,3,1
+Ethiopia,530,2014,1,20
+Ethiopia,530,2014,2,1
+Ethiopia,530,2014,3,6
+Ethiopia,530,2015,1,41
+Ethiopia,530,2015,3,56
+Ethiopia,530,2016,1,46
+Ethiopia,530,2016,2,5
+Ethiopia,530,2016,3,97
+Ethiopia,530,2017,1,1
+Ethiopia,530,2017,2,21
+Ethiopia,530,2017,3,19
+Ethiopia,530,2018,1,4
+Ethiopia,530,2018,2,27
+Ethiopia,530,2018,3,32
+Ethiopia,530,2019,1,15
+Ethiopia,530,2019,2,27
+Ethiopia,530,2019,3,21
+Ethiopia,530,2020,1,73
+Ethiopia,530,2020,2,40
+Ethiopia,530,2020,3,150
+Ethiopia,530,2021,1,449
+Ethiopia,530,2021,2,4
+Ethiopia,530,2021,3,277
+Ethiopia,530,2022,1,699
+Ethiopia,530,2022,2,4
+Ethiopia,530,2022,3,176
+Ethiopia,530,2023,1,332
+Ethiopia,530,2023,2,25
+Ethiopia,530,2023,3,222
+Ethiopia,530,2024,1,481
+Ethiopia,530,2024,2,17
+Ethiopia,530,2024,3,368
+Eritrea,531,1993,1,1
+Eritrea,531,1996,1,2
+Eritrea,531,1997,1,9
+Eritrea,531,1998,1,3
+Eritrea,531,1999,1,13
+Eritrea,531,2000,1,6
+Eritrea,531,2000,3,4
+Eritrea,531,2003,1,9
+Eritrea,531,2008,3,1
+Eritrea,531,2016,1,1
+Eritrea,531,2022,1,4
+Angola,540,1989,1,242
+Angola,540,1989,3,18
+Angola,540,1990,1,165
+Angola,540,1990,3,16
+Angola,540,1991,1,19
+Angola,540,1992,1,36
+Angola,540,1992,3,2
+Angola,540,1993,1,200
+Angola,540,1993,3,20
+Angola,540,1994,1,290
+Angola,540,1994,3,30
+Angola,540,1995,1,65
+Angola,540,1995,3,11
+Angola,540,1996,1,26
+Angola,540,1996,3,2
+Angola,540,1997,1,18
+Angola,540,1997,3,17
+Angola,540,1998,1,72
+Angola,540,1998,3,38
+Angola,540,1999,1,201
+Angola,540,1999,3,44
+Angola,540,2000,1,78
+Angola,540,2000,3,52
+Angola,540,2001,1,67
+Angola,540,2001,3,57
+Angola,540,2002,1,47
+Angola,540,2002,3,22
+Angola,540,2003,1,17
+Angola,540,2003,3,20
+Angola,540,2004,1,14
+Angola,540,2004,3,5
+Angola,540,2005,1,6
+Angola,540,2005,3,7
+Angola,540,2006,1,10
+Angola,540,2006,3,2
+Angola,540,2007,1,21
+Angola,540,2007,3,1
+Angola,540,2008,1,9
+Angola,540,2009,1,9
+Angola,540,2010,1,3
+Angola,540,2010,3,1
+Angola,540,2011,1,2
+Angola,540,2013,1,1
+Angola,540,2014,1,6
+Angola,540,2015,1,2
+Angola,540,2016,1,17
+Angola,540,2016,3,1
+Angola,540,2017,1,23
+Angola,540,2017,3,1
+Angola,540,2018,1,1
+Angola,540,2018,3,5
+Angola,540,2019,1,9
+Angola,540,2019,3,2
+Angola,540,2020,1,18
+Angola,540,2020,3,8
+Angola,540,2021,3,4
+Angola,540,2022,1,16
+Angola,540,2022,3,1
+Angola,540,2023,1,1
+Angola,540,2024,1,8
+Angola,540,2024,3,2
+Mozambique,541,1989,1,110
+Mozambique,541,1989,3,21
+Mozambique,541,1990,1,24
+Mozambique,541,1990,3,20
+Mozambique,541,1991,1,17
+Mozambique,541,1991,2,4
+Mozambique,541,1991,3,37
+Mozambique,541,1992,1,11
+Mozambique,541,1992,3,23
+Mozambique,541,1993,3,2
+Mozambique,541,1994,3,2
+Mozambique,541,1995,3,1
+Mozambique,541,2004,1,1
+Mozambique,541,2005,1,1
+Mozambique,541,2005,3,1
+Mozambique,541,2010,3,1
+Mozambique,541,2012,1,1
+Mozambique,541,2013,1,15
+Mozambique,541,2013,3,3
+Mozambique,541,2014,1,12
+Mozambique,541,2014,3,1
+Mozambique,541,2016,1,25
+Mozambique,541,2016,3,6
+Mozambique,541,2017,3,3
+Mozambique,541,2018,1,15
+Mozambique,541,2018,3,33
+Mozambique,541,2019,1,45
+Mozambique,541,2019,3,79
+Mozambique,541,2020,1,87
+Mozambique,541,2020,3,126
+Mozambique,541,2021,1,136
+Mozambique,541,2021,3,99
+Mozambique,541,2022,1,109
+Mozambique,541,2022,2,6
+Mozambique,541,2022,3,153
+Mozambique,541,2023,1,57
+Mozambique,541,2023,2,3
+Mozambique,541,2023,3,40
+Mozambique,541,2024,1,37
+Mozambique,541,2024,2,11
+Mozambique,541,2024,3,137
+Zambia,551,1989,3,25
+Zambia,551,1990,3,9
+Zambia,551,1993,3,1
+Zambia,551,2000,3,1
+Zambia,551,2001,3,2
+Zimbabwe (Rhodesia),552,1989,3,3
+Zimbabwe (Rhodesia),552,1990,3,3
+Zimbabwe (Rhodesia),552,1995,3,2
+Zimbabwe (Rhodesia),552,1998,3,1
+Zimbabwe (Rhodesia),552,1999,3,1
+Zimbabwe (Rhodesia),552,2001,3,1
+Zimbabwe (Rhodesia),552,2003,3,1
+Zimbabwe (Rhodesia),552,2007,3,2
+Zimbabwe (Rhodesia),552,2008,3,40
+Zimbabwe (Rhodesia),552,2009,3,1
+Zimbabwe (Rhodesia),552,2011,3,1
+Zimbabwe (Rhodesia),552,2012,3,1
+Zimbabwe (Rhodesia),552,2018,3,2
+Zimbabwe (Rhodesia),552,2019,3,8
+Zimbabwe (Rhodesia),552,2020,3,1
+South Africa,560,1989,1,57
+South Africa,560,1989,2,185
+South Africa,560,1989,3,37
+South Africa,560,1990,2,399
+South Africa,560,1990,3,163
+South Africa,560,1991,2,385
+South Africa,560,1991,3,63
+South Africa,560,1992,2,481
+South Africa,560,1992,3,93
+South Africa,560,1993,2,417
+South Africa,560,1993,3,159
+South Africa,560,1994,2,232
+South Africa,560,1994,3,31
+South Africa,560,1995,2,39
+South Africa,560,1996,2,37
+South Africa,560,1997,2,20
+South Africa,560,1998,2,23
+South Africa,560,1999,2,11
+South Africa,560,2000,2,1
+South Africa,560,2002,3,3
+South Africa,560,2004,2,4
+South Africa,560,2010,3,1
+South Africa,560,2015,3,1
+South Africa,560,2016,2,2
+South Africa,560,2016,3,1
+South Africa,560,2018,2,2
+South Africa,560,2018,3,1
+South Africa,560,2019,2,4
+South Africa,560,2019,3,2
+South Africa,560,2020,2,12
+South Africa,560,2020,3,6
+South Africa,560,2021,2,12
+South Africa,560,2022,2,4
+South Africa,560,2023,2,3
+South Africa,560,2023,3,2
+South Africa,560,2024,3,2
+Namibia,565,1994,3,1
+Namibia,565,1996,3,1
+Namibia,565,1999,1,1
+Namibia,565,2000,1,7
+Namibia,565,2000,3,8
+Namibia,565,2002,3,1
+Lesotho,570,1998,1,5
+Botswana,571,1990,3,1
+Kingdom of eSwatini (Swaziland),572,1989,3,2
+Kingdom of eSwatini (Swaziland),572,2019,3,3
+Kingdom of eSwatini (Swaziland),572,2020,3,2
+Kingdom of eSwatini (Swaziland),572,2021,3,11
+Kingdom of eSwatini (Swaziland),572,2022,3,2
+Kingdom of eSwatini (Swaziland),572,2023,3,2
+Madagascar (Malagasy),580,2002,2,32
+Madagascar (Malagasy),580,2009,2,6
+Madagascar (Malagasy),580,2009,3,1
+Madagascar (Malagasy),580,2012,3,3
+Madagascar (Malagasy),580,2017,3,1
+Madagascar (Malagasy),580,2019,3,3
+Madagascar (Malagasy),580,2020,3,1
+Comoros,581,1989,1,2
+Comoros,581,1997,1,2
+Comoros,581,1998,2,3
+Morocco,600,1989,1,6
+Morocco,600,1991,1,2
+Morocco,600,2003,3,2
+Morocco,600,2011,3,1
+Morocco,600,2020,1,1
+Morocco,600,2021,1,7
+Morocco,600,2022,1,4
+Morocco,600,2023,1,2
+Morocco,600,2024,1,2
+Algeria,615,1990,1,1
+Algeria,615,1991,1,4
+Algeria,615,1992,1,120
+Algeria,615,1993,1,265
+Algeria,615,1993,3,4
+Algeria,615,1994,1,341
+Algeria,615,1994,2,2
+Algeria,615,1994,3,7
+Algeria,615,1995,1,391
+Algeria,615,1995,2,3
+Algeria,615,1996,1,122
+Algeria,615,1996,3,1
+Algeria,615,1997,1,117
+Algeria,615,1997,2,1
+Algeria,615,1997,3,10
+Algeria,615,1998,1,359
+Algeria,615,1998,2,7
+Algeria,615,1998,3,17
+Algeria,615,1999,1,205
+Algeria,615,1999,2,2
+Algeria,615,1999,3,19
+Algeria,615,2000,1,216
+Algeria,615,2000,3,36
+Algeria,615,2001,1,74
+Algeria,615,2001,3,6
+Algeria,615,2002,1,137
+Algeria,615,2002,3,88
+Algeria,615,2003,1,198
+Algeria,615,2003,3,11
+Algeria,615,2004,1,181
+Algeria,615,2004,3,38
+Algeria,615,2005,1,68
+Algeria,615,2005,3,4
+Algeria,615,2006,1,79
+Algeria,615,2006,3,12
+Algeria,615,2007,1,124
+Algeria,615,2007,3,4
+Algeria,615,2008,1,108
+Algeria,615,2008,3,3
+Algeria,615,2009,1,174
+Algeria,615,2009,3,17
+Algeria,615,2010,1,84
+Algeria,615,2010,3,8
+Algeria,615,2011,1,114
+Algeria,615,2011,3,11
+Algeria,615,2012,1,114
+Algeria,615,2012,3,10
+Algeria,615,2013,1,65
+Algeria,615,2013,2,5
+Algeria,615,2013,3,3
+Algeria,615,2014,1,43
+Algeria,615,2015,1,46
+Algeria,615,2016,1,27
+Algeria,615,2017,1,26
+Algeria,615,2018,1,9
+Algeria,615,2018,3,1
+Algeria,615,2019,1,8
+Algeria,615,2019,3,1
+Algeria,615,2020,1,17
+Algeria,615,2021,1,6
+Algeria,615,2022,1,3
+Algeria,615,2023,1,1
+Algeria,615,2024,1,1
+Tunisia,616,2002,3,1
+Tunisia,616,2011,1,2
+Tunisia,616,2012,1,2
+Tunisia,616,2013,1,8
+Tunisia,616,2014,1,22
+Tunisia,616,2015,1,23
+Tunisia,616,2015,3,3
+Tunisia,616,2016,1,15
+Tunisia,616,2017,1,10
+Tunisia,616,2018,1,12
+Tunisia,616,2018,3,1
+Tunisia,616,2019,1,9
+Tunisia,616,2020,1,5
+Tunisia,616,2021,1,9
+Tunisia,616,2022,1,1
+Tunisia,616,2023,1,1
+Libya,620,2008,2,1
+Libya,620,2011,1,228
+Libya,620,2011,3,7
+Libya,620,2012,1,1
+Libya,620,2012,2,18
+Libya,620,2013,1,15
+Libya,620,2013,2,3
+Libya,620,2014,1,26
+Libya,620,2014,2,83
+Libya,620,2015,1,28
+Libya,620,2015,2,111
+Libya,620,2015,3,22
+Libya,620,2016,1,111
+Libya,620,2016,2,67
+Libya,620,2016,3,6
+Libya,620,2017,1,18
+Libya,620,2017,2,61
+Libya,620,2017,3,1
+Libya,620,2018,1,7
+Libya,620,2018,2,113
+Libya,620,2018,3,3
+Libya,620,2019,1,164
+Libya,620,2019,2,19
+Libya,620,2019,3,3
+Libya,620,2020,1,127
+Libya,620,2020,2,2
+Libya,620,2020,3,2
+Libya,620,2021,1,6
+Libya,620,2021,2,1
+Libya,620,2022,1,3
+Libya,620,2022,2,4
+Libya,620,2023,1,1
+Libya,620,2024,1,1
+Sudan,625,1989,1,26
+Sudan,625,1989,2,5
+Sudan,625,1989,3,2
+Sudan,625,1990,1,55
+Sudan,625,1990,2,1
+Sudan,625,1990,3,7
+Sudan,625,1991,1,19
+Sudan,625,1991,2,2
+Sudan,625,1991,3,9
+Sudan,625,1992,1,12
+Sudan,625,1992,2,5
+Sudan,625,1992,3,40
+Sudan,625,1993,1,14
+Sudan,625,1993,2,21
+Sudan,625,1993,3,43
+Sudan,625,1994,1,8
+Sudan,625,1994,2,2
+Sudan,625,1994,3,9
+Sudan,625,1995,1,17
+Sudan,625,1995,2,3
+Sudan,625,1995,3,23
+Sudan,625,1996,1,21
+Sudan,625,1996,2,12
+Sudan,625,1996,3,21
+Sudan,625,1997,1,61
+Sudan,625,1997,2,12
+Sudan,625,1997,3,17
+Sudan,625,1998,1,99
+Sudan,625,1998,2,10
+Sudan,625,1998,3,17
+Sudan,625,1999,1,42
+Sudan,625,1999,2,12
+Sudan,625,1999,3,10
+Sudan,625,2000,1,55
+Sudan,625,2000,2,4
+Sudan,625,2000,3,12
+Sudan,625,2001,1,60
+Sudan,625,2001,2,1
+Sudan,625,2001,3,13
+Sudan,625,2002,1,34
+Sudan,625,2002,2,3
+Sudan,625,2002,3,17
+Sudan,625,2003,1,24
+Sudan,625,2003,2,1
+Sudan,625,2003,3,78
+Sudan,625,2004,1,65
+Sudan,625,2004,2,8
+Sudan,625,2004,3,151
+Sudan,625,2005,1,17
+Sudan,625,2005,2,11
+Sudan,625,2005,3,59
+Sudan,625,2006,1,41
+Sudan,625,2006,2,10
+Sudan,625,2006,3,58
+Sudan,625,2007,1,18
+Sudan,625,2007,2,23
+Sudan,625,2007,3,30
+Sudan,625,2008,1,47
+Sudan,625,2008,2,6
+Sudan,625,2008,3,45
+Sudan,625,2009,1,34
+Sudan,625,2009,2,40
+Sudan,625,2009,3,51
+Sudan,625,2010,1,48
+Sudan,625,2010,2,22
+Sudan,625,2010,3,24
+Sudan,625,2011,1,101
+Sudan,625,2011,2,28
+Sudan,625,2011,3,36
+Sudan,625,2012,1,100
+Sudan,625,2012,2,2
+Sudan,625,2012,3,13
+Sudan,625,2013,1,93
+Sudan,625,2013,2,40
+Sudan,625,2013,3,8
+Sudan,625,2014,1,82
+Sudan,625,2014,2,37
+Sudan,625,2014,3,41
+Sudan,625,2015,1,110
+Sudan,625,2015,2,39
+Sudan,625,2015,3,216
+Sudan,625,2016,1,127
+Sudan,625,2016,2,22
+Sudan,625,2016,3,101
+Sudan,625,2017,1,19
+Sudan,625,2017,2,24
+Sudan,625,2017,3,20
+Sudan,625,2018,1,49
+Sudan,625,2018,2,21
+Sudan,625,2018,3,31
+Sudan,625,2019,1,9
+Sudan,625,2019,2,10
+Sudan,625,2019,3,73
+Sudan,625,2020,1,5
+Sudan,625,2020,2,35
+Sudan,625,2020,3,30
+Sudan,625,2021,1,5
+Sudan,625,2021,2,29
+Sudan,625,2021,3,43
+Sudan,625,2022,1,12
+Sudan,625,2022,2,41
+Sudan,625,2022,3,57
+Sudan,625,2023,1,280
+Sudan,625,2023,2,29
+Sudan,625,2023,3,66
+Sudan,625,2024,1,468
+Sudan,625,2024,2,9
+Sudan,625,2024,3,228
+South Sudan,626,2011,1,13
+South Sudan,626,2011,2,18
+South Sudan,626,2012,1,17
+South Sudan,626,2012,2,25
+South Sudan,626,2012,3,17
+South Sudan,626,2013,1,39
+South Sudan,626,2013,2,10
+South Sudan,626,2013,3,50
+South Sudan,626,2014,1,64
+South Sudan,626,2014,2,3
+South Sudan,626,2014,3,58
+South Sudan,626,2015,1,34
+South Sudan,626,2015,2,8
+South Sudan,626,2015,3,57
+South Sudan,626,2016,1,29
+South Sudan,626,2016,2,9
+South Sudan,626,2016,3,31
+South Sudan,626,2017,1,52
+South Sudan,626,2017,2,13
+South Sudan,626,2017,3,51
+South Sudan,626,2018,1,82
+South Sudan,626,2018,2,24
+South Sudan,626,2018,3,51
+South Sudan,626,2019,1,23
+South Sudan,626,2019,2,27
+South Sudan,626,2019,3,18
+South Sudan,626,2020,1,17
+South Sudan,626,2020,2,29
+South Sudan,626,2020,3,17
+South Sudan,626,2021,1,14
+South Sudan,626,2021,2,35
+South Sudan,626,2021,3,6
+South Sudan,626,2022,1,4
+South Sudan,626,2022,2,19
+South Sudan,626,2022,3,12
+South Sudan,626,2023,1,2
+South Sudan,626,2023,2,5
+South Sudan,626,2023,3,3
+South Sudan,626,2024,1,4
+South Sudan,626,2024,2,10
+South Sudan,626,2024,3,1
+Iran,630,1990,1,14
+Iran,630,1991,1,3
+Iran,630,1992,1,2
+Iran,630,1993,1,17
+Iran,630,1994,1,2
+Iran,630,1995,1,3
+Iran,630,1996,1,4
+Iran,630,1997,1,13
+Iran,630,1998,1,5
+Iran,630,1999,1,6
+Iran,630,2000,1,18
+Iran,630,2000,3,3
+Iran,630,2001,1,14
+Iran,630,2003,1,1
+Iran,630,2005,1,8
+Iran,630,2005,3,7
+Iran,630,2006,1,20
+Iran,630,2006,3,1
+Iran,630,2007,1,21
+Iran,630,2008,1,19
+Iran,630,2008,3,1
+Iran,630,2009,1,13
+Iran,630,2009,3,19
+Iran,630,2010,1,11
+Iran,630,2010,3,1
+Iran,630,2011,1,14
+Iran,630,2012,1,5
+Iran,630,2013,1,4
+Iran,630,2014,1,2
+Iran,630,2015,1,8
+Iran,630,2016,1,25
+Iran,630,2017,1,12
+Iran,630,2018,1,17
+Iran,630,2018,3,1
+Iran,630,2019,1,14
+Iran,630,2019,3,75
+Iran,630,2020,1,19
+Iran,630,2020,3,7
+Iran,630,2021,1,16
+Iran,630,2021,3,18
+Iran,630,2022,1,3
+Iran,630,2022,3,155
+Iran,630,2023,1,10
+Iran,630,2023,3,3
+Iran,630,2024,1,31
+Iran,630,2024,3,2
+Turkey,640,1989,1,163
+Turkey,640,1989,3,38
+Turkey,640,1990,1,187
+Turkey,640,1990,3,36
+Turkey,640,1991,1,140
+Turkey,640,1991,3,18
+Turkey,640,1992,1,285
+Turkey,640,1992,3,56
+Turkey,640,1993,1,397
+Turkey,640,1993,3,103
+Turkey,640,1994,1,589
+Turkey,640,1994,3,49
+Turkey,640,1995,1,798
+Turkey,640,1995,3,18
+Turkey,640,1996,1,637
+Turkey,640,1996,3,10
+Turkey,640,1997,1,492
+Turkey,640,1997,3,6
+Turkey,640,1998,1,320
+Turkey,640,1998,3,8
+Turkey,640,1999,1,257
+Turkey,640,1999,3,10
+Turkey,640,2000,1,33
+Turkey,640,2001,1,33
+Turkey,640,2002,1,21
+Turkey,640,2003,1,39
+Turkey,640,2003,3,4
+Turkey,640,2004,1,123
+Turkey,640,2004,3,1
+Turkey,640,2005,1,114
+Turkey,640,2006,1,92
+Turkey,640,2007,1,132
+Turkey,640,2007,3,5
+Turkey,640,2008,1,124
+Turkey,640,2008,3,5
+Turkey,640,2009,1,47
+Turkey,640,2010,1,78
+Turkey,640,2011,1,114
+Turkey,640,2012,1,140
+Turkey,640,2012,3,1
+Turkey,640,2013,1,5
+Turkey,640,2013,2,3
+Turkey,640,2013,3,1
+Turkey,640,2014,1,8
+Turkey,640,2015,1,224
+Turkey,640,2015,3,8
+Turkey,640,2016,1,228
+Turkey,640,2016,3,6
+Turkey,640,2017,1,59
+Turkey,640,2017,3,6
+Turkey,640,2018,1,176
+Turkey,640,2018,2,5
+Turkey,640,2019,1,135
+Turkey,640,2019,2,7
+Turkey,640,2019,3,2
+Turkey,640,2020,1,112
+Turkey,640,2020,3,4
+Turkey,640,2021,1,80
+Turkey,640,2021,2,2
+Turkey,640,2022,1,61
+Turkey,640,2022,2,2
+Turkey,640,2022,3,2
+Turkey,640,2023,1,56
+Turkey,640,2023,3,2
+Turkey,640,2024,1,25
+Turkey,640,2024,3,3
+Iraq,645,1989,1,2
+Iraq,645,1990,1,2
+Iraq,645,1990,3,4
+Iraq,645,1991,1,82
+Iraq,645,1991,3,19
+Iraq,645,1992,1,34
+Iraq,645,1992,2,7
+Iraq,645,1992,3,12
+Iraq,645,1993,1,29
+Iraq,645,1993,2,8
+Iraq,645,1993,3,4
+Iraq,645,1994,1,16
+Iraq,645,1994,2,17
+Iraq,645,1994,3,5
+Iraq,645,1995,1,51
+Iraq,645,1995,2,31
+Iraq,645,1995,3,4
+Iraq,645,1996,1,48
+Iraq,645,1996,2,10
+Iraq,645,1996,3,8
+Iraq,645,1997,1,48
+Iraq,645,1997,2,22
+Iraq,645,1997,3,1
+Iraq,645,1998,1,14
+Iraq,645,1998,2,1
+Iraq,645,1998,3,2
+Iraq,645,1999,1,8
+Iraq,645,1999,3,10
+Iraq,645,2000,1,2
+Iraq,645,2000,2,6
+Iraq,645,2000,3,3
+Iraq,645,2001,1,13
+Iraq,645,2001,2,1
+Iraq,645,2002,1,2
+Iraq,645,2002,2,4
+Iraq,645,2003,1,97
+Iraq,645,2003,2,7
+Iraq,645,2003,3,2
+Iraq,645,2004,1,285
+Iraq,645,2004,2,11
+Iraq,645,2004,3,48
+Iraq,645,2005,1,414
+Iraq,645,2005,2,1
+Iraq,645,2005,3,90
+Iraq,645,2006,1,448
+Iraq,645,2006,2,1
+Iraq,645,2006,3,85
+Iraq,645,2007,1,339
+Iraq,645,2007,2,9
+Iraq,645,2007,3,103
+Iraq,645,2008,1,325
+Iraq,645,2008,3,78
+Iraq,645,2009,1,218
+Iraq,645,2009,3,137
+Iraq,645,2010,1,251
+Iraq,645,2010,3,116
+Iraq,645,2011,1,160
+Iraq,645,2011,3,32
+Iraq,645,2012,1,148
+Iraq,645,2012,3,110
+Iraq,645,2013,1,330
+Iraq,645,2013,2,3
+Iraq,645,2013,3,170
+Iraq,645,2014,1,657
+Iraq,645,2014,2,6
+Iraq,645,2014,3,133
+Iraq,645,2015,1,567
+Iraq,645,2015,2,1
+Iraq,645,2015,3,119
+Iraq,645,2016,1,563
+Iraq,645,2016,3,163
+Iraq,645,2017,1,548
+Iraq,645,2017,3,61
+Iraq,645,2018,1,225
+Iraq,645,2018,3,43
+Iraq,645,2019,1,250
+Iraq,645,2019,3,31
+Iraq,645,2020,1,250
+Iraq,645,2020,3,26
+Iraq,645,2021,1,311
+Iraq,645,2021,3,55
+Iraq,645,2022,1,367
+Iraq,645,2022,3,4
+Iraq,645,2023,1,238
+Iraq,645,2023,3,4
+Iraq,645,2024,1,265
+Iraq,645,2024,3,3
+Egypt,651,1990,3,2
+Egypt,651,1992,1,3
+Egypt,651,1992,3,2
+Egypt,651,1993,1,38
+Egypt,651,1993,3,5
+Egypt,651,1994,1,58
+Egypt,651,1994,3,18
+Egypt,651,1995,1,76
+Egypt,651,1995,2,1
+Egypt,651,1995,3,41
+Egypt,651,1996,1,46
+Egypt,651,1996,3,29
+Egypt,651,1997,1,24
+Egypt,651,1997,3,10
+Egypt,651,1998,1,9
+Egypt,651,1998,3,1
+Egypt,651,1999,1,2
+Egypt,651,2000,1,3
+Egypt,651,2000,2,1
+Egypt,651,2004,2,1
+Egypt,651,2004,3,2
+Egypt,651,2005,3,4
+Egypt,651,2006,2,2
+Egypt,651,2008,2,2
+Egypt,651,2009,2,2
+Egypt,651,2010,1,1
+Egypt,651,2011,2,4
+Egypt,651,2012,2,2
+Egypt,651,2013,2,45
+Egypt,651,2013,3,1
+Egypt,651,2014,1,31
+Egypt,651,2014,2,14
+Egypt,651,2015,1,59
+Egypt,651,2015,3,1
+Egypt,651,2016,1,34
+Egypt,651,2016,2,1
+Egypt,651,2016,3,5
+Egypt,651,2017,1,93
+Egypt,651,2017,3,18
+Egypt,651,2018,1,81
+Egypt,651,2018,3,5
+Egypt,651,2019,1,113
+Egypt,651,2019,3,7
+Egypt,651,2020,1,112
+Egypt,651,2020,3,12
+Egypt,651,2021,1,57
+Egypt,651,2021,3,7
+Egypt,651,2022,1,65
+Egypt,651,2022,3,3
+Egypt,651,2023,1,1
+Egypt,651,2023,3,3
+Syria,652,2004,1,1
+Syria,652,2004,3,2
+Syria,652,2008,1,1
+Syria,652,2011,1,244
+Syria,652,2011,2,1
+Syria,652,2011,3,709
+Syria,652,2012,1,11113
+Syria,652,2012,2,12
+Syria,652,2012,3,700
+Syria,652,2013,1,17855
+Syria,652,2013,2,256
+Syria,652,2013,3,538
+Syria,652,2014,1,14249
+Syria,652,2014,2,1880
+Syria,652,2014,3,567
+Syria,652,2015,1,9766
+Syria,652,2015,2,1095
+Syria,652,2015,3,521
+Syria,652,2016,1,7618
+Syria,652,2016,2,1575
+Syria,652,2016,3,279
+Syria,652,2017,1,5591
+Syria,652,2017,2,2257
+Syria,652,2017,3,223
+Syria,652,2018,1,2250
+Syria,652,2018,2,1205
+Syria,652,2018,3,102
+Syria,652,2019,1,1605
+Syria,652,2019,2,691
+Syria,652,2019,3,86
+Syria,652,2020,1,797
+Syria,652,2020,2,283
+Syria,652,2020,3,60
+Syria,652,2021,1,570
+Syria,652,2021,2,183
+Syria,652,2021,3,70
+Syria,652,2022,1,559
+Syria,652,2022,2,179
+Syria,652,2022,3,55
+Syria,652,2023,1,751
+Syria,652,2023,2,213
+Syria,652,2023,3,42
+Syria,652,2024,1,787
+Syria,652,2024,2,262
+Syria,652,2024,3,58
+Lebanon,660,1989,1,159
+Lebanon,660,1989,2,51
+Lebanon,660,1990,1,18
+Lebanon,660,1990,2,71
+Lebanon,660,1991,1,17
+Lebanon,660,1991,2,12
+Lebanon,660,1992,1,34
+Lebanon,660,1992,2,20
+Lebanon,660,1993,1,59
+Lebanon,660,1993,2,19
+Lebanon,660,1993,3,2
+Lebanon,660,1994,1,37
+Lebanon,660,1994,2,21
+Lebanon,660,1994,3,1
+Lebanon,660,1995,1,46
+Lebanon,660,1995,2,26
+Lebanon,660,1996,1,39
+Lebanon,660,1996,2,16
+Lebanon,660,1996,3,3
+Lebanon,660,1997,1,49
+Lebanon,660,1997,2,13
+Lebanon,660,1997,3,1
+Lebanon,660,1998,1,34
+Lebanon,660,1998,2,16
+Lebanon,660,1998,3,1
+Lebanon,660,1999,1,25
+Lebanon,660,1999,2,16
+Lebanon,660,2000,1,14
+Lebanon,660,2000,2,18
+Lebanon,660,2000,3,1
+Lebanon,660,2001,1,3
+Lebanon,660,2002,1,1
+Lebanon,660,2003,1,1
+Lebanon,660,2005,1,3
+Lebanon,660,2006,1,244
+Lebanon,660,2006,3,2
+Lebanon,660,2008,2,5
+Lebanon,660,2011,3,2
+Lebanon,660,2012,2,5
+Lebanon,660,2012,3,1
+Lebanon,660,2013,1,2
+Lebanon,660,2013,2,25
+Lebanon,660,2013,3,1
+Lebanon,660,2014,1,14
+Lebanon,660,2014,2,27
+Lebanon,660,2015,1,12
+Lebanon,660,2015,2,7
+Lebanon,660,2016,1,7
+Lebanon,660,2016,2,5
+Lebanon,660,2016,3,1
+Lebanon,660,2017,1,15
+Lebanon,660,2017,2,5
+Lebanon,660,2018,1,1
+Lebanon,660,2020,1,4
+Lebanon,660,2023,1,39
+Lebanon,660,2024,1,1114
+Jordan,663,1992,3,1
+Jordan,663,2005,3,1
+Jordan,663,2015,1,1
+Jordan,663,2016,1,4
+Jordan,663,2016,2,1
+Jordan,663,2024,1,1
+Israel,666,1989,1,7
+Israel,666,1989,3,51
+Israel,666,1990,1,15
+Israel,666,1990,3,22
+Israel,666,1991,1,17
+Israel,666,1991,2,2
+Israel,666,1991,3,18
+Israel,666,1992,1,41
+Israel,666,1992,2,2
+Israel,666,1992,3,12
+Israel,666,1993,1,48
+Israel,666,1993,3,13
+Israel,666,1994,1,31
+Israel,666,1994,3,21
+Israel,666,1995,1,17
+Israel,666,1995,3,7
+Israel,666,1996,1,19
+Israel,666,1996,3,6
+Israel,666,1997,1,2
+Israel,666,1997,3,3
+Israel,666,1998,1,3
+Israel,666,1998,3,1
+Israel,666,1999,1,1
+Israel,666,1999,3,1
+Israel,666,2000,1,55
+Israel,666,2000,3,5
+Israel,666,2001,1,139
+Israel,666,2001,3,40
+Israel,666,2002,1,286
+Israel,666,2002,2,1
+Israel,666,2002,3,90
+Israel,666,2003,1,111
+Israel,666,2003,3,41
+Israel,666,2004,1,196
+Israel,666,2004,3,73
+Israel,666,2005,1,70
+Israel,666,2005,3,47
+Israel,666,2006,1,216
+Israel,666,2006,2,22
+Israel,666,2006,3,33
+Israel,666,2007,1,145
+Israel,666,2007,2,75
+Israel,666,2007,3,19
+Israel,666,2008,1,143
+Israel,666,2008,2,3
+Israel,666,2008,3,10
+Israel,666,2009,1,146
+Israel,666,2009,2,1
+Israel,666,2009,3,6
+Israel,666,2010,1,38
+Israel,666,2010,3,4
+Israel,666,2011,1,50
+Israel,666,2011,3,1
+Israel,666,2012,1,143
+Israel,666,2012,3,1
+Israel,666,2013,1,10
+Israel,666,2014,1,914
+Israel,666,2014,3,5
+Israel,666,2015,1,9
+Israel,666,2015,3,3
+Israel,666,2016,1,6
+Israel,666,2016,3,4
+Israel,666,2017,1,7
+Israel,666,2017,3,1
+Israel,666,2018,1,38
+Israel,666,2018,3,11
+Israel,666,2019,1,40
+Israel,666,2019,3,4
+Israel,666,2020,1,3
+Israel,666,2020,3,2
+Israel,666,2021,1,99
+Israel,666,2021,3,7
+Israel,666,2022,1,43
+Israel,666,2022,3,2
+Israel,666,2023,1,1165
+Israel,666,2023,3,35
+Israel,666,2024,1,3073
+Israel,666,2024,3,19
+Saudi Arabia,670,1991,1,4
+Saudi Arabia,670,2003,3,2
+Saudi Arabia,670,2004,1,32
+Saudi Arabia,670,2004,3,9
+Saudi Arabia,670,2005,1,17
+Saudi Arabia,670,2006,1,3
+Saudi Arabia,670,2007,1,1
+Saudi Arabia,670,2007,3,1
+Saudi Arabia,670,2015,1,35
+Saudi Arabia,670,2015,3,5
+Saudi Arabia,670,2016,1,31
+Saudi Arabia,670,2016,3,2
+Saudi Arabia,670,2017,1,7
+Saudi Arabia,670,2018,1,8
+Saudi Arabia,670,2019,1,6
+Saudi Arabia,670,2019,3,1
+Saudi Arabia,670,2020,1,1
+Saudi Arabia,670,2021,1,3
+Saudi Arabia,670,2023,1,3
+Yemen (North Yemen),678,1994,1,72
+Yemen (North Yemen),678,2000,1,1
+Yemen (North Yemen),678,2002,1,1
+Yemen (North Yemen),678,2003,2,1
+Yemen (North Yemen),678,2004,2,2
+Yemen (North Yemen),678,2008,1,2
+Yemen (North Yemen),678,2009,1,5
+Yemen (North Yemen),678,2010,1,61
+Yemen (North Yemen),678,2010,2,2
+Yemen (North Yemen),678,2011,1,174
+Yemen (North Yemen),678,2011,2,4
+Yemen (North Yemen),678,2011,3,41
+Yemen (North Yemen),678,2012,1,248
+Yemen (North Yemen),678,2012,2,5
+Yemen (North Yemen),678,2013,1,126
+Yemen (North Yemen),678,2014,1,249
+Yemen (North Yemen),678,2014,2,32
+Yemen (North Yemen),678,2015,1,538
+Yemen (North Yemen),678,2015,2,61
+Yemen (North Yemen),678,2015,3,6
+Yemen (North Yemen),678,2016,1,230
+Yemen (North Yemen),678,2016,2,110
+Yemen (North Yemen),678,2016,3,3
+Yemen (North Yemen),678,2017,1,294
+Yemen (North Yemen),678,2017,2,102
+Yemen (North Yemen),678,2017,3,1
+Yemen (North Yemen),678,2018,1,312
+Yemen (North Yemen),678,2018,2,73
+Yemen (North Yemen),678,2018,3,2
+Yemen (North Yemen),678,2019,1,223
+Yemen (North Yemen),678,2019,2,79
+Yemen (North Yemen),678,2019,3,2
+Yemen (North Yemen),678,2020,1,590
+Yemen (North Yemen),678,2020,2,59
+Yemen (North Yemen),678,2020,3,8
+Yemen (North Yemen),678,2021,1,729
+Yemen (North Yemen),678,2021,2,22
+Yemen (North Yemen),678,2021,3,17
+Yemen (North Yemen),678,2022,1,401
+Yemen (North Yemen),678,2022,2,44
+Yemen (North Yemen),678,2022,3,10
+Yemen (North Yemen),678,2023,1,272
+Yemen (North Yemen),678,2023,2,37
+Yemen (North Yemen),678,2023,3,10
+Yemen (North Yemen),678,2024,1,155
+Yemen (North Yemen),678,2024,2,23
+Yemen (North Yemen),678,2024,3,6
+Kuwait,690,1990,1,11
+Kuwait,690,1990,3,8
+Kuwait,690,1991,1,14
+Kuwait,690,1991,3,5
+Kuwait,690,1996,3,1
+Kuwait,690,2015,3,1
+Bahrain,692,2011,3,24
+Qatar,694,2004,1,1
+United Arab Emirates,696,2010,1,1
+United Arab Emirates,696,2022,1,1
+Afghanistan,700,1989,1,137
+Afghanistan,700,1989,2,8
+Afghanistan,700,1990,1,39
+Afghanistan,700,1990,2,6
+Afghanistan,700,1991,1,60
+Afghanistan,700,1991,2,4
+Afghanistan,700,1992,1,69
+Afghanistan,700,1992,2,3
+Afghanistan,700,1992,3,4
+Afghanistan,700,1993,1,105
+Afghanistan,700,1993,2,1
+Afghanistan,700,1993,3,9
+Afghanistan,700,1994,1,234
+Afghanistan,700,1994,2,10
+Afghanistan,700,1995,1,208
+Afghanistan,700,1995,2,10
+Afghanistan,700,1995,3,1
+Afghanistan,700,1996,1,221
+Afghanistan,700,1996,2,7
+Afghanistan,700,1996,3,6
+Afghanistan,700,1997,1,195
+Afghanistan,700,1997,2,1
+Afghanistan,700,1997,3,3
+Afghanistan,700,1998,1,194
+Afghanistan,700,1998,2,3
+Afghanistan,700,1998,3,20
+Afghanistan,700,1999,1,184
+Afghanistan,700,1999,3,5
+Afghanistan,700,2000,1,194
+Afghanistan,700,2000,2,1
+Afghanistan,700,2000,3,12
+Afghanistan,700,2001,1,230
+Afghanistan,700,2001,3,33
+Afghanistan,700,2002,1,60
+Afghanistan,700,2002,2,31
+Afghanistan,700,2002,3,3
+Afghanistan,700,2003,1,137
+Afghanistan,700,2003,2,36
+Afghanistan,700,2003,3,13
+Afghanistan,700,2004,1,210
+Afghanistan,700,2004,2,7
+Afghanistan,700,2004,3,24
+Afghanistan,700,2005,1,373
+Afghanistan,700,2005,3,57
+Afghanistan,700,2006,1,779
+Afghanistan,700,2006,2,2
+Afghanistan,700,2006,3,67
+Afghanistan,700,2007,1,977
+Afghanistan,700,2007,2,1
+Afghanistan,700,2007,3,66
+Afghanistan,700,2008,1,1080
+Afghanistan,700,2008,3,35
+Afghanistan,700,2009,1,1450
+Afghanistan,700,2009,3,64
+Afghanistan,700,2010,1,1719
+Afghanistan,700,2010,2,8
+Afghanistan,700,2010,3,79
+Afghanistan,700,2011,1,2145
+Afghanistan,700,2011,2,4
+Afghanistan,700,2011,3,48
+Afghanistan,700,2012,1,2256
+Afghanistan,700,2012,2,3
+Afghanistan,700,2012,3,42
+Afghanistan,700,2013,1,1875
+Afghanistan,700,2013,2,3
+Afghanistan,700,2013,3,48
+Afghanistan,700,2014,1,2028
+Afghanistan,700,2014,2,3
+Afghanistan,700,2014,3,88
+Afghanistan,700,2015,1,2117
+Afghanistan,700,2015,2,45
+Afghanistan,700,2015,3,104
+Afghanistan,700,2016,1,2283
+Afghanistan,700,2016,2,38
+Afghanistan,700,2016,3,107
+Afghanistan,700,2017,1,2328
+Afghanistan,700,2017,2,58
+Afghanistan,700,2017,3,96
+Afghanistan,700,2018,1,3568
+Afghanistan,700,2018,2,51
+Afghanistan,700,2018,3,105
+Afghanistan,700,2019,1,4536
+Afghanistan,700,2019,2,16
+Afghanistan,700,2019,3,130
+Afghanistan,700,2020,1,3145
+Afghanistan,700,2020,2,1
+Afghanistan,700,2020,3,171
+Afghanistan,700,2021,1,4291
+Afghanistan,700,2021,2,2
+Afghanistan,700,2021,3,219
+Afghanistan,700,2022,1,272
+Afghanistan,700,2022,3,144
+Afghanistan,700,2023,1,100
+Afghanistan,700,2023,3,76
+Afghanistan,700,2024,1,111
+Afghanistan,700,2024,3,68
+Tajikistan,702,1992,1,28
+Tajikistan,702,1992,2,6
+Tajikistan,702,1992,3,4
+Tajikistan,702,1993,1,34
+Tajikistan,702,1994,1,29
+Tajikistan,702,1994,3,2
+Tajikistan,702,1995,1,46
+Tajikistan,702,1996,1,63
+Tajikistan,702,1996,3,3
+Tajikistan,702,1997,1,10
+Tajikistan,702,1998,1,19
+Tajikistan,702,1999,1,3
+Tajikistan,702,2000,1,2
+Tajikistan,702,2005,1,1
+Tajikistan,702,2006,1,4
+Tajikistan,702,2009,1,7
+Tajikistan,702,2010,1,21
+Tajikistan,702,2011,1,5
+Tajikistan,702,2013,1,2
+Tajikistan,702,2014,1,2
+Tajikistan,702,2018,1,2
+Tajikistan,702,2018,3,1
+Tajikistan,702,2019,1,3
+Tajikistan,702,2021,1,5
+Tajikistan,702,2022,1,26
+Kyrgyzstan,703,1999,1,2
+Kyrgyzstan,703,2000,1,17
+Kyrgyzstan,703,2006,1,3
+Kyrgyzstan,703,2010,2,25
+Kyrgyzstan,703,2015,1,1
+Kyrgyzstan,703,2021,1,3
+Kyrgyzstan,703,2022,1,27
+Kyrgyzstan,703,2022,3,5
+Uzbekistan,704,1999,1,6
+Uzbekistan,704,2000,1,16
+Uzbekistan,704,2004,1,8
+Uzbekistan,704,2009,1,2
+China,710,1989,3,3
+China,710,1990,1,3
+China,710,1997,3,2
+China,710,1999,1,3
+China,710,2005,3,2
+China,710,2007,1,1
+China,710,2008,1,5
+China,710,2008,3,11
+China,710,2009,1,2
+China,710,2009,2,3
+China,710,2015,1,1
+China,710,2017,1,2
+China,710,2023,1,1
+India,750,1989,1,53
+India,750,1989,2,11
+India,750,1989,3,55
+India,750,1990,1,124
+India,750,1990,2,67
+India,750,1990,3,142
+India,750,1991,1,126
+India,750,1991,2,11
+India,750,1991,3,84
+India,750,1992,1,149
+India,750,1992,2,16
+India,750,1992,3,75
+India,750,1993,1,229
+India,750,1993,2,14
+India,750,1993,3,88
+India,750,1994,1,223
+India,750,1994,2,8
+India,750,1994,3,13
+India,750,1995,1,189
+India,750,1995,2,10
+India,750,1995,3,27
+India,750,1996,1,126
+India,750,1996,2,10
+India,750,1996,3,41
+India,750,1997,1,195
+India,750,1997,2,15
+India,750,1997,3,67
+India,750,1998,1,245
+India,750,1998,2,25
+India,750,1998,3,116
+India,750,1999,1,375
+India,750,1999,2,5
+India,750,1999,3,164
+India,750,2000,1,1216
+India,750,2000,2,27
+India,750,2000,3,291
+India,750,2001,1,278
+India,750,2001,2,8
+India,750,2001,3,269
+India,750,2002,1,835
+India,750,2002,2,26
+India,750,2002,3,222
+India,750,2003,1,671
+India,750,2003,2,28
+India,750,2003,3,220
+India,750,2004,1,725
+India,750,2004,2,4
+India,750,2004,3,268
+India,750,2005,1,646
+India,750,2005,2,13
+India,750,2005,3,251
+India,750,2006,1,651
+India,750,2006,2,54
+India,750,2006,3,227
+India,750,2007,1,494
+India,750,2007,2,45
+India,750,2007,3,188
+India,750,2008,1,460
+India,750,2008,2,46
+India,750,2008,3,174
+India,750,2009,1,551
+India,750,2009,2,29
+India,750,2009,3,263
+India,750,2010,1,469
+India,750,2010,2,3
+India,750,2010,3,308
+India,750,2011,1,229
+India,750,2011,2,3
+India,750,2011,3,176
+India,750,2012,1,240
+India,750,2012,2,69
+India,750,2012,3,119
+India,750,2013,1,208
+India,750,2013,2,28
+India,750,2013,3,110
+India,750,2014,1,275
+India,750,2014,2,2
+India,750,2014,3,123
+India,750,2015,1,242
+India,750,2015,3,79
+India,750,2016,1,325
+India,750,2016,3,94
+India,750,2017,1,290
+India,750,2017,2,7
+India,750,2017,3,103
+India,750,2018,1,367
+India,750,2018,2,2
+India,750,2018,3,111
+India,750,2019,1,248
+India,750,2019,3,106
+India,750,2020,1,268
+India,750,2020,2,41
+India,750,2020,3,80
+India,750,2021,1,223
+India,750,2021,3,54
+India,750,2022,1,195
+India,750,2022,2,6
+India,750,2022,3,65
+India,750,2023,1,130
+India,750,2023,2,31
+India,750,2023,3,56
+India,750,2024,1,158
+India,750,2024,2,17
+India,750,2024,3,59
+Bhutan,760,1997,1,1
+Bhutan,760,2004,3,1
+Pakistan,770,1989,2,20
+Pakistan,770,1990,1,3
+Pakistan,770,1990,2,40
+Pakistan,770,1990,3,1
+Pakistan,770,1991,1,6
+Pakistan,770,1991,2,4
+Pakistan,770,1992,2,5
+Pakistan,770,1993,1,2
+Pakistan,770,1993,2,5
+Pakistan,770,1994,1,16
+Pakistan,770,1994,2,22
+Pakistan,770,1995,1,14
+Pakistan,770,1995,2,9
+Pakistan,770,1996,1,18
+Pakistan,770,1996,2,2
+Pakistan,770,1996,3,1
+Pakistan,770,1997,1,16
+Pakistan,770,1997,2,8
+Pakistan,770,1997,3,5
+Pakistan,770,1998,1,24
+Pakistan,770,1998,2,13
+Pakistan,770,1998,3,2
+Pakistan,770,1999,1,10
+Pakistan,770,1999,3,2
+Pakistan,770,2000,1,27
+Pakistan,770,2001,1,8
+Pakistan,770,2001,3,1
+Pakistan,770,2002,1,66
+Pakistan,770,2002,3,4
+Pakistan,770,2003,1,76
+Pakistan,770,2003,3,3
+Pakistan,770,2004,1,58
+Pakistan,770,2004,3,4
+Pakistan,770,2005,1,39
+Pakistan,770,2005,3,9
+Pakistan,770,2006,1,42
+Pakistan,770,2006,3,4
+Pakistan,770,2007,1,138
+Pakistan,770,2007,2,37
+Pakistan,770,2007,3,36
+Pakistan,770,2008,1,532
+Pakistan,770,2008,2,71
+Pakistan,770,2008,3,61
+Pakistan,770,2009,1,793
+Pakistan,770,2009,2,38
+Pakistan,770,2009,3,53
+Pakistan,770,2010,1,844
+Pakistan,770,2010,2,31
+Pakistan,770,2010,3,87
+Pakistan,770,2011,1,514
+Pakistan,770,2011,2,63
+Pakistan,770,2011,3,36
+Pakistan,770,2012,1,547
+Pakistan,770,2012,2,54
+Pakistan,770,2012,3,50
+Pakistan,770,2013,1,273
+Pakistan,770,2013,2,12
+Pakistan,770,2013,3,76
+Pakistan,770,2014,1,379
+Pakistan,770,2014,2,28
+Pakistan,770,2014,3,26
+Pakistan,770,2015,1,258
+Pakistan,770,2015,2,7
+Pakistan,770,2015,3,20
+Pakistan,770,2016,1,142
+Pakistan,770,2016,3,16
+Pakistan,770,2017,1,141
+Pakistan,770,2017,2,1
+Pakistan,770,2017,3,21
+Pakistan,770,2018,1,76
+Pakistan,770,2018,3,17
+Pakistan,770,2019,1,93
+Pakistan,770,2019,2,1
+Pakistan,770,2019,3,5
+Pakistan,770,2020,1,137
+Pakistan,770,2020,3,8
+Pakistan,770,2021,1,177
+Pakistan,770,2021,2,1
+Pakistan,770,2021,3,13
+Pakistan,770,2022,1,268
+Pakistan,770,2022,3,16
+Pakistan,770,2023,1,339
+Pakistan,770,2023,2,9
+Pakistan,770,2023,3,34
+Pakistan,770,2024,1,571
+Pakistan,770,2024,2,12
+Pakistan,770,2024,3,104
+Bangladesh,771,1989,1,7
+Bangladesh,771,1989,2,2
+Bangladesh,771,1989,3,11
+Bangladesh,771,1990,1,13
+Bangladesh,771,1990,2,2
+Bangladesh,771,1990,3,12
+Bangladesh,771,1991,1,11
+Bangladesh,771,1991,2,5
+Bangladesh,771,1991,3,20
+Bangladesh,771,1992,1,9
+Bangladesh,771,1992,2,3
+Bangladesh,771,1992,3,17
+Bangladesh,771,1993,1,4
+Bangladesh,771,1993,2,11
+Bangladesh,771,1993,3,3
+Bangladesh,771,1994,1,2
+Bangladesh,771,1994,2,3
+Bangladesh,771,1994,3,1
+Bangladesh,771,1995,1,4
+Bangladesh,771,1995,2,8
+Bangladesh,771,1995,3,1
+Bangladesh,771,1996,1,5
+Bangladesh,771,1996,2,15
+Bangladesh,771,1996,3,3
+Bangladesh,771,1997,1,3
+Bangladesh,771,1997,2,7
+Bangladesh,771,1997,3,1
+Bangladesh,771,1998,2,10
+Bangladesh,771,1998,3,1
+Bangladesh,771,1999,2,17
+Bangladesh,771,1999,3,2
+Bangladesh,771,2000,1,1
+Bangladesh,771,2000,2,6
+Bangladesh,771,2000,3,1
+Bangladesh,771,2001,2,26
+Bangladesh,771,2001,3,3
+Bangladesh,771,2002,1,3
+Bangladesh,771,2002,2,2
+Bangladesh,771,2003,1,11
+Bangladesh,771,2003,2,2
+Bangladesh,771,2003,3,2
+Bangladesh,771,2004,1,26
+Bangladesh,771,2004,2,2
+Bangladesh,771,2004,3,10
+Bangladesh,771,2005,1,56
+Bangladesh,771,2005,2,1
+Bangladesh,771,2005,3,9
+Bangladesh,771,2006,1,55
+Bangladesh,771,2006,2,17
+Bangladesh,771,2006,3,2
+Bangladesh,771,2007,1,13
+Bangladesh,771,2008,1,10
+Bangladesh,771,2008,3,1
+Bangladesh,771,2009,1,1
+Bangladesh,771,2009,2,7
+Bangladesh,771,2009,3,1
+Bangladesh,771,2010,1,1
+Bangladesh,771,2010,2,6
+Bangladesh,771,2010,3,1
+Bangladesh,771,2011,2,1
+Bangladesh,771,2012,2,2
+Bangladesh,771,2013,2,33
+Bangladesh,771,2013,3,5
+Bangladesh,771,2014,2,2
+Bangladesh,771,2015,1,1
+Bangladesh,771,2015,2,1
+Bangladesh,771,2015,3,6
+Bangladesh,771,2016,1,12
+Bangladesh,771,2016,3,13
+Bangladesh,771,2017,1,22
+Bangladesh,771,2017,3,1
+Bangladesh,771,2018,1,1
+Bangladesh,771,2018,2,16
+Bangladesh,771,2018,3,3
+Bangladesh,771,2019,1,2
+Bangladesh,771,2019,3,1
+Bangladesh,771,2020,1,3
+Bangladesh,771,2020,3,2
+Bangladesh,771,2021,2,2
+Bangladesh,771,2021,3,1
+Bangladesh,771,2022,1,3
+Bangladesh,771,2022,3,6
+Bangladesh,771,2023,2,2
+Bangladesh,771,2023,3,9
+Bangladesh,771,2024,1,1
+Bangladesh,771,2024,2,40
+Bangladesh,771,2024,3,13
+Myanmar (Burma),775,1989,1,33
+Myanmar (Burma),775,1989,3,4
+Myanmar (Burma),775,1990,1,19
+Myanmar (Burma),775,1990,2,4
+Myanmar (Burma),775,1990,3,9
+Myanmar (Burma),775,1991,1,21
+Myanmar (Burma),775,1991,2,2
+Myanmar (Burma),775,1991,3,9
+Myanmar (Burma),775,1992,1,31
+Myanmar (Burma),775,1992,3,14
+Myanmar (Burma),775,1993,1,8
+Myanmar (Burma),775,1993,3,4
+Myanmar (Burma),775,1994,1,39
+Myanmar (Burma),775,1994,2,2
+Myanmar (Burma),775,1994,3,42
+Myanmar (Burma),775,1995,1,23
+Myanmar (Burma),775,1995,2,5
+Myanmar (Burma),775,1995,3,61
+Myanmar (Burma),775,1996,1,24
+Myanmar (Burma),775,1996,2,6
+Myanmar (Burma),775,1996,3,49
+Myanmar (Burma),775,1997,1,11
+Myanmar (Burma),775,1997,3,77
+Myanmar (Burma),775,1998,1,8
+Myanmar (Burma),775,1998,2,7
+Myanmar (Burma),775,1998,3,110
+Myanmar (Burma),775,1999,1,9
+Myanmar (Burma),775,1999,2,1
+Myanmar (Burma),775,1999,3,119
+Myanmar (Burma),775,2000,1,16
+Myanmar (Burma),775,2000,2,1
+Myanmar (Burma),775,2000,3,156
+Myanmar (Burma),775,2001,1,24
+Myanmar (Burma),775,2001,2,7
+Myanmar (Burma),775,2001,3,62
+Myanmar (Burma),775,2002,1,42
+Myanmar (Burma),775,2002,3,58
+Myanmar (Burma),775,2003,1,9
+Myanmar (Burma),775,2003,2,1
+Myanmar (Burma),775,2003,3,55
+Myanmar (Burma),775,2004,1,18
+Myanmar (Burma),775,2004,3,66
+Myanmar (Burma),775,2005,1,18
+Myanmar (Burma),775,2005,2,6
+Myanmar (Burma),775,2005,3,57
+Myanmar (Burma),775,2006,1,29
+Myanmar (Burma),775,2006,2,1
+Myanmar (Burma),775,2006,3,83
+Myanmar (Burma),775,2007,1,31
+Myanmar (Burma),775,2007,2,13
+Myanmar (Burma),775,2007,3,133
+Myanmar (Burma),775,2008,1,14
+Myanmar (Burma),775,2008,2,1
+Myanmar (Burma),775,2008,3,50
+Myanmar (Burma),775,2009,1,21
+Myanmar (Burma),775,2009,3,14
+Myanmar (Burma),775,2010,1,33
+Myanmar (Burma),775,2010,3,17
+Myanmar (Burma),775,2011,1,207
+Myanmar (Burma),775,2011,3,58
+Myanmar (Burma),775,2012,1,50
+Myanmar (Burma),775,2012,2,10
+Myanmar (Burma),775,2012,3,17
+Myanmar (Burma),775,2013,1,62
+Myanmar (Burma),775,2013,2,8
+Myanmar (Burma),775,2013,3,16
+Myanmar (Burma),775,2014,1,29
+Myanmar (Burma),775,2014,2,2
+Myanmar (Burma),775,2014,3,4
+Myanmar (Burma),775,2015,1,179
+Myanmar (Burma),775,2015,3,19
+Myanmar (Burma),775,2016,1,41
+Myanmar (Burma),775,2016,3,16
+Myanmar (Burma),775,2017,1,40
+Myanmar (Burma),775,2017,3,48
+Myanmar (Burma),775,2018,1,67
+Myanmar (Burma),775,2018,3,4
+Myanmar (Burma),775,2019,1,136
+Myanmar (Burma),775,2019,3,12
+Myanmar (Burma),775,2020,1,70
+Myanmar (Burma),775,2020,3,7
+Myanmar (Burma),775,2021,1,539
+Myanmar (Burma),775,2021,3,318
+Myanmar (Burma),775,2022,1,1262
+Myanmar (Burma),775,2022,2,1
+Myanmar (Burma),775,2022,3,286
+Myanmar (Burma),775,2023,1,1803
+Myanmar (Burma),775,2023,3,282
+Myanmar (Burma),775,2024,1,931
+Myanmar (Burma),775,2024,3,165
+Sri Lanka,780,1989,1,113
+Sri Lanka,780,1989,2,9
+Sri Lanka,780,1989,3,70
+Sri Lanka,780,1990,1,197
+Sri Lanka,780,1990,2,3
+Sri Lanka,780,1990,3,44
+Sri Lanka,780,1991,1,299
+Sri Lanka,780,1991,3,17
+Sri Lanka,780,1992,1,166
+Sri Lanka,780,1992,3,14
+Sri Lanka,780,1993,1,107
+Sri Lanka,780,1993,3,4
+Sri Lanka,780,1994,1,65
+Sri Lanka,780,1994,2,10
+Sri Lanka,780,1994,3,5
+Sri Lanka,780,1995,1,238
+Sri Lanka,780,1995,3,14
+Sri Lanka,780,1996,1,109
+Sri Lanka,780,1996,3,11
+Sri Lanka,780,1997,1,129
+Sri Lanka,780,1997,3,6
+Sri Lanka,780,1998,1,172
+Sri Lanka,780,1998,3,7
+Sri Lanka,780,1999,1,174
+Sri Lanka,780,1999,2,3
+Sri Lanka,780,1999,3,7
+Sri Lanka,780,2000,1,166
+Sri Lanka,780,2000,3,11
+Sri Lanka,780,2001,1,129
+Sri Lanka,780,2001,3,7
+Sri Lanka,780,2002,1,3
+Sri Lanka,780,2002,2,1
+Sri Lanka,780,2002,3,1
+Sri Lanka,780,2003,1,9
+Sri Lanka,780,2003,2,1
+Sri Lanka,780,2003,3,13
+Sri Lanka,780,2004,1,12
+Sri Lanka,780,2004,2,19
+Sri Lanka,780,2004,3,5
+Sri Lanka,780,2005,1,40
+Sri Lanka,780,2005,2,26
+Sri Lanka,780,2005,3,17
+Sri Lanka,780,2006,1,196
+Sri Lanka,780,2006,2,13
+Sri Lanka,780,2006,3,20
+Sri Lanka,780,2007,1,456
+Sri Lanka,780,2007,2,3
+Sri Lanka,780,2007,3,29
+Sri Lanka,780,2008,1,992
+Sri Lanka,780,2008,2,2
+Sri Lanka,780,2008,3,22
+Sri Lanka,780,2009,1,356
+Sri Lanka,780,2009,2,2
+Sri Lanka,780,2009,3,29
+Sri Lanka,780,2011,3,2
+Sri Lanka,780,2013,3,1
+Sri Lanka,780,2017,3,1
+Sri Lanka,780,2019,3,4
+Nepal,790,1990,3,9
+Nepal,790,1991,3,1
+Nepal,790,1992,3,1
+Nepal,790,1993,3,3
+Nepal,790,1994,3,1
+Nepal,790,1995,3,1
+Nepal,790,1996,1,32
+Nepal,790,1996,3,21
+Nepal,790,1997,1,31
+Nepal,790,1997,3,6
+Nepal,790,1998,1,164
+Nepal,790,1998,3,54
+Nepal,790,1999,1,135
+Nepal,790,1999,3,109
+Nepal,790,2000,1,111
+Nepal,790,2000,3,75
+Nepal,790,2001,1,115
+Nepal,790,2001,3,114
+Nepal,790,2002,1,1256
+Nepal,790,2002,3,275
+Nepal,790,2003,1,529
+Nepal,790,2003,3,356
+Nepal,790,2004,1,836
+Nepal,790,2004,3,524
+Nepal,790,2005,1,374
+Nepal,790,2005,3,275
+Nepal,790,2006,1,116
+Nepal,790,2006,3,99
+Nepal,790,2007,2,4
+Nepal,790,2007,3,16
+Nepal,790,2008,3,9
+Nepal,790,2009,1,2
+Nepal,790,2022,3,1
+Thailand,800,1989,1,1
+Thailand,800,1989,3,2
+Thailand,800,1990,1,3
+Thailand,800,1990,3,1
+Thailand,800,1991,2,1
+Thailand,800,1992,3,1
+Thailand,800,1993,3,2
+Thailand,800,1994,1,1
+Thailand,800,1995,1,5
+Thailand,800,1995,2,1
+Thailand,800,1995,3,1
+Thailand,800,1996,2,1
+Thailand,800,1997,1,1
+Thailand,800,1997,3,2
+Thailand,800,1998,1,4
+Thailand,800,1999,3,1
+Thailand,800,2000,1,1
+Thailand,800,2001,1,3
+Thailand,800,2002,1,1
+Thailand,800,2003,1,16
+Thailand,800,2004,1,66
+Thailand,800,2004,3,60
+Thailand,800,2005,1,175
+Thailand,800,2005,3,259
+Thailand,800,2006,1,160
+Thailand,800,2006,3,285
+Thailand,800,2007,1,124
+Thailand,800,2007,3,243
+Thailand,800,2008,1,93
+Thailand,800,2008,3,131
+Thailand,800,2009,1,78
+Thailand,800,2009,3,91
+Thailand,800,2010,1,60
+Thailand,800,2010,3,97
+Thailand,800,2011,1,102
+Thailand,800,2011,3,75
+Thailand,800,2012,1,78
+Thailand,800,2012,3,63
+Thailand,800,2013,1,96
+Thailand,800,2013,3,40
+Thailand,800,2014,1,40
+Thailand,800,2014,3,31
+Thailand,800,2015,1,34
+Thailand,800,2015,3,21
+Thailand,800,2016,1,34
+Thailand,800,2016,3,15
+Thailand,800,2017,1,23
+Thailand,800,2017,3,4
+Thailand,800,2018,1,24
+Thailand,800,2018,3,16
+Thailand,800,2019,1,24
+Thailand,800,2019,3,3
+Thailand,800,2020,1,32
+Thailand,800,2020,3,1
+Thailand,800,2021,1,27
+Thailand,800,2021,3,1
+Thailand,800,2022,1,21
+Thailand,800,2022,3,5
+Thailand,800,2023,1,22
+Thailand,800,2023,3,3
+Thailand,800,2024,1,26
+Thailand,800,2024,3,6
+Cambodia (Kampuchea),811,1989,1,43
+Cambodia (Kampuchea),811,1990,1,22
+Cambodia (Kampuchea),811,1990,3,3
+Cambodia (Kampuchea),811,1991,1,15
+Cambodia (Kampuchea),811,1991,3,3
+Cambodia (Kampuchea),811,1992,1,6
+Cambodia (Kampuchea),811,1992,3,11
+Cambodia (Kampuchea),811,1993,1,41
+Cambodia (Kampuchea),811,1993,3,41
+Cambodia (Kampuchea),811,1994,1,51
+Cambodia (Kampuchea),811,1994,3,22
+Cambodia (Kampuchea),811,1995,1,96
+Cambodia (Kampuchea),811,1995,3,4
+Cambodia (Kampuchea),811,1996,1,83
+Cambodia (Kampuchea),811,1996,3,6
+Cambodia (Kampuchea),811,1997,1,46
+Cambodia (Kampuchea),811,1997,3,4
+Cambodia (Kampuchea),811,1998,1,30
+Cambodia (Kampuchea),811,1998,3,5
+Cambodia (Kampuchea),811,1999,3,1
+Cambodia (Kampuchea),811,2000,3,4
+Cambodia (Kampuchea),811,2003,3,1
+Cambodia (Kampuchea),811,2007,3,1
+Cambodia (Kampuchea),811,2008,1,1
+Cambodia (Kampuchea),811,2009,1,1
+Cambodia (Kampuchea),811,2011,1,3
+Cambodia (Kampuchea),811,2012,3,2
+Laos,812,1989,1,1
+Laos,812,1990,1,5
+Laos,812,1990,3,1
+Laos,812,1993,3,1
+Laos,812,1997,3,1
+Laos,812,1999,3,1
+Laos,812,2000,1,1
+Laos,812,2000,3,1
+Laos,812,2002,3,2
+Laos,812,2003,3,3
+Laos,812,2004,3,3
+Laos,812,2006,3,4
+Malaysia,820,2013,1,13
+Malaysia,820,2013,3,1
+Malaysia,820,2017,1,1
+Philippines,840,1989,1,109
+Philippines,840,1989,3,27
+Philippines,840,1990,1,101
+Philippines,840,1990,3,27
+Philippines,840,1991,1,96
+Philippines,840,1991,3,17
+Philippines,840,1992,1,51
+Philippines,840,1992,3,8
+Philippines,840,1993,1,31
+Philippines,840,1993,2,6
+Philippines,840,1993,3,8
+Philippines,840,1994,1,30
+Philippines,840,1994,2,2
+Philippines,840,1994,3,8
+Philippines,840,1995,1,13
+Philippines,840,1995,3,5
+Philippines,840,1996,1,23
+Philippines,840,1996,3,3
+Philippines,840,1997,1,33
+Philippines,840,1997,3,7
+Philippines,840,1998,1,18
+Philippines,840,1998,2,1
+Philippines,840,1998,3,4
+Philippines,840,1999,1,44
+Philippines,840,1999,2,1
+Philippines,840,1999,3,3
+Philippines,840,2000,1,137
+Philippines,840,2000,3,34
+Philippines,840,2001,1,120
+Philippines,840,2001,3,24
+Philippines,840,2002,1,183
+Philippines,840,2002,2,1
+Philippines,840,2002,3,27
+Philippines,840,2003,1,125
+Philippines,840,2003,3,27
+Philippines,840,2004,1,125
+Philippines,840,2004,3,11
+Philippines,840,2005,1,114
+Philippines,840,2005,3,10
+Philippines,840,2006,1,113
+Philippines,840,2006,2,5
+Philippines,840,2006,3,13
+Philippines,840,2007,1,89
+Philippines,840,2007,3,14
+Philippines,840,2008,1,162
+Philippines,840,2008,3,20
+Philippines,840,2009,1,130
+Philippines,840,2009,2,3
+Philippines,840,2009,3,22
+Philippines,840,2010,1,96
+Philippines,840,2010,3,23
+Philippines,840,2011,1,125
+Philippines,840,2011,2,7
+Philippines,840,2011,3,17
+Philippines,840,2012,1,100
+Philippines,840,2012,2,2
+Philippines,840,2012,3,7
+Philippines,840,2013,1,131
+Philippines,840,2013,3,8
+Philippines,840,2014,1,142
+Philippines,840,2014,3,7
+Philippines,840,2015,1,164
+Philippines,840,2015,2,4
+Philippines,840,2015,3,35
+Philippines,840,2016,1,127
+Philippines,840,2016,3,41
+Philippines,840,2017,1,235
+Philippines,840,2017,3,32
+Philippines,840,2018,1,113
+Philippines,840,2018,3,10
+Philippines,840,2019,1,110
+Philippines,840,2019,3,20
+Philippines,840,2020,1,139
+Philippines,840,2020,3,19
+Philippines,840,2021,1,126
+Philippines,840,2021,3,17
+Philippines,840,2022,1,123
+Philippines,840,2022,3,5
+Philippines,840,2023,1,99
+Philippines,840,2023,3,18
+Philippines,840,2024,1,73
+Philippines,840,2024,3,8
+Indonesia,850,1989,1,5
+Indonesia,850,1990,1,29
+Indonesia,850,1990,3,17
+Indonesia,850,1991,1,19
+Indonesia,850,1991,3,19
+Indonesia,850,1992,1,10
+Indonesia,850,1992,3,4
+Indonesia,850,1993,1,4
+Indonesia,850,1993,3,4
+Indonesia,850,1994,1,4
+Indonesia,850,1994,3,5
+Indonesia,850,1995,1,10
+Indonesia,850,1995,3,11
+Indonesia,850,1996,1,8
+Indonesia,850,1996,3,10
+Indonesia,850,1997,1,14
+Indonesia,850,1997,2,13
+Indonesia,850,1997,3,10
+Indonesia,850,1998,1,12
+Indonesia,850,1998,3,18
+Indonesia,850,1999,1,74
+Indonesia,850,1999,2,60
+Indonesia,850,1999,3,204
+Indonesia,850,2000,1,108
+Indonesia,850,2000,2,32
+Indonesia,850,2000,3,17
+Indonesia,850,2001,1,48
+Indonesia,850,2001,2,31
+Indonesia,850,2001,3,28
+Indonesia,850,2002,1,207
+Indonesia,850,2002,2,11
+Indonesia,850,2002,3,47
+Indonesia,850,2003,1,191
+Indonesia,850,2003,3,36
+Indonesia,850,2004,1,288
+Indonesia,850,2004,2,12
+Indonesia,850,2004,3,59
+Indonesia,850,2005,1,26
+Indonesia,850,2005,3,7
+Indonesia,850,2006,1,2
+Indonesia,850,2006,3,1
+Indonesia,850,2007,3,1
+Indonesia,850,2008,1,2
+Indonesia,850,2008,3,1
+Indonesia,850,2011,2,3
+Indonesia,850,2011,3,1
+Indonesia,850,2012,3,1
+Indonesia,850,2013,1,6
+Indonesia,850,2014,1,4
+Indonesia,850,2015,3,3
+Indonesia,850,2017,1,2
+Indonesia,850,2017,3,1
+Indonesia,850,2018,1,7
+Indonesia,850,2018,3,4
+Indonesia,850,2019,1,18
+Indonesia,850,2019,3,4
+Indonesia,850,2020,1,17
+Indonesia,850,2020,3,7
+Indonesia,850,2021,1,32
+Indonesia,850,2021,3,10
+Indonesia,850,2022,1,20
+Indonesia,850,2022,3,13
+Indonesia,850,2023,1,26
+Indonesia,850,2023,3,13
+Indonesia,850,2024,1,41
+Indonesia,850,2024,3,20
+Australia,900,2018,1,1
+Australia,900,2018,3,1
+Papua New Guinea,910,1989,1,4
+Papua New Guinea,910,1989,3,2
+Papua New Guinea,910,1990,1,13
+Papua New Guinea,910,1990,3,2
+Papua New Guinea,910,1991,1,2
+Papua New Guinea,910,1991,3,1
+Papua New Guinea,910,1992,1,9
+Papua New Guinea,910,1992,3,7
+Papua New Guinea,910,1993,1,12
+Papua New Guinea,910,1993,3,2
+Papua New Guinea,910,1994,1,6
+Papua New Guinea,910,1995,1,9
+Papua New Guinea,910,1995,3,2
+Papua New Guinea,910,1996,1,19
+Papua New Guinea,910,1996,3,7
+Papua New Guinea,910,1997,1,4
+Papua New Guinea,910,1998,2,2
+Papua New Guinea,910,1999,2,2
+Papua New Guinea,910,2000,2,2
+Papua New Guinea,910,2001,2,5
+Papua New Guinea,910,2001,3,1
+Papua New Guinea,910,2002,2,3
+Papua New Guinea,910,2012,2,4
+Papua New Guinea,910,2019,2,3
+Papua New Guinea,910,2021,2,4
+Papua New Guinea,910,2022,2,14
+Papua New Guinea,910,2022,3,2
+Papua New Guinea,910,2023,3,1
+Papua New Guinea,910,2024,2,2
+Papua New Guinea,910,2024,3,6
+Solomon Islands,940,1992,1,1
