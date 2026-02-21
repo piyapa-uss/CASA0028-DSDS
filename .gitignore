@@ -21,6 +21,11 @@
 asm1-contours-of-conflict/data_raw/
 *.rds
 .Rproj.user
+
 # Block oversized file (GitHub limit 100MB)
 asm1-contours-of-conflict/data_raw/conflict_recent.csv
 asm1-contours-of-conflict/data_raw/
+
+# R Junk
+.Rhistory
+.RData*
