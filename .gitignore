@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Node / Vite
+**/node_modules/
+**/dist/
+**/.vite/
+**/.env
+**/.env.*
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Mapbox / tokens (if any)
+**/*token*
+
+# ASM1 raw data (do not track)
+asm1-contours-of-conflict/data_raw/
+*.rds
+.Rproj.user
+
+# Block oversized file (GitHub limit 100MB)
+asm1-contours-of-conflict/data_raw/conflict_recent.csv
+asm1-contours-of-conflict/data_raw/
+
+# R Junk
+.Rhistory
+.RData*

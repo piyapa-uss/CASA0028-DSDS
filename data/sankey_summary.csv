@@ -1,0 +1,353 @@
+year,region,type_of_violence,event_count
+2000,Africa,1,750
+2000,Africa,2,138
+2000,Africa,3,366
+2000,Americas,1,535
+2000,Americas,2,87
+2000,Americas,3,802
+2000,Asia,1,2013
+2000,Asia,2,69
+2000,Asia,3,602
+2000,Europe,1,153
+2000,Europe,3,47
+2000,Middle East,1,126
+2000,Middle East,2,25
+2000,Middle East,3,12
+2001,Africa,1,489
+2001,Africa,2,96
+2001,Africa,3,272
+2001,Americas,1,552
+2001,Americas,2,99
+2001,Americas,3,807
+2001,Asia,1,955
+2001,Asia,2,77
+2001,Asia,3,542
+2001,Europe,1,187
+2001,Europe,3,44
+2001,Middle East,1,202
+2001,Middle East,2,1
+2001,Middle East,3,40
+2002,Africa,1,679
+2002,Africa,2,203
+2002,Africa,3,433
+2002,Americas,1,923
+2002,Americas,2,112
+2002,Americas,3,943
+2002,Asia,1,2656
+2002,Asia,2,75
+2002,Asia,3,639
+2002,Europe,1,352
+2002,Europe,3,46
+2002,Middle East,1,311
+2002,Middle East,2,5
+2002,Middle East,3,90
+2003,Africa,1,550
+2003,Africa,2,188
+2003,Africa,3,403
+2003,Americas,1,817
+2003,Americas,2,49
+2003,Americas,3,1462
+2003,Asia,1,1774
+2003,Asia,2,68
+2003,Asia,3,729
+2003,Europe,1,71
+2003,Europe,3,6
+2003,Middle East,1,249
+2003,Middle East,2,8
+2003,Middle East,3,49
+2004,Africa,1,623
+2004,Africa,2,179
+2004,Africa,3,353
+2004,Americas,1,667
+2004,Americas,2,74
+2004,Americas,3,1128
+2004,Asia,1,2372
+2004,Asia,2,44
+2004,Asia,3,1035
+2004,Europe,1,255
+2004,Europe,3,16
+2004,Middle East,1,638
+2004,Middle East,2,14
+2004,Middle East,3,135
+2005,Africa,1,372
+2005,Africa,2,114
+2005,Africa,3,363
+2005,Americas,1,551
+2005,Americas,2,44
+2005,Americas,3,772
+2005,Asia,1,1862
+2005,Asia,2,46
+2005,Asia,3,953
+2005,Europe,1,266
+2005,Europe,3,6
+2005,Middle East,1,626
+2005,Middle East,2,1
+2005,Middle East,3,149
+2006,Africa,1,381
+2006,Africa,2,131
+2006,Africa,3,280
+2006,Americas,1,107
+2006,Americas,2,44
+2006,Americas,3,282
+2006,Asia,1,2150
+2006,Asia,2,92
+2006,Asia,3,805
+2006,Europe,1,161
+2006,Europe,3,2
+2006,Middle East,1,1023
+2006,Middle East,2,25
+2006,Middle East,3,121
+2007,Africa,1,610
+2007,Africa,2,86
+2007,Africa,3,297
+2007,Americas,1,97
+2007,Americas,2,1413
+2007,Americas,3,264
+2007,Asia,1,2323
+2007,Asia,2,103
+2007,Asia,3,727
+2007,Europe,1,147
+2007,Europe,3,10
+2007,Middle East,1,638
+2007,Middle East,2,84
+2007,Middle East,3,128
+2008,Africa,1,544
+2008,Africa,2,163
+2008,Africa,3,298
+2008,Americas,1,85
+2008,Americas,2,392
+2008,Americas,3,316
+2008,Asia,1,3351
+2008,Asia,2,120
+2008,Asia,3,515
+2008,Europe,1,209
+2008,Europe,3,4
+2008,Middle East,1,614
+2008,Middle East,2,10
+2008,Middle East,3,94
+2009,Africa,1,627
+2009,Africa,2,159
+2009,Africa,3,617
+2009,Americas,1,85
+2009,Americas,2,600
+2009,Americas,3,126
+2009,Asia,1,3394
+2009,Asia,2,82
+2009,Asia,3,537
+2009,Europe,1,323
+2009,Europe,3,2
+2009,Middle East,1,429
+2009,Middle East,2,3
+2009,Middle East,3,162
+2010,Africa,1,545
+2010,Africa,2,181
+2010,Africa,3,164
+2010,Americas,1,93
+2010,Americas,2,2082
+2010,Americas,3,65
+2010,Asia,1,3243
+2010,Asia,2,73
+2010,Asia,3,612
+2010,Europe,1,254
+2010,Europe,3,9
+2010,Middle East,1,441
+2010,Middle East,2,2
+2010,Middle East,3,121
+2011,Africa,1,959
+2011,Africa,2,206
+2011,Africa,3,419
+2011,Americas,1,59
+2011,Americas,2,362
+2011,Americas,3,49
+2011,Asia,1,3330
+2011,Asia,2,81
+2011,Asia,3,413
+2011,Europe,1,253
+2011,Europe,3,10
+2011,Middle East,1,756
+2011,Middle East,2,9
+2011,Middle East,3,809
+2012,Africa,1,987
+2012,Africa,2,220
+2012,Africa,3,399
+2012,Americas,1,31
+2012,Americas,2,258
+2012,Americas,3,54
+2012,Asia,1,3271
+2012,Asia,2,144
+2012,Asia,3,301
+2012,Europe,1,232
+2012,Europe,3,9
+2012,Middle East,1,11797
+2012,Middle East,2,24
+2012,Middle East,3,813
+2013,Africa,1,906
+2013,Africa,2,249
+2013,Africa,3,479
+2013,Americas,1,23
+2013,Americas,2,195
+2013,Americas,3,49
+2013,Asia,1,2666
+2013,Asia,2,84
+2013,Asia,3,305
+2013,Europe,1,183
+2013,Europe,3,7
+2013,Middle East,1,18332
+2013,Middle East,2,332
+2013,Middle East,3,711
+2014,Africa,1,932
+2014,Africa,2,474
+2014,Africa,3,831
+2014,Americas,1,44
+2014,Americas,2,177
+2014,Americas,3,67
+2014,Asia,1,2899
+2014,Asia,2,37
+2014,Asia,3,279
+2014,Europe,1,1407
+2014,Europe,2,1
+2014,Europe,3,4
+2014,Middle East,1,16124
+2014,Middle East,2,1959
+2014,Middle East,3,705
+2015,Africa,1,944
+2015,Africa,2,319
+2015,Africa,3,907
+2015,Americas,1,32
+2015,Americas,2,283
+2015,Americas,3,46
+2015,Asia,1,2997
+2015,Asia,2,57
+2015,Asia,3,287
+2015,Europe,1,953
+2015,Europe,3,3
+2015,Middle East,1,11219
+2015,Middle East,2,1164
+2015,Middle East,3,664
+2016,Africa,1,1169
+2016,Africa,2,307
+2016,Africa,3,700
+2016,Americas,1,16
+2016,Americas,2,242
+2016,Americas,3,154
+2016,Asia,1,2964
+2016,Asia,2,38
+2016,Asia,3,302
+2016,Europe,1,576
+2016,Europe,3,5
+2016,Middle East,1,8746
+2016,Middle East,2,1692
+2016,Middle East,3,463
+2017,Africa,1,1083
+2017,Africa,2,486
+2017,Africa,3,790
+2017,Americas,1,16
+2017,Americas,2,641
+2017,Americas,3,261
+2017,Asia,1,3084
+2017,Asia,2,66
+2017,Asia,3,307
+2017,Europe,1,266
+2017,Europe,3,4
+2017,Middle East,1,6626
+2017,Middle East,2,2364
+2017,Middle East,3,310
+2018,Africa,1,1303
+2018,Africa,2,704
+2018,Africa,3,842
+2018,Americas,1,49
+2018,Americas,2,1049
+2018,Americas,3,239
+2018,Asia,1,4226
+2018,Asia,2,69
+2018,Asia,3,272
+2018,Europe,1,195
+2018,Europe,3,7
+2018,Middle East,1,3108
+2018,Middle East,2,1283
+2018,Middle East,3,164
+2019,Africa,1,1460
+2019,Africa,2,460
+2019,Africa,3,996
+2019,Americas,1,53
+2019,Americas,2,1618
+2019,Americas,3,182
+2019,Asia,1,5170
+2019,Asia,2,20
+2019,Asia,3,285
+2019,Europe,1,225
+2019,Europe,3,1
+2019,Middle East,1,2386
+2019,Middle East,2,777
+2019,Middle East,3,208
+2020,Africa,1,1794
+2020,Africa,2,485
+2020,Africa,3,1364
+2020,Americas,1,24
+2020,Americas,2,2748
+2020,Americas,3,207
+2020,Asia,1,3811
+2020,Asia,2,42
+2020,Asia,3,295
+2020,Europe,1,311
+2020,Europe,3,2
+2020,Middle East,1,1888
+2020,Middle East,2,342
+2020,Middle East,3,119
+2021,Africa,1,2238
+2021,Africa,2,365
+2021,Africa,3,1343
+2021,Americas,1,46
+2021,Americas,2,4513
+2021,Americas,3,243
+2021,Asia,1,5423
+2021,Asia,2,9
+2021,Asia,3,633
+2021,Europe,1,195
+2021,Middle East,1,1865
+2021,Middle East,2,207
+2021,Middle East,3,174
+2022,Africa,1,2392
+2022,Africa,2,486
+2022,Africa,3,1633
+2022,Americas,1,41
+2022,Americas,2,3568
+2022,Americas,3,433
+2022,Asia,1,2217
+2022,Asia,2,21
+2022,Asia,3,548
+2022,Europe,1,7271
+2022,Europe,3,208
+2022,Middle East,1,1500
+2022,Middle East,2,225
+2022,Middle East,3,231
+2023,Africa,1,2351
+2023,Africa,2,411
+2023,Africa,3,1582
+2023,Americas,1,38
+2023,Americas,2,5282
+2023,Americas,3,550
+2023,Asia,1,2520
+2023,Asia,2,42
+2023,Asia,3,492
+2023,Europe,1,10282
+2023,Europe,2,42
+2023,Europe,3,10
+2023,Middle East,1,2535
+2023,Middle East,2,250
+2023,Middle East,3,99
+2024,Africa,1,2367
+2024,Africa,2,355
+2024,Africa,3,1797
+2024,Americas,1,146
+2024,Americas,2,4338
+2024,Americas,3,451
+2024,Asia,1,1912
+2024,Asia,2,71
+2024,Asia,3,449
+2024,Europe,1,11086
+2024,Europe,2,3
+2024,Europe,3,14
+2024,Middle East,1,5451
+2024,Middle East,2,285
+2024,Middle East,3,91
