@@ -11,7 +11,7 @@ export default function CountryFocusSection({ year }) {
 
     Promise.all([
       fetch("/data/country_year_summary.csv").then((r) => r.text()),
-      fetch("/data/country_year_type_share.csv").then((r) => r.text())
+      fetch("/data/country_year_type_share.csv").then((r) => r.text()),
     ])
       .then(([summaryText, shareText]) => {
         if (cancelled) return
@@ -48,6 +48,9 @@ export default function CountryFocusSection({ year }) {
 
         const list = Array.from(seen.values()).sort((a, b) => a.name.localeCompare(b.name))
         setCountryOptions(list)
+
+        // default: pick first country if none selected yet
+        if (list.length && countryId == null) setCountryId(list[0].id)
       })
       .catch(() => {
         if (!cancelled) setCountryOptions([])
@@ -56,6 +59,7 @@ export default function CountryFocusSection({ year }) {
     return () => {
       cancelled = true
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const selected = useMemo(() => {
@@ -103,9 +107,11 @@ export default function CountryFocusSection({ year }) {
       <div className="mt-6 rounded-xl border bg-white p-6">
         <CountryStackedArea countryId={countryId} year={year} />
 
-        <p className="mt-4 max-w-3xl text-xs leading-relaxed text-gray-600">
-          The stacked chart shows how the composition of violence types changes over time for the selected
-          country, highlighting distinct national trajectories rather than a single global pattern.
+        {/* Option B description (single source of truth: HERE only) */}
+        <p className="mt-4 w-full max-w-none text-sm leading-relaxed text-gray-600">
+          Country trajectories rarely follow a single script. This stacked profile shows how the mix of
+          violence types shifts over time for the selected country—revealing when state-based conflict
+          dominates, when non-state activity rises, and when one-sided violence concentrates.
         </p>
       </div>
     </div>

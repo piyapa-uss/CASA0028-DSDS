@@ -72,14 +72,19 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
         id: "countries-outline",
         type: "line",
         source: "countries",
-        paint: { "line-width": 0.6, "line-color": THEME.ink }
+        paint: { "line-width": 0.55, "line-color": THEME.ink }
       })
 
       map.current.addLayer({
         id: "countries-hover",
         type: "line",
         source: "countries",
-        paint: { "line-width": 1.5, "line-color": THEME.ink, "line-opacity": 0.7 },
+        paint: {
+          "line-width": 2.75,              
+          "line-color": THEME.slider,     // accent color
+          "line-opacity": 0.95,           
+          "line-blur": 0.2,            
+        },
         filter: ["==", ["get", "iso3_std"], ""]
       })
 
@@ -215,10 +220,12 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
     <div className="relative h-screen w-full">
       <div ref={mapContainer} className="h-screen w-full" />
 
-      {/* Timeline overlay (only when enabled) */}
+      {/* Timeline panel (overlay on map only when enabled) */}
       {showTimeline && (
-        <div className="absolute bottom-4 left-4 z-20 w-[520px] max-w-[calc(100vw-2rem)]">
-          <TimelineChart data={globalTimeline} year={year} />
+        <div className="absolute inset-x-4 bottom-4 z-20">
+          <div className="rounded-2xl borderbackdrop-blur-md">
+            <TimelineChart data={globalTimeline} year={year} />
+          </div>
         </div>
       )}
 
@@ -226,17 +233,22 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       {hoverInfo && (
         <div
           className="pointer-events-none absolute z-30 rounded-lg border bg-white/90 px-3 py-2 text-[11px] shadow-sm backdrop-blur"
-          style={{
-            left: hoverInfo.x + 12,
-            top: hoverInfo.y + 12
-          }}
+          style={{ left: hoverInfo.x + 12, top: hoverInfo.y + 12 }}
         >
-          <div className="text-sm font-semibold leading-tight text-gray-900">{hoverInfo.name}</div>
-          <div className="mt-1 flex items-baseline justify-between gap-3">
-            <div className="text-gray-600">{metricLabel}</div>
-            <div className="font-semibold text-gray-900">{formatValue(hoverInfo.value)}</div>
+          <div className="text-[12px] font-semibold leading-tight text-gray-900">
+            {hoverInfo.name}
           </div>
-          <div className="mt-1 text-gray-500">Year {year}</div>
+
+          <div className="mt-1 flex items-baseline justify-between gap-4">
+            <div className="text-[10px] uppercase tracking-wide text-gray-500">
+              {metricLabel}
+            </div>
+            <div className="tabular-nums text-[12px] font-semibold text-gray-900">
+              {formatValue(hoverInfo.value)}
+            </div>
+          </div>
+
+          <div className="mt-1 text-[10px] text-gray-400">Year {year}</div>
         </div>
       )}
     </div>

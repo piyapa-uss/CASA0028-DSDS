@@ -7,19 +7,21 @@ import {
   YAxis,
   Tooltip,
   Legend,
-  ReferenceLine
+  ReferenceLine,
 } from "recharts"
+import { THEME } from "../theme"
 
 const TYPE_LABEL = {
   1: "State-based",
   2: "Non-state",
-  3: "One-sided"
+  3: "One-sided",
 }
 
+// Match Sankey palette + order
 const TYPE_COLOR = {
-  1: "#1F2937", // State-based (ink)
-  2: "#6B7280", // Non-state (slate)
-  3: "#B38A4C", // One-sided (muted gold)
+  1: THEME?.ink ?? "#111827",
+  2: "rgba(164, 167, 172, 0.55)",
+  3: THEME?.accent ?? "#E9D48D",
 }
 
 // Minimal CSV parser (works for simple CSV without tricky quoted commas)
@@ -38,7 +40,7 @@ function parseCSV(text) {
       country_id: Number(c[idx.country_id]),
       year: Number(c[idx.year]),
       type_of_violence: Number(c[idx.type_of_violence]),
-      share: Number(c[idx.share])
+      share: Number(c[idx.share]),
     })
   }
   return rows
@@ -49,14 +51,18 @@ const pct = (v) => `${Math.round(Number(v) * 100)}%`
 function MiniTooltip({ active, payload, label }) {
   if (!active || !payload?.length) return null
 
-  // payload order is stacked; show all three in a tidy list
+  // keep tooltip order: State-based, Non-state, One-sided
+  const order = { t1: 1, t2: 2, t3: 3 }
   const items = payload
     .slice()
-    .reverse()
     .filter((p) => Number.isFinite(+p.value))
+    .sort((a, b) => (order[a.dataKey] ?? 99) - (order[b.dataKey] ?? 99))
 
   return (
-    <div className="rounded-md border bg-white/90 px-3 py-2 text-xs shadow-sm backdrop-blur">
+    <div
+      className="rounded-md border px-3 py-2 text-xs shadow-sm backdrop-blur"
+      style={{ background: THEME?.tooltipBg ?? "rgba(255,255,255,0.95)" }}
+    >
       <div className="font-medium text-gray-900">Year {label}</div>
       <div className="mt-1 space-y-1">
         {items.map((p) => (
@@ -77,7 +83,6 @@ export default function CountryStackedArea({ countryId, year }) {
   const [rows, setRows] = useState([])
   const [loading, setLoading] = useState(true)
 
-  // Load once
   useEffect(() => {
     let cancelled = false
 
@@ -134,13 +139,10 @@ export default function CountryStackedArea({ countryId, year }) {
 
   if (!countryId) return <div className="text-sm text-gray-500">Select a country</div>
   if (loading) return <div className="text-sm text-gray-500">Loading...</div>
-  if (!chartData.length) {
-    return <div className="text-sm text-gray-500">No data for this country (2000–2024).</div>
-  }
+  if (!chartData.length) return <div className="text-sm text-gray-500">No data for this country (2000–2024).</div>
 
   return (
-    // focus:outline-none + select-none helps kill the “blue focus rectangle” feel
-    <div className="h-[340px] w-full select-none focus:outline-none">
+    <div className="h-[340px] w-full select-none">
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart data={chartData} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
           <XAxis
@@ -162,13 +164,24 @@ export default function CountryStackedArea({ countryId, year }) {
 
           <Tooltip content={<MiniTooltip />} />
 
+          {/* Legend order fixed to match Sankey */}
           <Legend
             wrapperStyle={{ fontSize: 11, color: "#6B7280" }}
             iconType="square"
+            payload={[
+              { value: TYPE_LABEL[1], type: "square", id: "t1", color: TYPE_COLOR[1] },
+              { value: TYPE_LABEL[2], type: "square", id: "t2", color: TYPE_COLOR[2] },
+              { value: TYPE_LABEL[3], type: "square", id: "t3", color: TYPE_COLOR[3] },
+            ]}
           />
 
           {Number.isFinite(+year) ? (
-            <ReferenceLine x={year} stroke="#111827" strokeOpacity={0.35} strokeDasharray="4 3" />
+            <ReferenceLine
+              x={year}
+              stroke={THEME?.core ?? "#111827"}
+              strokeOpacity={0.28}
+              strokeDasharray="4 3"
+            />
           ) : null}
 
           <Area
@@ -178,7 +191,7 @@ export default function CountryStackedArea({ countryId, year }) {
             stackId="1"
             stroke={TYPE_COLOR[1]}
             fill={TYPE_COLOR[1]}
-            fillOpacity={0.8}
+            fillOpacity={0.82}
             isAnimationActive={false}
           />
           <Area
@@ -188,7 +201,7 @@ export default function CountryStackedArea({ countryId, year }) {
             stackId="1"
             stroke={TYPE_COLOR[2]}
             fill={TYPE_COLOR[2]}
-            fillOpacity={0.8}
+            fillOpacity={0.78}
             isAnimationActive={false}
           />
           <Area
@@ -198,7 +211,7 @@ export default function CountryStackedArea({ countryId, year }) {
             stackId="1"
             stroke={TYPE_COLOR[3]}
             fill={TYPE_COLOR[3]}
-            fillOpacity={0.8}
+            fillOpacity={0.82}
             isAnimationActive={false}
           />
         </AreaChart>

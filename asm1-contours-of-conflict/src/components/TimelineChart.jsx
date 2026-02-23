@@ -15,11 +15,12 @@ const fmt = (x) => (Number.isFinite(+x) ? Number(x).toLocaleString() : "0")
 
 function MiniTooltip({ active, payload, label, metric }) {
   if (!active || !payload?.length) return null
+
   const v = payload[0]?.value
-  const labelText = metric === "events" ? "Events" : "Deaths"
+  const labelText = metric === "events" ? "Events" : "Fatalities"
 
   return (
-    <div className="rounded-md border bg-white/90 px-3 py-2 text-xs shadow-sm backdrop-blur">
+    <div className="pointer-events-none rounded-lg border bg-white/90 px-3 py-2 text-[11px] leading-snug shadow-sm backdrop-blur">
       <div className="font-medium text-gray-900">Year {label}</div>
       <div className="mt-1 text-gray-600 tabular-nums">
         {labelText}: <span className="font-semibold text-gray-900">{fmt(v)}</span>
@@ -38,27 +39,30 @@ export default function TimelineChart({ data, year }) {
 
   const stroke = metric === "events" ? THEME.accent : THEME.ink
   const fill = metric === "events" ? THEME.accent : THEME.ink
-  const refStroke = stroke
 
   return (
-    <div className="rounded-xl border bg-white/90 p-4 shadow-sm backdrop-blur">
+    <div className="rounded-xl border border-white/30 bg-transparent p-4">
       <div className="flex items-center justify-between gap-4">
         <div className="text-sm font-semibold text-gray-900">Global timeline</div>
 
         <div className="flex gap-2">
           <button
-            className={`rounded px-2 py-1 text-xs ${metric === "events" ? "bg-black text-white" : "border bg-white"}`}
+            className={`rounded px-2 py-1 text-xs ${
+              metric === "events" ? "bg-black text-white" : "border bg-white"
+            }`}
             onClick={() => setMetric("events")}
             type="button"
           >
             Events
           </button>
           <button
-            className={`rounded px-2 py-1 text-xs ${metric === "deaths" ? "bg-black text-white" : "border bg-white"}`}
+            className={`rounded px-2 py-1 text-xs ${
+              metric === "deaths" ? "bg-black text-white" : "border bg-white"
+            }`}
             onClick={() => setMetric("deaths")}
             type="button"
           >
-            Deaths
+            Fatalities
           </button>
         </div>
       </div>
@@ -82,10 +86,11 @@ export default function TimelineChart({ data, year }) {
               tickFormatter={fmt}
             />
 
+            {/* Hoover Tooltip */}
             <Tooltip content={<MiniTooltip metric={metric} />} />
 
             {Number.isFinite(+year) && (
-              <ReferenceLine x={year} stroke={refStroke} strokeOpacity={0.65} strokeWidth={2} />
+              <ReferenceLine x={year} stroke={stroke} strokeOpacity={0.65} strokeWidth={2} />
             )}
 
             <Area
@@ -95,6 +100,7 @@ export default function TimelineChart({ data, year }) {
               strokeWidth={2}
               fill={fill}
               fillOpacity={0.18}
+              isAnimationActive={false}
             />
           </AreaChart>
         </ResponsiveContainer>

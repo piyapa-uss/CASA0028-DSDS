@@ -1,21 +1,28 @@
-// src/theme.js
 export const THEME = {
   // core
   core: "#3B3F42",
   ink: "#6F6A64",
   neutral: "#D8C07A",
-  accent: "#F2E9CF",
+  accent: "#D6C16A",
+  accentSoft: "#E9D48D",
 
   // surfaces
   bg: "#FFFFFF",
-  bgAlt: "#F7F6F2",      // Light Grey Section 
-  panel: "#FBF7ED",      // Warm pastel
+  bgAlt: "#F7F6F2",
+  panel: "#FBF7ED",
   border: "rgba(59,63,66,0.14)",
 
   // categories (type of violence)
   state: "#3B3F42",
   nonstate: "#6F6A64",
-  onesided: "#C9A85C",
+  onesided: "#BFA259",
+
+  // shared series (for sankey, stackedarea, paired bars)
+  series: {
+    events: "#D8C07A",
+    deaths: "#3B3F42",
+    fatality: "#6F6A64",
+  },
 
   // UI accents
   slider: "#C9A85C",
@@ -23,7 +30,6 @@ export const THEME = {
   shadow: "0 8px 24px rgba(0,0,0,0.08)",
 }
 
-// Choropleth stops 
 export const STOPS = {
   events_count: [
     0,   "#FBF7ED",
@@ -35,14 +41,13 @@ export const STOPS = {
     20000,"#B3873A",
   ],
 
-  // fatality_rate
   fatality_rate: [
-    0,   "#F2F2F2",
-    1,   "#D9D9D9",
-    2,   "#BFBFBF",
-    5,   "#9E9E9E",
-    10,  "#7A7A7A",
-    20,  "#5A5A5A",
+    0,   "#F7F6F2",
+    1,   "#EEECE6",
+    2,   "#DEDAD1",
+    5,   "#C6C1B7",
+    10,  "#A9A399",
+    20,  "#7F7A72",
     30,  "#3B3F42",
   ],
 }
