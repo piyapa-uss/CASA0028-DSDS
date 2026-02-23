@@ -1,34 +1,48 @@
 // src/theme.js
-
 export const THEME = {
-  accent: "#E0B400",          // Muted Yellow
-  ink: "#374151",             // Text / outlines
-  paper: "#F8FAFC",           // Section background
-  panel: "rgba(255,255,255,0.80)", // Floating UI panels
-  line: "rgba(17,24,39,0.18)", // Soft borders
+  // core
+  core: "#3B3F42",
+  ink: "#6F6A64",
+  neutral: "#D8C07A",
+  accent: "#F2E9CF",
+
+  // surfaces
+  bg: "#FFFFFF",
+  bgAlt: "#F7F6F2",      // Light Grey Section 
+  panel: "#FBF7ED",      // Warm pastel
+  border: "rgba(59,63,66,0.14)",
+
+  // categories (type of violence)
+  state: "#3B3F42",
+  nonstate: "#6F6A64",
+  onesided: "#C9A85C",
+
+  // UI accents
+  slider: "#C9A85C",
+  tooltipBg: "rgba(251,247,237,0.96)",
+  shadow: "0 8px 24px rgba(0,0,0,0.08)",
 }
 
+// Choropleth stops 
 export const STOPS = {
-
-  // Events — Soft Muted Yellow scale
   events_count: [
-    0,    "#FFFBEB",   
-    10,   "#FEF3C7",
-    50,   "#FDE68A",
-    200,  "#FCD34D",
-    1000, "#E0B400",   // accent color
-    5000, "#B88F00",    
-    20000,"#7A5A00"    
+    0,   "#FBF7ED",
+    10,  "#F6EFD7",
+    50,  "#F0E2B6",
+    200, "#E9D48D",
+    1000,"#D8C07A",
+    5000,"#C9A85C",
+    20000,"#B3873A",
   ],
 
-  // Fatality rate — Grey scale
+  // fatality_rate
   fatality_rate: [
-    0.0,    "#F8FAFC",
-    0.1,  "#E5E7EB",
-    0.5,  "#D1D5DB",
-    1.0,    "#9CA3AF",
-    2.0,    "#6B7280",
-    5.0,    "#374151",
-    10.0,   "#111827"
+    0,   "#F2F2F2",
+    1,   "#D9D9D9",
+    2,   "#BFBFBF",
+    5,   "#9E9E9E",
+    10,  "#7A7A7A",
+    20,  "#5A5A5A",
+    30,  "#3B3F42",
   ],
 }

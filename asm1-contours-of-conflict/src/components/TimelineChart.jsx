@@ -11,67 +11,81 @@ import {
 } from "recharts"
 import { THEME } from "../theme"
 
+const fmt = (x) => (Number.isFinite(+x) ? Number(x).toLocaleString() : "0")
+
+function MiniTooltip({ active, payload, label, metric }) {
+  if (!active || !payload?.length) return null
+  const v = payload[0]?.value
+  const labelText = metric === "events" ? "Events" : "Deaths"
+
+  return (
+    <div className="rounded-md border bg-white/90 px-3 py-2 text-xs shadow-sm backdrop-blur">
+      <div className="font-medium text-gray-900">Year {label}</div>
+      <div className="mt-1 text-gray-600 tabular-nums">
+        {labelText}: <span className="font-semibold text-gray-900">{fmt(v)}</span>
+      </div>
+    </div>
+  )
+}
+
 export default function TimelineChart({ data, year }) {
   const [metric, setMetric] = useState("events") // "events" | "deaths"
 
   const safeData = useMemo(() => {
     if (!Array.isArray(data)) return []
-    return data.filter(d => Number.isFinite(+d.year))
+    return data.filter((d) => Number.isFinite(+d.year))
   }, [data])
 
-  // Theme colors
   const stroke = metric === "events" ? THEME.accent : THEME.ink
   const fill = metric === "events" ? THEME.accent : THEME.ink
-  const refStroke = metric === "events" ? THEME.accent : THEME.ink
+  const refStroke = stroke
 
   return (
-    <div
-      className="panel timeline"
-      style={{ background: THEME.panel, border: "1px solid rgba(0,0,0,0.08)", borderRadius: 12, padding: 14 }}
-    >
-      <div className="panel-title-row">
-        <div className="panel-title" style={{ color: THEME.ink, fontWeight: 600 }}>
-          Global Timeline
-        </div>
+    <div className="rounded-xl border bg-white/90 p-4 shadow-sm backdrop-blur">
+      <div className="flex items-center justify-between gap-4">
+        <div className="text-sm font-semibold text-gray-900">Global timeline</div>
 
-        <div className="toggle">
+        <div className="flex gap-2">
           <button
-            className={metric === "events" ? "active" : ""}
+            className={`rounded px-2 py-1 text-xs ${metric === "events" ? "bg-black text-white" : "border bg-white"}`}
             onClick={() => setMetric("events")}
             type="button"
-            style={metric === "events" ? { outlineColor: THEME.accent } : undefined}
           >
             Events
           </button>
           <button
-            className={metric === "deaths" ? "active" : ""}
+            className={`rounded px-2 py-1 text-xs ${metric === "deaths" ? "bg-black text-white" : "border bg-white"}`}
             onClick={() => setMetric("deaths")}
             type="button"
-            style={metric === "deaths" ? { outlineColor: THEME.ink } : undefined}
           >
             Deaths
           </button>
         </div>
       </div>
 
-      <div className="chart-wrap">
-        <ResponsiveContainer width="100%" height={180}>
-          <AreaChart data={safeData} margin={{ top: 10, right: 12, left: 18, bottom: 0 }}>
-            <CartesianGrid vertical={false} stroke={THEME.ink} strokeOpacity={0.12} />
-            <XAxis dataKey="year" tick={{ fontSize: 11, fill: THEME.ink }} tickMargin={8} interval="preserveStartEnd" />
-            <YAxis tick={{ fontSize: 11, fill: THEME.ink }} width={56} />
-
-            <Tooltip
-              formatter={(value, name) => [
-                Number(value).toLocaleString(),
-                name === "events" ? "Events" : "Deaths"
-              ]}
-              labelFormatter={(label) => `Year: ${label}`}
+      <div className="mt-3 h-[180px]">
+        <ResponsiveContainer width="100%" height="100%">
+          <AreaChart data={safeData} margin={{ top: 10, right: 12, left: 12, bottom: 0 }}>
+            <CartesianGrid vertical={false} stroke="#E5E7EB" />
+            <XAxis
+              dataKey="year"
+              tick={{ fontSize: 11, fill: "#6B7280" }}
+              tickLine={false}
+              axisLine={{ stroke: "#E5E7EB" }}
+              interval="preserveStartEnd"
+            />
+            <YAxis
+              tick={{ fontSize: 11, fill: "#6B7280" }}
+              tickLine={false}
+              axisLine={{ stroke: "#E5E7EB" }}
+              width={46}
+              tickFormatter={fmt}
             />
 
-            {/* Highlight current year */}
+            <Tooltip content={<MiniTooltip metric={metric} />} />
+
             {Number.isFinite(+year) && (
-              <ReferenceLine x={year} stroke={refStroke} strokeOpacity={0.65} strokeWidth={2}  />
+              <ReferenceLine x={year} stroke={refStroke} strokeOpacity={0.65} strokeWidth={2} />
             )}
 
             <Area
@@ -80,7 +94,7 @@ export default function TimelineChart({ data, year }) {
               stroke={stroke}
               strokeWidth={2}
               fill={fill}
-              fillOpacity={0.22}
+              fillOpacity={0.18}
             />
           </AreaChart>
         </ResponsiveContainer>
