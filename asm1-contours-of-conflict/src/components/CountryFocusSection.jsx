@@ -111,9 +111,7 @@ export default function CountryFocusSection({ year }) {
 
         {/* Option B description (single source of truth: HERE only) */}
         <p className="mt-4 w-full max-w-none text-sm leading-relaxed text-gray-600">
-          Country trajectories rarely follow a single script. This stacked profile shows how the mix of
-          violence types shifts over time for the selected country—revealing when state-based conflict
-          dominates, when non-state activity rises, and when one-sided violence concentrates.
+          Conflict does not evolve in the same way everywhere. This stacked chart shows how the composition of violence changes over time for the selected country.
         </p>
       </div>
     </div>

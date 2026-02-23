@@ -5,6 +5,7 @@ import "maplibre-gl/dist/maplibre-gl.css"
 import { computeGlobalTimeline } from "../utils/timeline"
 import TimelineChart from "./TimelineChart"
 import { THEME, STOPS } from "../theme"
+import { withBase } from "../utils/paths"
 
 export default function MapDisplay({ year, metric, onDataLoaded, showTimeline }) {
   const mapContainer = useRef(null)
@@ -18,13 +19,24 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
 
   const hoveredIso3Ref = useRef(null)
 
-  const safeMetric = metric || "events_count"
+  // --- SAFETY HELPERS (prevents "undefined found" in MapLibre paint props) ---
+  const safeColor = (c, fallback) => (typeof c === "string" && c.trim() ? c : fallback)
+
+  const safeMetric = metric === "fatality_rate" ? "fatality_rate" : "events_count"
   const metricLabel = safeMetric === "events_count" ? "Events" : "Fatality rate"
+
+  const safeStops =
+    Array.isArray(STOPS?.[safeMetric]) && STOPS[safeMetric].length >= 4
+      ? STOPS[safeMetric]
+      : // fallback minimal stops (won't crash even if theme/stops missing)
+        (safeMetric === "events_count"
+          ? [0, "#FBF7ED", 10, "#F6EFD7", 50, "#F0E2B6", 200, "#E9D48D", 1000, "#D8C07A"]
+          : [0, "#F7F6F2", 1, "#EEECE6", 5, "#C6C1B7", 10, "#A9A399", 30, "#3B3F42"])
 
   const formatValue = (v) => {
     if (!Number.isFinite(v)) return "0"
     if (safeMetric === "events_count") return Math.round(v).toLocaleString()
-    return v.toFixed(2)
+    return Number(v).toFixed(2)
   }
 
   const [globalTimeline, setGlobalTimeline] = useState([])
@@ -37,58 +49,68 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       container: mapContainer.current,
       style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
       center: [0, 20],
-      zoom: 2
+      zoom: 2,
     })
 
     map.current.on("load", async () => {
+      // ---------- Load GeoJSON ----------
       const res = await fetch(withBase("data/countries.geojson"))
       const countries = await res.json()
       countriesRef.current = countries
 
       map.current.addSource("countries", { type: "geojson", data: countries })
 
+      // Base fill (set a safe default fill-color immediately)
       map.current.addLayer({
         id: "countries-fill",
         type: "fill",
         source: "countries",
         paint: {
           "fill-opacity": 0.65,
-          "fill-opacity-transition": { duration: 180 }
-        }
+          "fill-opacity-transition": { duration: 180 },
+          "fill-color": safeColor(THEME?.bgAlt, "#F7F6F2"),
+        },
       })
 
+      // Hover fill
       map.current.addLayer({
         id: "countries-fill-hover",
         type: "fill",
         source: "countries",
         paint: {
           "fill-opacity": 0.92,
-          "fill-opacity-transition": { duration: 180 }
+          "fill-opacity-transition": { duration: 180 },
+          "fill-color": safeColor(THEME?.bgAlt, "#F7F6F2"),
         },
-        filter: ["==", ["get", "iso3_std"], ""]
+        filter: ["==", ["get", "iso3_std"], ""],
       })
 
+      // Outline
       map.current.addLayer({
         id: "countries-outline",
         type: "line",
         source: "countries",
-        paint: { "line-width": 0.55, "line-color": THEME.ink }
+        paint: {
+          "line-width": 0.55,
+          "line-color": safeColor(THEME?.ink, "#6F6A64"),
+        },
       })
 
+      // Hover outline (this is the one that was crashing when color was undefined)
       map.current.addLayer({
         id: "countries-hover",
         type: "line",
         source: "countries",
         paint: {
-          "line-width": 2.75,              
-          "line-color": THEME.slider,     // accent color
-          "line-opacity": 0.95,           
-          "line-blur": 0.2,            
+          "line-width": 2.75,
+          "line-color": safeColor(THEME?.slider, safeColor(THEME?.core, "rgba(255,255,255,0.85)")),
+          "line-opacity": 0.95,
+          "line-blur": 0.2,
         },
-        filter: ["==", ["get", "iso3_std"], ""]
+        filter: ["==", ["get", "iso3_std"], ""],
       })
 
-      // hover handlers
+      // ---------- Hover handlers ----------
       map.current.on("mousemove", "countries-fill", (e) => {
         map.current.getCanvas().style.cursor = "pointer"
         const f = e.features?.[0]
@@ -96,6 +118,7 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
 
         const p = f.properties || {}
         const key = String(p.iso3_std || "").trim()
+
         if (key && key !== hoveredIso3Ref.current) {
           hoveredIso3Ref.current = key
           map.current.setFilter("countries-hover", ["==", ["get", "iso3_std"], key])
@@ -115,16 +138,20 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
         map.current.setFilter("countries-fill-hover", ["==", ["get", "iso3_std"], ""])
       })
 
-      // load CSV
+      // ---------- Load CSV ----------
       const csvRes = await fetch(withBase("data/country_year_summary.csv"))
       const csvText = await csvRes.text()
-      const parsed = Papa.parse(csvText, { header: true, dynamicTyping: true, skipEmptyLines: true })
-      rowsRef.current = parsed.data
+      const parsed = Papa.parse(csvText, {
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: true,
+      })
 
+      rowsRef.current = parsed.data || []
       onDataLoaded?.(rowsRef.current)
       setGlobalTimeline(computeGlobalTimeline(rowsRef.current))
 
-      // initial paint for first year
+      // ---------- Prepare initial metric values ----------
       const initialYear = Number(year)
       const valueByIso3 = new Map()
 
@@ -137,20 +164,36 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
           valueByIso3.set(k, Number.isFinite(v) ? v : 0)
         })
 
+      // Standardise iso3 + attach metric_value to each feature
       const countriesInit = countriesRef.current
       countriesInit.features.forEach((f) => {
         const p = f.properties || {}
-        const key = String(p.iso3 || p.ISO3166_1_Alpha_3 || p["ISO3166-1-Alpha-3"] || p["ISO3166.1.Alpha.3"] || "").trim()
-        f.properties = { ...(f.properties || {}), iso3_std: key, metric_value: valueByIso3.get(key) ?? 0 }
+        const key = String(
+          p.iso3_std ||
+            p.iso3 ||
+            p.ISO3 ||
+            p.ISO_A3 ||
+            p.ISO3166_1_Alpha_3 ||
+            p["ISO3166-1-Alpha-3"] ||
+            p["ISO3166.1.Alpha.3"] ||
+            ""
+        ).trim()
+
+        f.properties = {
+          ...(f.properties || {}),
+          iso3_std: key,
+          metric_value: valueByIso3.get(key) ?? 0,
+        }
       })
 
       map.current.getSource("countries")?.setData(countriesInit)
 
+      // Apply choropleth expression (safeStops prevents crashes)
       const initialExpr = [
         "interpolate",
         ["linear"],
         ["coalesce", ["to-number", ["get", "metric_value"]], 0],
-        ...STOPS[safeMetric]
+        ...safeStops,
       ]
 
       map.current.setPaintProperty("countries-fill", "fill-color", initialExpr)
@@ -163,9 +206,9 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       map.current?.remove()
       map.current = null
     }
-  }, [])
+  }, []) // IMPORTANT: run once
 
-  // update metric values when year/metric changes
+  // --- update metric values when year/metric changes ---
   const maxStop = (stops = []) => {
     let m = 0
     for (let i = 0; i < stops.length; i += 2) m = Math.max(m, Number(stops[i]) || 0)
@@ -181,7 +224,7 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
     const rows = rowsRef.current
 
     const valueByIso3 = new Map()
-    const maxForMetric = maxStop(STOPS[safeMetric])
+    const maxForMetric = maxStop(safeStops)
 
     rows
       .filter((r) => Number(r.year) === Number(year))
@@ -196,13 +239,13 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
     countries.features.forEach((f) => {
       const p = f.properties || {}
       const key = String(p.iso3_std || "").trim()
-      f.properties = { ...(f.properties || {}), iso3_std: key, metric_value: valueByIso3.get(key) ?? 0 }
+      f.properties = { ...(f.properties || {}), metric_value: valueByIso3.get(key) ?? 0 }
     })
 
     map.current.getSource("countries")?.setData(countries)
-  }, [year, safeMetric])
+  }, [year, safeMetric]) // safeMetric already normalised
 
-  // update paint when metric changes
+  // --- update paint when metric changes ---
   useEffect(() => {
     if (!map.current || !loadedRef.current) return
 
@@ -210,11 +253,12 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       "interpolate",
       ["linear"],
       ["coalesce", ["to-number", ["get", "metric_value"]], 0],
-      ...STOPS[safeMetric]
+      ...safeStops,
     ]
+
     map.current.setPaintProperty("countries-fill", "fill-color", expr)
     map.current.setPaintProperty("countries-fill-hover", "fill-color", expr)
-  }, [safeMetric])
+  }, [safeMetric]) // safeStops is derived, no need in deps
 
   return (
     <div className="relative h-screen w-full">
@@ -223,7 +267,10 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       {/* Timeline panel (overlay on map only when enabled) */}
       {showTimeline && (
         <div className="absolute inset-x-4 bottom-4 z-20">
-          <div className="rounded-2xl borderbackdrop-blur-md">
+          <div
+            className="rounded-2xl border bg-white/70 shadow-sm backdrop-blur-md"
+            style={{ borderColor: safeColor(THEME?.border, "rgba(59,63,66,0.14)") }}
+          >
             <TimelineChart data={globalTimeline} year={year} />
           </div>
         </div>
@@ -233,16 +280,12 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       {hoverInfo && (
         <div
           className="pointer-events-none absolute z-30 rounded-lg border bg-white/90 px-3 py-2 text-[11px] shadow-sm backdrop-blur"
-          style={{ left: hoverInfo.x + 12, top: hoverInfo.y + 12 }}
+          style={{ left: hoverInfo.x + 12, top: hoverInfo.y + 12, borderColor: "rgba(17,24,39,0.08)" }}
         >
-          <div className="text-[12px] font-semibold leading-tight text-gray-900">
-            {hoverInfo.name}
-          </div>
+          <div className="text-[12px] font-semibold leading-tight text-gray-900">{hoverInfo.name}</div>
 
           <div className="mt-1 flex items-baseline justify-between gap-4">
-            <div className="text-[10px] uppercase tracking-wide text-gray-500">
-              {metricLabel}
-            </div>
+            <div className="text-[10px] uppercase tracking-wide text-gray-500">{metricLabel}</div>
             <div className="tabular-nums text-[12px] font-semibold text-gray-900">
               {formatValue(hoverInfo.value)}
             </div>

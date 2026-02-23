@@ -133,7 +133,7 @@ export default function PairedBars({ rows }) {
         {/* Left: Events */}
         <div className="rounded-lg border bg-white p-4">
           <div className="text-sm font-semibold">Top 10 by events ({rangeLabel})</div>
-          <div className="mt-3 h-72">
+          <div style={{ width: "100%", height: 300 }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={eventsChartData}>
                 <CartesianGrid vertical={false} stroke="#E5E7EB" />
@@ -169,7 +169,7 @@ export default function PairedBars({ rows }) {
         {/* Right: Deaths */}
         <div className="rounded-lg border bg-white p-4">
           <div className="text-sm font-semibold">Top 10 by deaths ({rangeLabel})</div>
-          <div className="mt-3 h-72">
+          <div style={{ width: "100%", height: 300 }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={deathsChartData}>
                 <CartesianGrid vertical={false} stroke="#E5E7EB" />

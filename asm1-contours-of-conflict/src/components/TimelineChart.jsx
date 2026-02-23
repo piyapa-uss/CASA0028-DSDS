@@ -67,7 +67,7 @@ export default function TimelineChart({ data, year }) {
         </div>
       </div>
 
-      <div className="mt-3 h-[180px]">
+      <div style={{ width: "100%", height: 260 }}>
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={safeData} margin={{ top: 10, right: 12, left: 12, bottom: 0 }}>
             <CartesianGrid vertical={false} stroke="#E5E7EB" />

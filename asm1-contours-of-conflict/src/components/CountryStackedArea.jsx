@@ -10,6 +10,7 @@ import {
   ReferenceLine,
 } from "recharts"
 import { THEME } from "../theme"
+import { withBase } from "../utils/paths"
 
 const TYPE_LABEL = {
   1: "State-based",
@@ -17,7 +18,6 @@ const TYPE_LABEL = {
   3: "One-sided",
 }
 
-// Match Sankey palette + order
 const TYPE_COLOR = {
   1: THEME?.ink ?? "#111827",
   2: "rgba(164, 167, 172, 0.55)",
@@ -61,7 +61,10 @@ function MiniTooltip({ active, payload, label }) {
   return (
     <div
       className="rounded-md border px-3 py-2 text-xs shadow-sm backdrop-blur"
-      style={{ background: THEME?.tooltipBg ?? "rgba(255,255,255,0.95)" }}
+      style={{
+        background: "rgba(255,255,255,0.98)",
+        border: "1px solid rgba(17,24,39,0.08)",
+      }}
     >
       <div className="font-medium text-gray-900">Year {label}</div>
       <div className="mt-1 space-y-1">
@@ -86,7 +89,7 @@ export default function CountryStackedArea({ countryId, year }) {
   useEffect(() => {
     let cancelled = false
 
-    fetch(withBase("data/country_year_type_summary.csv"))
+    fetch(withBase("data/country_year_type_share.csv"))
       .then((r) => r.text())
       .then((text) => {
         if (cancelled) return
@@ -142,7 +145,7 @@ export default function CountryStackedArea({ countryId, year }) {
   if (!chartData.length) return <div className="text-sm text-gray-500">No data for this country (2000–2024).</div>
 
   return (
-    <div className="h-[340px] w-full select-none">
+    <div style={{ width: "100%", height: 260 }}>
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart data={chartData} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
           <XAxis
@@ -162,25 +165,30 @@ export default function CountryStackedArea({ countryId, year }) {
             width={44}
           />
 
-          <Tooltip content={<MiniTooltip />} />
+          <Tooltip
+            content={<MiniTooltip />}
+            cursor={{
+              stroke: "rgba(255,255,255,0.75)",
+              strokeWidth: 1.5,
+              strokeDasharray: "4 4",
+              opacity: 1,
+            }}
+          />
 
-          {/* Legend order fixed to match Sankey */}
+          {/* Legend uses stroke color; keep stroke=fill but strokeWidth=0 so no visible outlines */}
           <Legend
-            wrapperStyle={{ fontSize: 11, color: "#6B7280" }}
             iconType="square"
-            payload={[
-              { value: TYPE_LABEL[1], type: "square", id: "t1", color: TYPE_COLOR[1] },
-              { value: TYPE_LABEL[2], type: "square", id: "t2", color: TYPE_COLOR[2] },
-              { value: TYPE_LABEL[3], type: "square", id: "t3", color: TYPE_COLOR[3] },
-            ]}
+            wrapperStyle={{ fontSize: 11 }}
+            formatter={(value) => <span style={{ color: "#6B7280" }}>{value}</span>}
           />
 
           {Number.isFinite(+year) ? (
             <ReferenceLine
               x={year}
-              stroke={THEME?.core ?? "#111827"}
-              strokeOpacity={0.28}
-              strokeDasharray="4 3"
+              stroke={"rgba(255,255,255,0.75)"}
+              strokeOpacity={1}
+              strokeWidth={1.5}
+              strokeDasharray="4 4"
             />
           ) : null}
 
@@ -190,28 +198,39 @@ export default function CountryStackedArea({ countryId, year }) {
             name={TYPE_LABEL[1]}
             stackId="1"
             stroke={TYPE_COLOR[1]}
+            strokeWidth={0}
             fill={TYPE_COLOR[1]}
             fillOpacity={0.82}
+            dot={false}
+            activeDot={{ r: 4, stroke: "#fff", strokeWidth: 2 }}
             isAnimationActive={false}
           />
+
           <Area
             type="monotone"
             dataKey="t2"
             name={TYPE_LABEL[2]}
             stackId="1"
             stroke={TYPE_COLOR[2]}
+            strokeWidth={0}
             fill={TYPE_COLOR[2]}
-            fillOpacity={0.78}
+            fillOpacity={0.82}
+            dot={false}
+            activeDot={{ r: 4, stroke: "#fff", strokeWidth: 2 }}
             isAnimationActive={false}
           />
+
           <Area
             type="monotone"
             dataKey="t3"
             name={TYPE_LABEL[3]}
             stackId="1"
             stroke={TYPE_COLOR[3]}
+            strokeWidth={0}
             fill={TYPE_COLOR[3]}
             fillOpacity={0.82}
+            dot={false}
+            activeDot={{ r: 4, stroke: "#fff", strokeWidth: 2 }}
             isAnimationActive={false}
           />
         </AreaChart>
