@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react"
+import { withBase } from "../utils/paths"
 
 export default function EndingSection() {
   const sectionRef = useRef(null)
@@ -60,7 +61,7 @@ export default function EndingSection() {
 
       {/* Background contour */}
       <img
-        src="/bg_white.png"
+        src={withBase("bg_white.png")}
         alt=""
         aria-hidden="true"
         style={{

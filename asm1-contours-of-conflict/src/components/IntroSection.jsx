@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react"
+import { withBase } from "../utils/paths"
 
 export default function IntroSection() {
   const sectionRef = useRef(null)
@@ -32,7 +33,7 @@ export default function IntroSection() {
     >
       {/* Background contour image (lower half) */}
       <img
-        src="/bg_white.png"
+        src={withBase("bg_white.png")}
         alt=""
         aria-hidden="true"
         style={{

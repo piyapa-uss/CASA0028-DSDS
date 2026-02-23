@@ -41,7 +41,7 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
     })
 
     map.current.on("load", async () => {
-      const res = await fetch("/data/countries.geojson")
+      const res = await fetch(withBase("data/countries.geojson"))
       const countries = await res.json()
       countriesRef.current = countries
 
@@ -116,7 +116,7 @@ export default function MapDisplay({ year, metric, onDataLoaded, showTimeline })
       })
 
       // load CSV
-      const csvRes = await fetch("/data/country_year_summary.csv")
+      const csvRes = await fetch(withBase("data/country_year_summary.csv"))
       const csvText = await csvRes.text()
       const parsed = Papa.parse(csvText, { header: true, dynamicTyping: true, skipEmptyLines: true })
       rowsRef.current = parsed.data

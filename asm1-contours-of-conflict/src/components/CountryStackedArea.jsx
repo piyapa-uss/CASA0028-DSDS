@@ -86,7 +86,7 @@ export default function CountryStackedArea({ countryId, year }) {
   useEffect(() => {
     let cancelled = false
 
-    fetch("/data/country_year_type_share.csv")
+    fetch(withBase("data/country_year_type_summary.csv"))
       .then((r) => r.text())
       .then((text) => {
         if (cancelled) return

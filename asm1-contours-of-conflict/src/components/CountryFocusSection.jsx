@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react"
 import CountryStackedArea from "./CountryStackedArea"
+import { withBase } from "../utils/paths"
 
 export default function CountryFocusSection({ year }) {
   const [countryOptions, setCountryOptions] = useState([])
@@ -10,9 +11,10 @@ export default function CountryFocusSection({ year }) {
     let cancelled = false
 
     Promise.all([
-      fetch("/data/country_year_summary.csv").then((r) => r.text()),
-      fetch("/data/country_year_type_share.csv").then((r) => r.text()),
+      fetch(withBase("data/country_year_summary.csv")).then((r) => r.text()),
+      fetch(withBase("data/country_year_type_share.csv")).then((r) => r.text()),
     ])
+    
       .then(([summaryText, shareText]) => {
         if (cancelled) return
 

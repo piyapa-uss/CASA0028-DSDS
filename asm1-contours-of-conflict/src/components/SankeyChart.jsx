@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react"
 import Papa from "papaparse"
 import { ResponsiveContainer, Sankey, Tooltip } from "recharts"
 import { THEME } from "../theme"
+import { withBase } from "../utils/paths"
 
 const TYPE_LABEL = {
   1: "State-based",
@@ -164,7 +165,7 @@ export default function SankeyChart({ year: externalYear }) {
   useEffect(() => {
     let cancelled = false
     async function load() {
-      const res = await fetch("/data/sankey_summary.csv")
+      const res = await fetch(withBase("data/sankey_summary.csv"))
       const text = await res.text()
       const parsed = Papa.parse(text, {
         header: true,
