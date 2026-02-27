@@ -58,7 +58,7 @@ export default function App() {
         <div className="absolute left-4 top-4 z-10 flex w-[320px] flex-col gap-4">
           <div className="rounded-xl border bg-white/90 px-4 py-4 shadow-sm backdrop-blur">
             <div className="text-base font-semibold leading-tight text-gray-900">
-              Geopolitical of Conflict
+              Geopolitical Conflict
             </div>
             <p className="mt-2 text-xs leading-relaxed text-gray-500">
               Global patterns where geopolitical conflict concentrates and how intensity impact in 21st century.
